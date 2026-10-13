@@ -1,0 +1,5 @@
+# Copias de Moodle: nunca al repositorio (el repositorio es público).
+*.mbz
+instantaneas/
+entregas/
+export/
