@@ -234,6 +234,14 @@ const FINALIZACION = {
 async function finalizacionCurso(page, courseid, cmids) {
   const base = page.url().split('/').slice(0, 3).join('/');
   await page.goto(`${base}/course/completion.php?id=${courseid}`);
+  // Si alguien ya cumplió algún criterio, la página está bloqueada. Desbloquear borra los datos de
+  // finalización del curso (no los de las actividades): solo se permite mientras no haya alumnos reales.
+  if (await page.locator('input[name="settingsunlock"]').count()) {
+    if (!process.env.DESBLOQUEAR_FINALIZACION_CURSO) {
+      throw new Error('La finalización del curso está bloqueada. Para desbloquearla (borra los datos de finalización del curso) lanza con DESBLOQUEAR_FINALIZACION_CURSO=1.');
+    }
+    await Promise.all([page.waitForLoadState('load'), page.click('input[name="settingsunlock"]')]);
+  }
   const r = await page.evaluate(async (cmids) => {
     const form = document.querySelector('#region-main form.mform');
     if (!form) return { error: 'No se abre la página de finalización del curso.' };

@@ -31,6 +31,8 @@ const leer = f => fs.readFileSync(path.join(temaDir, f), 'utf8');
     console.log(`Sección ${seccion} «${nombreSeccion}»: ${s.creada ? 'creada' : 'ya existía'}`);
     const { actividades } = await A.estado(page, courseid);
 
+    // El foro se abre al completar la autocomprobación de su tema (acordado el 14/10/2026).
+    let quizCm = null;
     for (const f of fichas) {
       const previa = actividades.find(a => a.name === f.name);
       let cmid = previa && Number(previa.id);
@@ -49,9 +51,11 @@ const leer = f => fs.readFileSync(path.join(temaDir, f), 'utf8');
       } else if (f.intro_file) {
         cmid = await A.crearActividad(page, { courseid, seccion, modulo: 'forum', nombre: f.name,
           valores: { ...A.AJUSTES.forum, 'introeditor[text]': leer(f.intro_file),
-            availabilityconditionsjson: f.availability === 'anterior' ? A.TRAS_ANTERIOR : '' } });
+            availabilityconditionsjson: f.availability === 'anterior' && quizCm
+              ? JSON.stringify({ op: '&', showc: [true], c: [{ type: 'completion', cm: quizCm, e: 1 }] }) : '' } });
       }
       if (!previa) console.log(`· ${f.name}: creada y oculta (cm ${cmid})`);
+      if (f.gift_file) quizCm = cmid;
       if (f.gift_file) {
         const base = page.url().split('/').slice(0, 3).join('/');
         await page.goto(`${base}/mod/quiz/edit.php?cmid=${cmid}`);

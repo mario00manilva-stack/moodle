@@ -1,0 +1,39 @@
+// MF2522_2 · UF2 · Tema 6 — Autocomprobación. Preguntas 01–03: redacción de Mario.
+// Preguntas 04–06: añadidas a partir del texto del tema.
+
+::T6-01 · Forma activa del cloro::[html]¿Qué forma química del cloro en solución acuosa tiene el verdadero e inmediato poder desinfectante frente a los microorganismos?{
+~El ión cloruro (Cl⁻).#El cloruro es lo que queda cuando el cloro ya ha actuado\: no desinfecta.
+=El ácido hipocloroso (HClO).#Correcto. El ácido hipocloroso es la especie con mayor eficacia germicida del equilibrio del cloro en agua.
+~La monocloramina.#Es cloro combinado\: desinfecta muy poco e irrita.
+~El ácido isocianúrico.#Es un estabilizante, no un desinfectante.
+}
+
+::T6-02 · Función del reactor UV::[html]¿Cuál es la función principal de un reactor de radiación ultravioleta (UV) instalado como tratamiento complementario en el circuito de recirculación?{
+~Mantener un nivel residual de cloro en el vaso durante 3 semanas sin renovar agua.#La radiación UV no deja ningún efecto residual en el vaso.
+=Desinfectar el caudal que pasa por la cámara y eliminar las cloraminas (cloro combinado), reduciendo la irritación de los bañistas.#Correcto. Destruye las cloraminas por fotólisis, aunque siempre necesita un desinfectante residual de amparo.
+~Elevar el pH del agua de 7,2 a 9,0 automáticamente.#La radiación UV no corrige el pH, y un pH de 9,0 obligaría a cerrar el vaso.
+~Aumentar la dureza cálcica.#No aporta calcio al agua.
+}
+
+::T6-03 · Punto de inyección del hipoclorito::[html]¿En qué punto del circuito de recirculación se debe inyectar el hipoclorito sódico con la bomba dosificadora?{
+~Justo antes de la bomba de recirculación.#El cloro concentrado atacaría la bomba, el filtro y el intercambiador.
+~En el interior del vaso, directamente sobre los bañistas.#Los tratamientos químicos no se hacen en el vaso, y menos con bañistas.
+=Al final del circuito de tratamiento, tras la filtración y el calentamiento, antes de la impulsión al vaso.#Correcto. El desinfectante concentrado entra en el último tramo para proteger los demás equipos de la corrosión.
+~En el depósito de compensación.#Recorrería todo el circuito concentrado\: filtros, bomba e intercambiador.
+}
+
+::T6-04 · Mezcla de ácido y cloro::[html]La mezcla accidental de reductor de pH (ácido) con hipoclorito sódico solo produce calor, sin más riesgo.{FALSE#Incorrecto\: desprende gas cloro de forma violenta e inmediata.#Correcto. La mezcla libera gas cloro, tóxico y corrosivo. Las líneas de ácido y de cloro se identifican por colores y con conexiones que no se pueden intercambiar.}
+
+::T6-05 · pH y electrólisis salina::[html]En una piscina con cloración salina, ¿qué efecto tiene la electrólisis sobre el pH y qué consecuencia práctica tiene?{
+~Baja el pH, por lo que hace falta dosificar incrementador de pH.#Ocurre lo contrario\: la electrólisis tiende a subir el pH.
+=Tiende a subir el pH, por lo que necesita un control automático con dosificación de reductor de pH.#Correcto. Con el pH alto el ácido hipocloroso pierde eficacia, así que el clorador salino se instala con su regulación de pH.
+~No le afecta\: la sal es neutra y el pH no varía.#La electrólisis genera hidróxido sódico en la célula, que sube el pH.
+~Solo afecta a la temperatura del agua.#El efecto relevante es sobre el pH.
+}
+
+::T6-06 · Ozono residual::[html]En un tratamiento con ozono, ¿qué hay que hacer con el ozono que no se ha consumido en la cámara de contacto?{
+~Dejarlo pasar al vaso\: así hace de desinfectante residual.#El ozono no puede llegar al vaso\: es tóxico por inhalación y no deja un residual útil.
+=Eliminarlo antes de que el agua vuelva al vaso, con un filtro de carbón activo, y destruir el gas de escape con un destructor de ozono.#Correcto. El agua se desozoniza con carbón activo, el gas sobrante va a un destructor, y el vaso sigue necesitando cloro residual.
+~Ventilarlo en la sala técnica abriendo las puertas.#El ozono acumulado en la sala técnica es un riesgo grave para el operario.
+~Neutralizarlo añadiendo ácido al vaso.#El ácido no elimina el ozono y no se dosifica en el vaso.
+}
