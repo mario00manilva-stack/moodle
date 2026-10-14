@@ -1,0 +1,38 @@
+// 1732 · Tema 2 — Autocomprobación. Redacción propia de VERAQUA (RD 1157/2024, Anexo VIII: RA2).
+
+::1732-T2-01 · Señal de obligación::[html]¿Qué forma y color tiene una señal de obligación, como «uso obligatorio de guantes»?{
+~Triángulo amarillo con borde negro.#Es la señal de advertencia.
+~Círculo rojo con una banda diagonal.#Es la señal de prohibición.
+=Círculo azul con el pictograma en blanco.#Correcto. Las señales de obligación son circulares y azules (RD 485/1997).
+~Rectángulo verde.#Es la señal de salvamento o socorro.
+}
+
+::1732-T2-02 · Ruido y protectores auditivos::[html]¿A partir de qué nivel de exposición diaria al ruido debe la empresa poner protectores auditivos a disposición de las personas trabajadoras?{
+~65 dB(A).#Está por debajo de los valores que marca la norma.
+=80 dB(A).#Correcto. Es el valor inferior que da lugar a una acción; desde 85 dB(A) su uso es obligatorio (RD 286/2006).
+~100 dB(A).#Es muy superior a los valores que obligan a actuar.
+~Solo cuando un trabajador lo pida.#La obligación existe a partir de 80 dB(A), lo pida o no.
+}
+
+::1732-T2-03 · Protección colectiva primero::[html]En la sala técnica se acumulan vapores de un producto químico. ¿Qué medida debe aplicarse en primer lugar?{
+=Ventilar la sala técnica, con ventilación natural o forzada.#Correcto. Es una medida colectiva y va antes que el EPI (Ley 31/1995, art. 15).
+~Entregar una mascarilla a cada operario.#El EPI es la última barrera, cuando lo colectivo no basta.
+~Colocar un cartel de advertencia y seguir igual.#La señalización informa, pero no elimina ni reduce el riesgo.
+~Reducir la jornada en la sala técnica.#No actúa sobre el origen del riesgo.
+}
+
+::1732-T2-04 · Vigilancia de la salud::[html]La vigilancia de la salud es siempre obligatoria para todas las personas trabajadoras.{FALSE#Incorrecto\: por regla general es voluntaria.#Correcto. Es voluntaria, salvo excepciones\: cuando sea imprescindible para valorar los efectos del trabajo en la salud, cuando haya riesgo para otras personas o cuando lo exija una norma (Ley 31/1995, art. 22).}
+
+::1732-T2-05 · Nivel de riesgo::[html]Con el método general del INSST, un riesgo de probabilidad media y consecuencias extremadamente dañinas, ¿qué nivel tiene?{
+~Trivial.#La gravedad del daño hace que no pueda ser trivial.
+~Tolerable.#Tolerable sería con consecuencias ligeramente dañinas.
+=Importante.#Correcto. Probabilidad media y consecuencias extremadamente dañinas dan un riesgo importante\: no se debe trabajar hasta reducirlo.
+~Sin nivel\: solo se evalúan los riesgos de probabilidad alta.#Se evalúan todos los riesgos que no se pueden evitar.
+}
+
+::1732-T2-06 · Vía de entrada de los químicos::[html]¿Cuál es la vía de entrada más frecuente de los agentes químicos en el organismo durante el trabajo?{
+=La inhalatoria, al respirar gases, vapores o polvo.#Correcto. Por eso es tan importante ventilar y, si hace falta, usar protección respiratoria.
+~La digestiva.#Es posible, pero mucho menos frecuente en el trabajo.
+~La parenteral.#Requiere una herida o un pinchazo\: no es la más frecuente.
+~La auditiva.#No es una vía de entrada de agentes químicos.
+}

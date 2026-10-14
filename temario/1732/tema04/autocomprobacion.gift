@@ -1,0 +1,38 @@
+// 1732 · Tema 4 — Autocomprobación. Redacción propia de VERAQUA (RD 1157/2024, Anexo VIII: RA5; ERC 2021).
+
+::1732-T4-01 · Compresiones de RCP::[html]¿Qué ritmo y profundidad deben tener las compresiones torácicas de una RCP en una persona adulta?{
+~60 por minuto y 2 cm.#Es demasiado lento y poco profundo para mover la sangre.
+=Entre 100 y 120 por minuto y 5–6 cm.#Correcto. En el centro del pecho, dejando que vuelva a su sitio entre compresiones.
+~150 por minuto y 10 cm.#Demasiado rápido y profundo.
+~Solo hasta que la víctima abra los ojos, sin ritmo fijo.#El ritmo importa\: 100–120 por minuto.
+}
+
+::1732-T4-02 · Obstrucción grave::[html]Una persona se atraganta, no puede toser, hablar ni respirar. ¿Qué haces?{
+~Darle agua para que trague.#Puede empeorar la obstrucción.
+~Esperar a que tosa sola.#Si no puede toser, la obstrucción es grave\: hay que actuar.
+=Dar 5 golpes entre los omóplatos y, si no se resuelve, 5 compresiones abdominales (maniobra de Heimlich), alternando.#Correcto. Si pierde la consciencia, al suelo, 112 y RCP.
+~Tumbarla boca arriba y levantarle las piernas.#No despeja la vía aérea.
+}
+
+::1732-T4-03 · Quemadura de segundo grado::[html]¿Cómo reconoces una quemadura de segundo grado?{
+=Hay ampollas y mucho dolor\: afecta a la epidermis y a la dermis.#Correcto. No se revientan las ampollas.
+~La piel está solo enrojecida, sin ampollas.#Es una quemadura de primer grado.
+~La piel está blanquecina o negruzca y casi no duele.#Es una quemadura de tercer grado.
+~Solo hay picor.#No corresponde a ningún grado de quemadura.
+}
+
+::1732-T4-04 · Conducta PAS::[html]Ante un accidente, lo primero que hay que hacer es socorrer a la víctima, antes de comprobar si el lugar es seguro.{FALSE#Incorrecto\: lo primero es proteger.#Correcto. El orden es Proteger, Avisar y Socorrer\: si el lugar no es seguro, puede haber más víctimas.}
+
+::1732-T4-05 · Hemorragia externa::[html]Un compañero se hace un corte profundo en el antebrazo que sangra mucho. ¿Qué es lo primero?{
+~Colocar un torniquete por encima del codo.#El torniquete es el último recurso, solo si la presión directa no basta en una hemorragia masiva.
+=Hacer presión directa y firme sobre la herida con gasas o un paño limpio.#Correcto. Y si las gasas se empapan, se añaden más encima sin retirar las primeras.
+~Lavar la herida con alcohol y dejarla al aire.#Lo urgente es detener la hemorragia.
+~Levantar al herido y que camine para no marearse.#Debe estar en reposo.
+}
+
+::1732-T4-06 · Triaje START::[html]Con el método START, ¿qué color recibe un herido que puede caminar por sí mismo?{
+=Verde\: puede esperar.#Correcto. Quien camina se considera de menor gravedad y se atiende después.
+~Rojo\: atención inmediata.#El rojo es para quien no camina y tiene signos de gravedad.
+~Amarillo\: urgente.#El amarillo es para quien no camina pero respira, tiene pulso y obedece órdenes.
+~Negro.#El negro es para quien no respira tras abrirle la vía aérea.
+}

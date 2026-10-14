@@ -1,0 +1,38 @@
+// 1732 · Tema 3 — Autocomprobación. Redacción propia de VERAQUA (RD 1157/2024, Anexo VIII: RA3).
+
+::1732-T3-01 · Entrar en un depósito::[html]Tienes que entrar en un depósito de compensación. ¿Qué hay que hacer antes?{
+~Entrar rápido para estar el menor tiempo posible.#La rapidez no evita una atmósfera peligrosa.
+=Medir la atmósfera, ventilar, consignar bombas y válvulas y no entrar nunca solo.#Correcto. En un espacio confinado puede faltar oxígeno o haber gases tóxicos que no se ven.
+~Ponerse unos guantes de nitrilo.#Los guantes no protegen de una atmósfera peligrosa.
+~Avisar a un compañero por teléfono al terminar.#Alguien debe vigilar desde fuera durante todo el trabajo.
+}
+
+::1732-T3-02 · Salpicadura en los ojos::[html]Te salpica en los ojos un producto corrosivo. ¿Qué haces?{
+=Lavar con agua abundante o con el lavaojos durante al menos 15 minutos y acudir al médico.#Correcto. El lavado inmediato y prolongado limita la lesión.
+~Frotarte los ojos con un pañuelo limpio.#Frotar extiende el producto y empeora la lesión.
+~Echarte un producto que lo neutralice.#Nunca se neutraliza en los ojos\: solo agua abundante.
+~Esperar a ver si deja de picar.#Cada segundo cuenta\: se lava de inmediato.
+}
+
+::1732-T3-03 · Información Toxicológica::[html]¿Cuál es el teléfono del Servicio de Información Toxicológica, disponible las 24 horas?{
+~016.#Es el teléfono de atención a víctimas de violencia de género.
+~062.#Es el teléfono de la Guardia Civil.
+=91 562 04 20.#Correcto. Ten a mano la etiqueta o la FDS del producto al llamar. Para emergencias, el 112.
+~900 100 100.#No es el teléfono del Servicio de Información Toxicológica.
+}
+
+::1732-T3-04 · Almacenar ácido y cloro::[html]Las garrafas de reductor de pH (ácido) y de hipoclorito se pueden almacenar juntas si están bien cerradas.{FALSE#Incorrecto\: deben estar separadas.#Correcto. Son incompatibles\: un derrame de ambos desprendería gas cloro. Se guardan separados y sobre cubetos de retención.}
+
+::1732-T3-05 · Capacitación para biocidas::[html]¿Qué norma regula la capacitación para realizar tratamientos con biocidas?{
+~El RD 742/2013.#Regula los criterios técnico-sanitarios de las piscinas.
+=El RD 830/2010.#Correcto. Establece la normativa de la capacitación para realizar tratamientos con biocidas.
+~La Ley 31/1995.#Es la ley general de prevención de riesgos laborales.
+~El RD 485/1997.#Regula la señalización de seguridad y salud.
+}
+
+::1732-T3-06 · Compañero desplomado::[html]Un compañero se desploma dentro de una arqueta. ¿Qué debes hacer?{
+~Bajar a sacarle inmediatamente.#Sin protección respiratoria serías la siguiente víctima.
+=Avisar al 112, no entrar sin protección respiratoria y ventilar desde fuera si es posible.#Correcto. La mayoría de las víctimas en espacios confinados son los propios rescatadores.
+~Echarle agua desde arriba para reanimarle.#No resuelve una atmósfera peligrosa.
+~Esperar a que salga por sí mismo.#Hay que activar la emergencia de inmediato.
+}
