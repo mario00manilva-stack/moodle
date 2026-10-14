@@ -33,15 +33,16 @@ entrega: `tools/moodle_client.py`. Al caducar, sistemas lo regenera.
 - No cambiar `idnumber`, nombre, `shortname` ni categoría de los módulos: la receta de producción
   los revierte en cada despliegue.
 - La marca se escribe siempre **VERAQUA**.
-- Moodle local fijado en **v5.2.2** (`2026042002.00`): un `.mbz` solo restaura en una versión igual
-  o superior, y producción está en `2026042002.01` (salto a 5.3 LTS previsto).
+- Moodle local fijado en **v5.2.4** (`2026042004.00`): un `.mbz` solo restaura en una versión igual
+  o superior, y producción está en 5.2.4+ (`2026042004.02`) según las instantáneas del 14/10/2026.
+  Al subir producción (5.3 LTS), subir `MOODLE_TAG` en `setup.sh` sin pasarse.
 - Ningún `.mbz` entra en el repositorio (ver `.gitignore`).
 
 ## Uso
 
 ```bash
-local-moodle/setup.sh                        # instala/arranca Moodle local (idempotente)
-php /opt/moodle-src/admin/cli/restore_backup.php --file=instantaneas/1732.mbz --categoryid=1
+local-moodle/setup.sh                        # instala/arranca/actualiza Moodle local (idempotente)
+local-moodle/restaurar_instantaneas.sh       # restaura instantaneas/<idnumber>.mbz y fija el idnumber
 
 php local-moodle/cli/crear_actividad.php --course=1732 --spec=temario/1732/s02-libro.json
 php local-moodle/cli/exportar_actividad.php --cmid=<id> --out=entregas/

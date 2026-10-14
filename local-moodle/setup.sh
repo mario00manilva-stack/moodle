@@ -3,11 +3,12 @@
 # download.moodle.org no es accesible desde el entorno: instalación en inglés
 # (el contenido del temario va en español igualmente).
 # Idempotente: se puede ejecutar al inicio de cada sesión.
-# Versión fijada en v5.2.2 (2026042002.00): producción es 2026042002.01 y un .mbz
-# solo restaura en una versión igual o superior.
+# Versión fijada en la última etiqueta oficial que no supere a producción: un .mbz solo
+# restaura en una versión igual o superior. Producción: 5.2.4+ (2026042004.02), según las
+# instantáneas del 14/10/2026. Al cambiar producción, subir MOODLE_TAG sin pasarse.
 set -euo pipefail
 
-MOODLE_TAG=v5.2.2
+MOODLE_TAG=v5.2.4
 SRC=/opt/moodle-src
 DATA=/opt/moodledata
 DB=moodle_local
@@ -16,6 +17,13 @@ WWWROOT="http://localhost:${PORT}"
 
 if [ ! -d "$SRC" ]; then
   git clone -q --depth 1 --branch "$MOODLE_TAG" https://github.com/moodle/moodle.git "$SRC"
+fi
+NEEDS_UPGRADE=0
+if [ "$(git -C "$SRC" describe --tags --exact-match 2>/dev/null)" != "$MOODLE_TAG" ]; then
+  git -C "$SRC" fetch -q --depth 1 origin tag "$MOODLE_TAG"
+  git -C "$SRC" checkout -q "$MOODLE_TAG"
+  rm -rf "$SRC/vendor"
+  NEEDS_UPGRADE=1
 fi
 if [ ! -f "$SRC/vendor/autoload.php" ]; then
   (cd "$SRC" && composer install --no-dev --classmap-authoritative -q --no-interaction)
@@ -60,6 +68,8 @@ if ! su postgres -c "psql -d $DB -tAc \"SELECT 1 FROM information_schema.tables 
     --fullname="VERAQUA FORMACIÓN (local)" --shortname="veraqua-local" \
     --adminuser=admin --adminpass='Local-Admin-1' --adminemail=admin@example.invalid
   php "$SRC/admin/cli/cfg.php" --name=forcetimezone --set=Europe/Madrid
+elif [ "$NEEDS_UPGRADE" = 1 ]; then
+  php "$SRC/admin/cli/upgrade.php" --non-interactive >/dev/null
 fi
 
 echo "Moodle local listo en $SRC ($(php -r "define('CLI_SCRIPT',1);require '$SRC/config.php';echo \$CFG->release;"))"
