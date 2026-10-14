@@ -9,7 +9,7 @@ Una sección del aula por tema (sección N = Tema N). Estado a 14/10/2026.
 | 3 | UF1 | Técnicas de limpieza, desincrustado e higienización de revestimientos, paramentos y elementos complementarios | Montado en local · pendiente de entrega |
 | 4 | UF1 | Comprobación de estanqueidad, revisión de circuitos y protocolo de hibernación / parada invernal | Montado en local · pendiente de revisión |
 | 5 | UF2 · Tratamiento físico-químico del agua y calidad del aire (80 h) | Parámetros indicadores de la calidad del agua (pH, cloro libre residual, cloro combinado, turbidez, ácido isocianúrico, REDOX) según el RD 742/2013 y normativas autonómicas (Decreto 485/2019) | Montado en local · pendiente de revisión |
-| 6 | UF2 | Sistemas de desinfección y corrección química: hipoclorito, cloración salina, ozono, UV e inyección de reactivos | Pendiente |
+| 6 | UF2 | Sistemas de desinfección y corrección química: hipoclorito, cloración salina, ozono, UV e inyección de reactivos | Redactado · pendiente de montar (sin instantánea) |
 | 7 | UF2 | Determinaciones analíticas in situ (fotometría, DPD, sondas) y control microbiológico (E. coli, Pseudomonas aeruginosa; RD 487/2022 para Legionella) | Pendiente |
 | 8 | UF2 | Calidad del aire en piscinas climatizadas y cubiertas: CO₂, humedad relativa, temperatura, deshumectación y renovación | Pendiente |
 | 9 | UF3 · Mantenimiento electromecánico e hidráulico (80 h) | Bombas de filtración (autoaspirantes y centrífugas) y de achique: componentes, funcionamiento, ruidos anómalos y averías | Pendiente |
