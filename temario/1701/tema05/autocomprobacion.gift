@@ -1,0 +1,39 @@
+// MF2522_2 · UF2 · Tema 5 — Autocomprobación. Preguntas 01–03: redacción de Mario.
+// Preguntas 04–06: añadidas a partir del texto del tema. Valores: RD 742/2013, Anexo I; D 485/2019, Anexo III.
+
+::T5-01 · Rango legal del pH::[html]¿Cuál es el rango legal obligatorio del pH del agua del vaso según la normativa de piscinas?{
+~De 6,0 a 7,0.#Ese rango es demasiado ácido para el agua del vaso.
+=De 7,2 a 8,0.#Correcto. El RD 742/2013 (Anexo I) fija el pH entre 7,2 y 8,0.
+~De 8,0 a 9,5.#Por encima de 8,0 el cloro pierde eficacia, y por encima de 9,0 hay que cerrar el vaso.
+~Exactamente 7,0 en todo momento.#La norma fija un rango, no un valor único.
+}
+
+::T5-02 · Cloro libre a cero en el control de la mañana::[html]Si en la medición de la mañana obtienes un cloro libre residual de 0,0 mg/L (ausencia total de desinfectante), ¿qué medida exige la norma?{
+~Abrir al público y esperar a que la bomba dosifique despacio.#Con ausencia de desinfectante no se puede abrir.
+=Cerrar el vaso de inmediato hasta restablecer el cloro libre entre 0,5 y 2,0 mg/L.#Correcto. La ausencia de cloro libre, o más de 5 mg/L, obliga a cerrar el vaso hasta normalizar el valor.
+~Añadir sulfato de cobre con los bañistas dentro.#Nunca se dosifica con bañistas en el agua, y el sulfato de cobre no es el desinfectante.
+~Aumentar la temperatura del aire.#No tiene relación con el desinfectante del agua.
+}
+
+::T5-03 · Cierre por ácido isocianúrico::[html]¿A partir de qué valor de ácido isocianúrico es obligatorio cerrar el vaso por riesgo de inactivación del cloro?{
+~Al superar 25 mg/L.#Está por debajo incluso del valor paramétrico de 75 mg/L.
+~Al superar 50 mg/L.#Está por debajo del valor paramétrico de 75 mg/L.
+=Al superar 150 mg/L.#Correcto. El valor paramétrico es de hasta 75 mg/L, y por encima de 150 mg/L el vaso se cierra hasta normalizar.
+~El ácido isocianúrico no tiene límite de cierre.#Sí lo tiene: 150 mg/L (RD 742/2013, Anexo I).
+}
+
+::T5-04 · Frecuencia del control en Andalucía::[html]En una piscina pública de Andalucía basta con medir el agua una vez al día, antes de abrir.{FALSE#Incorrecto\: en Andalucía no basta con un control diario.#Correcto. El Decreto 485/2019 exige dos controles al día en piscinas públicas y de chapoteo, y al menos uno en horas de máxima afluencia.}
+
+::T5-05 · Calcular el cloro combinado::[html]Con el DPD1 lees 1,2 mg/L de cloro libre y con el DPD3 2,1 mg/L de cloro total. ¿Qué indica el resultado?{
+~Todo está en rango: el cloro libre está entre 0,5 y 2,0 mg/L.#El libre está bien, pero falta comprobar el combinado.
+=El cloro combinado es 0,9 mg/L\: supera 0,6 mg/L y hay que corregirlo, aunque no obliga a cerrar.#Correcto. Combinado = total − libre = 0,9 mg/L. Supera el valor paramétrico (0,6), pero el cierre llega por encima de 3 mg/L.
+~El cloro combinado es 3,3 mg/L y hay que cerrar el vaso.#El combinado no es la suma: es el total menos el libre.
+~El cloro total por encima de 2,0 mg/L obliga a cerrar.#El cloro total no tiene valor de cierre propio.
+}
+
+::T5-06 · Cuándo se mide el potencial REDOX::[html]Según el RD 742/2013, ¿cuándo hay que medir el potencial REDOX del agua del vaso?{
+~Siempre, en todas las piscinas y en cada control diario.#No es una medida general.
+=Cuando el desinfectante no es cloro ni bromo, ni sus derivados.#Correcto. En ese caso se mide y debe estar entre 250 y 900 mV.
+~Solo en las piscinas cubiertas.#El criterio depende del desinfectante, no de si el vaso es cubierto.
+~Solo cuando se cierra el vaso.#No está ligado al cierre: el REDOX no tiene valor de cierre propio.
+}

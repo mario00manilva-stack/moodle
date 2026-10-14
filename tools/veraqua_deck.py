@@ -29,6 +29,8 @@ DARK_BG = f"background:linear-gradient(160deg,{NAVY} 0%,{INK} 100%);color:{PAPER
 def e(text):
     """Escapa texto y permite **negrita** con el estilo de las diapositivas."""
     out = html.escape(text, quote=False)
+    # Los títulos van en mayúsculas: «pH» se protege para que no salga «PH».
+    out = re.sub(r"\bpH\b", '<span style="text-transform:none">pH</span>', out)
     return re.sub(r"\*\*(.+?)\*\*", r'<strong style="font-weight:700">\1</strong>', out)
 
 
@@ -304,3 +306,28 @@ class Deck:
             with zipfile.ZipFile(zip_path) as z:
                 z.extractall(html_preview)
         return zip_path
+
+
+def tabla(label, kicker, title, headers, rows, nota=None, notes=""):
+    """Tabla de valores: cabeceras y filas de texto; la última columna se resalta en ámbar."""
+    cols = "minmax(0,1.1fr) minmax(0,1.3fr) minmax(0,1fr)" if len(headers) == 3 else f"repeat({len(headers)},minmax(0,1fr))"
+    head = "".join(f'<span style="{MONO};font-size:22px;letter-spacing:0.1em;text-transform:uppercase;color:{TEAL if i < len(headers) - 1 else AMBER}">{e(h)}</span>'
+                   for i, h in enumerate(headers))
+    body = []
+    for r in rows:
+        cells = []
+        for i, c in enumerate(r):
+            if i == 0:
+                cells.append(f'<span style="{COND};font-size:34px;line-height:1.1">{e(c)}</span>')
+            elif i == len(r) - 1:
+                cells.append(f'<span style="font-size:27px;line-height:1.3;color:{NAVY};font-weight:500">{e(c)}</span>')
+            else:
+                cells.append(f'<span style="font-size:27px;line-height:1.3;color:{TEXT2}">{e(c)}</span>')
+        body.append(f'      <div style="background:#FFFFFF;border:1px solid {LINE};border-radius:8px;padding:14px 32px;display:grid;'
+                    f'grid-template-columns:{cols};gap:32px;align-items:center">{"".join(cells)}</div>')
+    parts = [_kicker(kicker), _h2(title),
+             f'    <div style="display:grid;grid-template-columns:{cols};gap:32px;padding:28px 33px 8px">{head}</div>',
+             '    <div style="display:flex;flex-direction:column;gap:8px">\n' + "\n".join(body) + "\n    </div>"]
+    if nota:
+        parts.append(f'    <p style="{MONO};font-size:22px;line-height:1.4;color:{MUTED};margin:20px 0 0">{e(nota)}</p>')
+    return _section(label, notes, f"padding:84px 100px 60px;background:{MIST};color:{NAVY}", "\n".join(parts))
