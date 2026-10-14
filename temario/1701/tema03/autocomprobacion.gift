@@ -1,5 +1,6 @@
 // MF2522_2 · UF1 · Tema 3 — Autocomprobación. Preguntas 01–03: redacción de Mario.
-// Preguntas 04–06: añadidas a partir del texto del tema (pendientes de revisión).
+// Preguntas 04–06: añadidas a partir del texto del tema (aprobadas por Mario el 14/10/2026).
+// T3-02 ajustada: el reposo del antialgas es el que indica el fabricante.
 
 ::T3-01 · Desincrustado ácido y rejuntado::[html]Al realizar el desincrustado calcáreo de las paredes del vaso con un limpiador ácido, ¿cuál es el procedimiento previo correcto para no dañar el rejuntado de las baldosas?{
 ~Aplicar el ácido puro directamente sobre la superficie seca, sin diluir.#Sobre superficie seca el ácido penetra en las juntas y las degrada.
@@ -9,10 +10,10 @@
 }
 
 ::T3-02 · Reposo del antialgas antes del llenado::[html]Tras finalizar la limpieza y aclarar el vaso, ¿cuánto tiempo debe reposar el antialgas aplicado en paredes y fondo antes de iniciar el llenado?{
-~No requiere reposo\: se llena inmediatamente.#Sin reposo, el agua arrastra el biocida antes de que se fije.
-=Al menos 6 horas, para que el biocida se adhiera correctamente a las superficies.#Correcto. Unas 6 horas de reposo permiten que el antialgas se fije al revestimiento antes de introducir agua nueva.
-~Exactamente 5 minutos.#Es muy poco tiempo para que el biocida se fije en los poros del revestimiento.
-~Un mínimo de 3 días a pleno sol.#No es necesario, y alarga sin motivo la puesta en marcha.
+~No requiere reposo\: se llena inmediatamente.#Sin reposo, el agua arrastra el biocida antes de que se fije y no se respeta el plazo de seguridad.
+=El que indique el fabricante en la etiqueta o la ficha técnica del producto.#Correcto. El fabricante fija la dosis y el reposo, y el Decreto 485/2019 obliga a respetar los plazos de seguridad del envase antes de permitir el acceso.
+~Siempre 5 minutos, sea cual sea el producto.#Cada producto tiene su propio plazo: se consulta la etiqueta o la ficha técnica.
+~Un mínimo de 3 días a pleno sol.#No es una regla general\: el plazo lo marca el fabricante.
 }
 
 ::T3-03 · Mezcla de clorado y ácido::[html]¿Qué peligro grave para la salud laboral se produce si se mezcla accidentalmente un producto clorado con un desincrustante ácido durante la limpieza?{

@@ -163,7 +163,8 @@ def normativa(title, cards, destacado=None, notes=""):
     return _section("Cumplimiento normativo", notes, f"padding:96px 100px 80px;background:{PAPER};color:{NAVY}", "\n".join(parts))
 
 
-def apoyo_visual(title, imagenes, notes="Imágenes de apoyo para el aula virtual. Sustituir los huecos por fotos reales del taller."):
+def apoyo_visual(title, imagenes, label="Apoyo visual",
+                 notes="Imágenes de apoyo para el aula virtual. Sustituir los huecos por fotos reales del taller."):
     cells = "\n".join(
         f'      <div style="display:flex;flex-direction:column;gap:20px;min-height:0">'
         f'<div style="flex:1;min-height:0;border:1px solid {LINE};border-radius:12px;overflow:hidden;background:#FFFFFF">'
@@ -174,7 +175,7 @@ def apoyo_visual(title, imagenes, notes="Imágenes de apoyo para el aula virtual
         for cap, desc in imagenes)
     body = (f'{_kicker("Apoyo visual · Moodle")}\n{_h2(title)}\n'
             f'    <div style="display:grid;grid-template-columns:repeat({len(imagenes)},1fr);gap:36px;margin-top:44px;flex:1;min-height:0">\n{cells}\n    </div>')
-    return _section("Apoyo visual", notes, f"padding:96px 100px 80px;background:{MIST};color:{NAVY}", body)
+    return _section(label, notes, f"padding:96px 100px 80px;background:{MIST};color:{NAVY}", body)
 
 
 def preguntas(qs, notes="Preguntas de autocomprobación. Dejar que el alumno responda antes de pasar a las respuestas razonadas."):
