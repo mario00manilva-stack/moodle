@@ -127,20 +127,20 @@ const REVISION = (() => {
 const AJUSTES = {
   scorm: { popup: 0, width: 100, height: 500, skipview: 0, hidebrowse: 0, hidetoc: 0, nav: 1, displaycoursestructure: 0,
     displayattemptstatus: 1, grademethod: 1, maxgrade: 100, maxattempt: 0, whatgrade: 0, forcenewattempt: 0,
-    lastattemptlock: 0, forcecompleted: 0, auto: 0, autocommit: 0, masteryoverride: 1, updatefreq: 0,
-    completion: 2, completionview: null, 'completionstatusrequired[2]': null, 'completionstatusrequired[4]': 1,
+    lastattemptlock: 0, forcecompleted: 0, auto: 0, autocommit: 0, masteryoverride: 0, updatefreq: 0,
+    completion: 2, completionview: null, 'completionstatusrequired[2]': 1, 'completionstatusrequired[4]': 1,
     completionstatusallscos: null, completionscoreenabled: null, completionusegrade: null },
-  quiz: { attempts: 3, grademethod: 1, questionsperpage: 1, navmethod: 'free', shuffleanswers: 1,
+  quiz: { gradepass: 5, attempts: 3, grademethod: 1, questionsperpage: 1, navmethod: 'free', shuffleanswers: 1,
     preferredbehaviour: 'deferredfeedback', canredoquestions: 0, attemptonlast: 0, overduehandling: 'autosubmit',
     'graceperiod[enabled]': null, decimalpoints: 2, questiondecimalpoints: -1, showblocks: 0, showuserpicture: 0,
-    ...REVISION, completion: 2, completionview: 1, completionusegrade: null, completionpassgrade: 0,
+    ...REVISION, completion: 2, completionview: null, completionusegrade: 1, completionpassgrade: 1,
     completionminattemptsenabled: null },
   assign: { 'allowsubmissionsfromdate[enabled]': null, 'duedate[enabled]': null, 'cutoffdate[enabled]': null,
     'gradingduedate[enabled]': null, alwaysshowdescription: 1, assignsubmission_onlinetext_enabled: 1,
     assignsubmission_file_enabled: 1, assignsubmission_file_maxfiles: 1, assignsubmission_file_maxsizebytes: 52428800,
     assignfeedback_comments_enabled: 1, submissiondrafts: 0, requiresubmissionstatement: 0, maxattempts: 1,
     attemptreopenmethod: 'untilpass', sendnotifications: 0, sendlatenotifications: 0, sendstudentnotifications: 1,
-    'grade[modgrade_type]': 'point', 'grade[modgrade_point]': 100, completion: 0, completionsubmit: null },
+    'grade[modgrade_type]': 'point', 'grade[modgrade_point]': 100, completion: 2, completionsubmit: 1 },
   forum: { type: 'general', forcesubscribe: 2, trackingtype: 1, maxbytes: 512000, maxattachments: 9, displaywordcount: 0,
     'grade_forum[modgrade_type]': 'none', assessed: 0, completion: 2, completionpostsenabled: 1, completionposts: 1,
     completiondiscussionsenabled: null, completionrepliesenabled: null, completionusegrade: null,
@@ -190,4 +190,68 @@ async function importarGift(page, base, cmid, giftRuta) {
   return ids;
 }
 
-module.exports = { ajax, estado, crearSeccion, subirBorrador, crearActividad, preguntasCuestionario, AJUSTES, TRAS_ANTERIOR };
+/** Edita una actividad existente: abre su formulario, aplica `valores` y lo guarda. */
+async function editarActividad(page, cmid, valores) {
+  // Si alguien ya completó la actividad, Moodle bloquea los ajustes de finalización (y la nota de
+  // aprobado) hasta pulsar «Desbloquear»; al guardar recalcula las finalizaciones existentes.
+  // Solo se desbloquea cuando la edición toca la finalización.
+  if (Object.keys(valores).some(k => k.startsWith('completion') || k === 'gradepass')) valores = { completionunlocked: 1, ...valores };
+  const base = page.url().split('/').slice(0, 3).join('/');
+  await page.goto(`${base}/course/modedit.php?update=${cmid}&return=0`);
+  if (!(await page.locator('form.mform #id_name').count())) throw new Error(`No se abre la edición de cm ${cmid}.`);
+  const r = await page.evaluate(async (valores) => {
+    if (window.tinymce) window.tinymce.triggerSave();
+    const form = document.querySelector('#region-main form.mform');
+    const fd = new FormData(form);
+    for (const k of ['submitbutton', 'cancel']) fd.delete(k);
+    fd.set('submitbutton2', '1');
+    for (const [k, v] of Object.entries(valores)) { if (v === null) fd.delete(k); else fd.set(k, String(v)); }
+    const res = await fetch(form.action, { method: 'POST', body: fd });
+    const doc = new DOMParser().parseFromString(await res.text(), 'text/html');
+    return { errores: [...doc.querySelectorAll('.form-control-feedback.invalid-feedback, .error')].map(e => e.textContent.trim()).filter(Boolean),
+      sigue: !!doc.querySelector('form.mform #id_name') };
+  }, valores);
+  if (r.sigue || r.errores.length) throw new Error(`Moodle rechazó la edición de cm ${cmid}: ${r.errores.join(' | ')}`);
+}
+
+/** Criterios de finalización acordados con Mario (14/10/2026) para las actividades de cada tema. */
+const FINALIZACION = {
+  // El paquete marca «completed» al ver la última diapositiva y envía una puntuación de 100 con
+  // masteryscore 100: con «masteryoverride» Moodle lo convierte en «passed» (o «failed» si se sale a
+  // medias) y un requisito de solo «completed» no se cumpliría nunca. Se acepta cualquiera de los dos
+  // y se desactiva la conversión.
+  scorm: { completion: 2, completionview: null, 'completionstatusrequired[2]': 1, 'completionstatusrequired[4]': 1,
+    masteryoverride: 0, completionscoreenabled: null, completionusegrade: null },
+  quiz: { completion: 2, completionview: null, gradepass: 5, completionusegrade: 1, completionpassgrade: 1,
+    completionminattemptsenabled: null, completionattemptsexhausted: null },
+  assign: { completion: 2, completionview: null, completionsubmit: 1, completionusegrade: null },
+  forum: { completion: 2, completionview: null, completionpostsenabled: 1, completionposts: 1,
+    completiondiscussionsenabled: null, completionrepliesenabled: null, completionusegrade: null,
+    completiongradeitemnumber: null },
+};
+
+/** Finalización del curso: completar TODAS las actividades indicadas (y solo esas). */
+async function finalizacionCurso(page, courseid, cmids) {
+  const base = page.url().split('/').slice(0, 3).join('/');
+  await page.goto(`${base}/course/completion.php?id=${courseid}`);
+  const r = await page.evaluate(async (cmids) => {
+    const form = document.querySelector('#region-main form.mform');
+    if (!form) return { error: 'No se abre la página de finalización del curso.' };
+    const fd = new FormData(form);
+    fd.delete('cancel');
+    const disponibles = [...form.querySelectorAll('input[type=checkbox][name^="criteria_activity["]')].map(e => Number(e.name.match(/\d+/)[0]));
+    const faltan = cmids.filter(id => !disponibles.includes(id));
+    if (faltan.length) return { error: `Actividades sin finalización activada: ${faltan.join(', ')}` };
+    for (const id of disponibles) fd.set(`criteria_activity[${id}]`, cmids.includes(id) ? '1' : '0');
+    fd.set('activity_aggregation', '1');
+    fd.set('overall_aggregation', '1');
+    const res = await fetch(form.action, { method: 'POST', body: fd });
+    const doc = new DOMParser().parseFromString(await res.text(), 'text/html');
+    const marcadas = [...doc.querySelectorAll('input[type=checkbox][name^="criteria_activity["]:checked')].length;
+    return { marcadas, errores: [...doc.querySelectorAll('.error, .alert-danger')].map(e => e.textContent.trim()).filter(Boolean) };
+  }, cmids);
+  if (r.error || (r.errores && r.errores.length)) throw new Error(r.error || r.errores.join(' | '));
+  return r;
+}
+
+module.exports = { finalizacionCurso, editarActividad, FINALIZACION, ajax, estado, crearSeccion, subirBorrador, crearActividad, preguntasCuestionario, AJUSTES, TRAS_ANTERIOR };
