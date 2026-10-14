@@ -16,6 +16,16 @@ Además hay un token REST **de solo lectura** (4 funciones, caducidad de 3 meses
 categoría del certificado; ve también lo oculto) para consultar el estado real del aula antes de cada
 entrega: `tools/moodle_client.py`. Al caducar, sistemas lo regenera.
 
+## Acuerdo vigente (14/10/2026)
+
+- Sistemas da una **cuenta de edición propia** con un rol recortado: crea y edita contenido y secciones,
+  pero no cambia nombre, código ni categoría de los módulos, no asigna roles ni ve calificaciones ni
+  participantes. Con ella se sube directamente al aula; las copias `.mbz` quedan como respaldo.
+- **Sin revisión previa:** los temas se suben **ocultos** en cuanto están montados. Mario los revisa en el
+  aula y pide los retoques (imágenes, textos), que se hacen directamente en el aula.
+- Credenciales en variables del entorno de Claude (`MOODLE_USER`, `MOODLE_PASSWORD`, `MOODLE_TOKEN`),
+  nunca en el repositorio.
+
 ## Reglas (no negociables)
 
 - **Construir siempre sobre la instantánea.** La copia de actividad se restaura en la sección con
