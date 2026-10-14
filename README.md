@@ -93,3 +93,12 @@ enviando los formularios estándar de Moodle con los ajustes de las actividades 
 y se añaden una por página. Se puede repetir: no duplica actividades ni preguntas.
 Probado antes contra una copia local del aula (`php -S localhost:8080 -t public` en /opt/moodle-src).
 Ids en el aula: 1732 → 2, 1697 → 3, 1701 → 4.
+
+## Finalización en los tres módulos (14/10/2026)
+
+- **1701**: temas 1–5 con presentación vista, autocomprobación aprobada (5/10, 3 intentos), taller
+  entregado y foro con un mensaje; el curso se completa con las 20 actividades.
+- **1697**: lo mismo sobre sus actividades de la sección General (presentación, autoevaluación, las dos
+  tareas y el foro del caso práctico); el curso se completa con esas 5.
+- **1732**: solo tiene el libro y el foro de avisos; no hay actividades a las que aplicarlo.
+- El foro de avisos, los libros y el glosario no cuentan para la finalización.

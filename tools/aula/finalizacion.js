@@ -1,6 +1,6 @@
 // Aplica los criterios de finalización acordados a las actividades de los temas de un curso:
-// presentación vista entera, autocomprobación aprobada (5 sobre 10), taller entregado y foro con
-// al menos un mensaje.
+// presentación vista entera, autocomprobación aprobada (5 sobre 10, 3 intentos), tareas entregadas y
+// foro con al menos un mensaje. El foro de avisos, el libro y el glosario no cuentan.
 //
 // Con --curso, además, el curso se completa al completar todas esas actividades (y solo esas).
 // Hay que volver a lanzarlo con --curso cada vez que se sube un tema nuevo.
@@ -25,6 +25,13 @@ const [desde, hasta] = args.secciones.split('-').map(Number);
         const cm = actividades.find(a => String(a.id) === String(id));
         const valores = A.FINALIZACION[cm.module];
         if (!valores) { console.log(`  s${n} ${cm.module} «${cm.name}»: sin criterio, se deja igual`); continue; }
+        if (cm.module === 'forum') {
+          const base = page.url().split('/').slice(0, 3).join('/');
+          await page.goto(`${base}/course/modedit.php?update=${id}`);
+          if (await page.$eval('[name="type"]', e => e.value) === 'news') {
+            console.log(`  s${n} foro de avisos «${cm.name}»: no cuenta, se deja igual`); continue;
+          }
+        }
         if (!('soloCurso' in args)) await A.editarActividad(page, Number(id), valores);
         delCurso.push(Number(id));
         console.log(`  s${n} ${cm.module} «${cm.name}»: criterio aplicado`);

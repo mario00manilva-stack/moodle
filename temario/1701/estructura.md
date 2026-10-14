@@ -1,14 +1,14 @@
 # 1701 · MF2522_2 · Control de organismos nocivos en piscinas y otras instalaciones acuáticas
 
-Una sección del aula por tema (sección N = Tema N). Estado a 14/10/2026. Temas 3–5 subidos al aula ocultos (cuenta automatizacion-aula), pendientes de la revisión de Mario.
+Una sección del aula por tema (sección N = Tema N). Estado a 14/10/2026. Temas 1–5 en el aula y visibles (no hay alumnos hasta 2027). Autocomprobaciones: 3 intentos, aprobado con 5.
 
 | Sección | UF | Tema | Estado |
 |---|---|---|---|
 | 1 | UF1 · Vaciado, limpieza y conservación del vaso y anexos (50 h) | Verificación de parada segura, inspección de instalaciones y consignación del cuadro de mando | Redactado · en el aula |
 | 2 | UF1 | Vaciado de vasos: procedimientos por gravedad y motobomba, y normativa de evacuación de vertidos | Redactado · en el aula |
-| 3 | UF1 | Técnicas de limpieza, desincrustado e higienización de revestimientos, paramentos y elementos complementarios | En el aula · oculto · pendiente de revisión |
-| 4 | UF1 | Comprobación de estanqueidad, revisión de circuitos y protocolo de hibernación / parada invernal | En el aula · oculto · pendiente de revisión |
-| 5 | UF2 · Tratamiento físico-químico del agua y calidad del aire (80 h) | Parámetros indicadores de la calidad del agua (pH, cloro libre residual, cloro combinado, turbidez, ácido isocianúrico, REDOX) según el RD 742/2013 y normativas autonómicas (Decreto 485/2019) | En el aula · oculto · pendiente de revisión |
+| 3 | UF1 | Técnicas de limpieza, desincrustado e higienización de revestimientos, paramentos y elementos complementarios | En el aula · visible |
+| 4 | UF1 | Comprobación de estanqueidad, revisión de circuitos y protocolo de hibernación / parada invernal | En el aula · visible |
+| 5 | UF2 · Tratamiento físico-químico del agua y calidad del aire (80 h) | Parámetros indicadores de la calidad del agua (pH, cloro libre residual, cloro combinado, turbidez, ácido isocianúrico, REDOX) según el RD 742/2013 y normativas autonómicas (Decreto 485/2019) | En el aula · visible |
 | 6 | UF2 | Sistemas de desinfección y corrección química: hipoclorito, cloración salina, ozono, UV e inyección de reactivos | Pendiente |
 | 7 | UF2 | Determinaciones analíticas in situ (fotometría, DPD, sondas) y control microbiológico (E. coli, Pseudomonas aeruginosa; RD 487/2022 para Legionella) | Pendiente |
 | 8 | UF2 | Calidad del aire en piscinas climatizadas y cubiertas: CO₂, humedad relativa, temperatura, deshumectación y renovación | Pendiente |

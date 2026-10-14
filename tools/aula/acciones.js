@@ -222,7 +222,7 @@ const FINALIZACION = {
   // y se desactiva la conversión.
   scorm: { completion: 2, completionview: null, 'completionstatusrequired[2]': 1, 'completionstatusrequired[4]': 1,
     masteryoverride: 0, completionscoreenabled: null, completionusegrade: null },
-  quiz: { completion: 2, completionview: null, gradepass: 5, completionusegrade: 1, completionpassgrade: 1,
+  quiz: { attempts: 3, completion: 2, completionview: null, gradepass: 5, completionusegrade: 1, completionpassgrade: 1,
     completionminattemptsenabled: null, completionattemptsexhausted: null },
   assign: { completion: 2, completionview: null, completionsubmit: 1, completionusegrade: null },
   forum: { completion: 2, completionview: null, completionpostsenabled: 1, completionposts: 1,
