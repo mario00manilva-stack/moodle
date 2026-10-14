@@ -79,3 +79,17 @@ export MOODLE_URL=https://formacion.veraqua.es MOODLE_TOKEN=…   # variables de
 python3 tools/moodle_client.py info
 python3 tools/moodle_client.py call core_course_get_courses_by_field field=idnumber value=1732
 ```
+
+## Subida directa al aula (cuenta de edición)
+
+```bash
+# Usuario y contraseña de la cuenta automatizacion-aula en MOODLE_USER y MOODLE_PASSWORD (entorno)
+node tools/aula/subir_tema.js --courseid=4 --tema=temario/1701/tema03
+```
+
+Crea la sección del tema si falta (nombre de `secciones.tsv`) y las cuatro actividades **ocultas**,
+enviando los formularios estándar de Moodle con los ajustes de las actividades del Tema 1
+(`tools/aula/acciones.js`). Las preguntas se importan en GIFT al banco propio de cada cuestionario
+y se añaden una por página. Se puede repetir: no duplica actividades ni preguntas.
+Probado antes contra una copia local del aula (`php -S localhost:8080 -t public` en /opt/moodle-src).
+Ids en el aula: 1732 → 2, 1697 → 3, 1701 → 4.
