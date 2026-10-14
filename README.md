@@ -12,8 +12,9 @@ https://formacion.veraqua.es como copias `.mbz` de actividad.
 4. Sistemas la añade al módulo con `admin/cli/restore_backup.php --courseid=…` tras hacer su
    propia instantánea previa.
 
-Además hay un token REST **de solo lectura** (4 funciones, caducidad de 3 meses) para consultar el
-estado real del aula antes de cada entrega: `tools/moodle_client.py`.
+Además hay un token REST **de solo lectura** (4 funciones, caducidad de 3 meses, acotado a la
+categoría del certificado; ve también lo oculto) para consultar el estado real del aula antes de cada
+entrega: `tools/moodle_client.py`. Al caducar, sistemas lo regenera.
 
 ## Reglas (no negociables)
 
@@ -21,7 +22,14 @@ estado real del aula antes de cada entrega: `tools/moodle_client.py`.
   el mismo número; si ese número no existe en producción, Moodle la deja en la primera sección sin
   avisar. `crear_actividad.php` se niega a crear en una sección inexistente: si hace falta una
   sección nueva, se pide antes a sistemas.
-- **Solo entregas aditivas.** Si alguna vez hay que reemplazar, se avisa antes.
+- **El aula manda sobre lo publicado.** Erratas, retoques de texto y ajustes de una actividad ya
+  entregada se corrigen en el aula, por la interfaz. El Moodle local es borrador, no fuente.
+- **Por entrega solo va lo nuevo:** actividades nuevas, secciones nuevas y cambios de estructura.
+- **Una actividad entregada no se vuelve a entregar.** El restaurador añade, no reemplaza: una
+  segunda copia aparecería al lado de la primera. `exportar_actividad.php` lo impide con
+  `registro-entregas.tsv` (curso, tipo y nombre). Si hay que sustituir una entera, sistemas la borra
+  en el aula y restaura la nueva, con aviso previo.
+- Antes de cada restauración, sistemas hace una instantánea previa del módulo.
 - No cambiar `idnumber`, nombre, `shortname` ni categoría de los módulos: la receta de producción
   los revierte en cada despliegue.
 - La marca se escribe siempre **VERAQUA**.
