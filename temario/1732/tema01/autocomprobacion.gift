@@ -1,0 +1,38 @@
+// 1732 · Tema 1 — Autocomprobación. Redacción propia de VERAQUA (RD 1157/2024, Anexo VIII: RA1 y RA4).
+
+::1732-T1-01 · Riesgo laboral::[html]Según la Ley 31/1995, ¿qué es un riesgo laboral?{
+~Cualquier producto químico que haya en la instalación.#Eso es un peligro\: algo que puede causar daño.
+=La posibilidad de que una persona trabajadora sufra un daño concreto derivado del trabajo.#Correcto. Es la definición del artículo 4 de la Ley 31/1995.
+~Una lesión que ya se ha producido en el trabajo.#Eso es un daño derivado del trabajo, no un riesgo.
+~Una sanción de la Inspección de Trabajo.#No tiene relación con la definición de riesgo.
+}
+
+::1732-T1-02 · Deberes de la persona trabajadora::[html]¿Cuál de estas acciones es un deber de la persona trabajadora según la Ley 31/1995?{
+~Elaborar la evaluación de riesgos de la empresa.#Es una obligación de la empresa.
+~Pagar sus propios equipos de protección individual.#Los EPI los facilita la empresa, de forma gratuita.
+=Utilizar correctamente los equipos de protección que le facilita la empresa.#Correcto. Es uno de los deberes del artículo 29.
+~Decidir la modalidad de organización preventiva.#La decide la empresa, según el RD 39/1997.
+}
+
+::1732-T1-03 · Riesgo grave e inminente::[html]Durante un trasvase notas un fuerte olor a cloro y picor en los ojos. Es un riesgo grave e inminente. ¿Qué te permite hacer la ley?{
+=Interrumpir la actividad y abandonar el lugar de trabajo, avisando de inmediato.#Correcto. Es un derecho del artículo 21 de la Ley 31/1995, y no puede perjudicarte salvo mala fe o negligencia grave.
+~Seguir trabajando hasta terminar la tarea y avisar al final de la jornada.#Ante un riesgo grave e inminente se para en ese momento.
+~Nada, hasta que lo autorice por escrito la empresa.#No necesitas autorización para protegerte de un riesgo grave e inminente.
+~Solo ponerte una mascarilla y continuar.#Primero se interrumpe la actividad y se sale de la zona.
+}
+
+::1732-T1-04 · Accidente in itinere::[html]El accidente que sufre una persona trabajadora al ir o volver de su trabajo se considera accidente de trabajo.{TRUE#Incorrecto\: el accidente in itinere sí es accidente de trabajo.#Correcto. La Ley General de la Seguridad Social (art. 156) incluye el accidente in itinere.}
+
+::1732-T1-05 · Comité de Seguridad y Salud::[html]¿A partir de cuántas personas trabajadoras es obligatorio constituir un Comité de Seguridad y Salud?{
+~10.#Con 10 trabajadores no es obligatorio.
+~25.#No es la cifra que marca la ley.
+=50, en la empresa o el centro de trabajo.#Correcto. Ley 31/1995, art. 38\: empresas o centros con 50 o más trabajadores.
+~500.#500 es una de las cifras del servicio de prevención propio, no del comité.
+}
+
+::1732-T1-06 · Organismo científico-técnico::[html]¿Qué organismo estatal es el órgano científico-técnico especializado en seguridad y salud en el trabajo?{
+~La Inspección de Trabajo y Seguridad Social.#La Inspección vigila el cumplimiento; no es el órgano científico-técnico.
+=El Instituto Nacional de Seguridad y Salud en el Trabajo (INSST).#Correcto. El INSST estudia, asesora y publica guías y notas técnicas.
+~La mutua colaboradora con la Seguridad Social.#Las mutuas gestionan contingencias profesionales.
+~El comité de seguridad y salud de la empresa.#Es un órgano interno de la empresa.
+}

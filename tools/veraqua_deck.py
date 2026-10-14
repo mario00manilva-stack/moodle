@@ -200,18 +200,19 @@ def respuestas(rs, notes="Respuestas razonadas."):
     return _section("Respuestas", notes, f"padding:96px 100px 80px;background:{MIST};color:{NAVY}", body)
 
 
-def taller(numero, title, meta, equipamiento, tareas, notes="Ficha del taller presencial: equipamiento disponible y tareas del alumno."):
+def taller(numero, title, meta, equipamiento, tareas, notes="Ficha del taller presencial: equipamiento disponible y tareas del alumno.",
+           tipo="Taller", modalidad="Práctica presencial", etiqueta_equipo="Equipamiento"):
     eq = "\n".join(f'        <span style="font-size:28px;line-height:1.4;color:{PAPER}">{e(x)}</span>' for x in equipamiento)
     ta = "\n".join(
         f'        <div style="background:{INK};border:1px solid #1B3348;border-radius:8px;padding:14px 28px;display:grid;'
         f'grid-template-columns:64px 1fr;gap:24px;align-items:center"><span style="{MONO};font-size:26px;color:{CYAN}">{i}</span>'
         f'<span style="font-size:28px;line-height:1.35">{e(t)}</span></div>' for i, t in enumerate(tareas, 1))
     body = f"""    <img src="ds/assets/pattern/gota-silueta.svg" alt="" style="position:absolute;left:-80px;bottom:-120px;height:840px;opacity:0.05" />
-{_kicker(f"Taller {numero} · Práctica presencial · {meta}", color=CYAN, dark=True)}
+{_kicker(f"{tipo} {numero} · {modalidad} · {meta}", color=CYAN, dark=True)}
 {_h2(title, dark=True)}
     <div style="display:grid;grid-template-columns:640px 1fr;gap:40px;margin-top:32px;position:relative">
       <div style="background:{INK};border:1px solid #1B3348;border-radius:12px;padding:36px;display:flex;flex-direction:column;gap:14px">
-        <span style="{MONO};font-size:24px;letter-spacing:0.12em;text-transform:uppercase;color:#8BA5B5">Equipamiento</span>
+        <span style="{MONO};font-size:24px;letter-spacing:0.12em;text-transform:uppercase;color:#8BA5B5">{e(etiqueta_equipo)}</span>
 {eq}
       </div>
       <div style="display:flex;flex-direction:column;gap:10px">
@@ -219,7 +220,7 @@ def taller(numero, title, meta, equipamiento, tareas, notes="Ficha del taller pr
 {ta}
       </div>
     </div>"""
-    return _section(f"Taller {numero}", notes, "padding:96px 100px 80px", body, dark=True)
+    return _section(f"{tipo} {numero}", notes, "padding:96px 100px 80px", body, dark=True)
 
 
 def cierre(tema, ideas, siguiente, notes=""):
