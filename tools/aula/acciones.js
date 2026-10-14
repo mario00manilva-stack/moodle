@@ -240,7 +240,16 @@ async function finalizacionCurso(page, courseid, cmids) {
     if (!process.env.DESBLOQUEAR_FINALIZACION_CURSO) {
       throw new Error('La finalización del curso está bloqueada. Para desbloquearla (borra los datos de finalización del curso) lanza con DESBLOQUEAR_FINALIZACION_CURSO=1.');
     }
-    await Promise.all([page.waitForLoadState('load'), page.click('input[name="settingsunlock"]')]);
+    // El botón pide confirmación en un diálogo: se envía el formulario con el botón ya «pulsado».
+    await page.evaluate(async () => {
+      const form = document.querySelector('#region-main form.mform');
+      const fd = new FormData(form);
+      const b = form.querySelector('input[name="settingsunlock"]');
+      fd.set('settingsunlock', b.value);
+      await fetch(form.action, { method: 'POST', body: fd });
+    });
+    await page.goto(`${base}/course/completion.php?id=${courseid}`);
+    if (await page.locator('input[name="settingsunlock"]').count()) throw new Error('No se pudo desbloquear la finalización del curso.');
   }
   const r = await page.evaluate(async (cmids) => {
     const form = document.querySelector('#region-main form.mform');
