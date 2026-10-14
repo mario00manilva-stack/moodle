@@ -27,4 +27,13 @@ de UF2 y UF3.
 - Libro base del 1701, capítulos «Ácido isocianúrico (estabilizante)…» y «Parámetros de control del
   agua del RD 742/2013…»: tratan el ácido isocianúrico como buena práctica sin límite legal. El Anexo I
   del RD 742/2013 (corrección BOE-A-2013-11796) lo fija en ≤ 75 mg/L, con cierre por encima de 150 mg/L.
-  Se corrige en el aula (avisado a Mario el 14/10/2026).
+  Corregido en el aula el 14/10/2026 (tools/aula/corregir_libro.js, correcciones-libro.json).
+
+## Finalización (acordada con Mario el 14/10/2026)
+
+Cada tema: presentación vista entera · autocomprobación aprobada (5 sobre 10) · taller entregado ·
+al menos un mensaje en el foro, que se abre al completar la autocomprobación de su tema.
+El curso se completa con TODAS las actividades de los temas. Al subir un tema nuevo:
+`node tools/aula/finalizacion.js --courseid=4 --secciones=1-N --curso`. Los ajustes de finalización
+del curso están bloqueados porque alguien ya completó un criterio: antes de que haya alumnos reales se
+pueden desbloquear sin perder nada; después, desbloquearlos borra los datos de finalización.
