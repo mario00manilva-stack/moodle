@@ -1,7 +1,9 @@
 <?php
 // Exporta una actividad del Moodle local como copia .mbz de actividad, sin datos de usuario.
 //
-//   php exportar_actividad.php --cmid=<id> --out=<directorio>
+//   php exportar_actividad.php --cmid=<id> --out=<directorio> [--borrador]
+//
+// --borrador: copia de prueba o de revisión; ni se comprueba ni se anota en el registro.
 //
 // Una actividad entregada no se vuelve a entregar: el restaurador de producción añade, no
 // reemplaza, y una segunda copia aparecería al lado de la primera. Cada exportación se anota
@@ -10,7 +12,7 @@
 require(__DIR__ . '/_bootstrap.php');
 require_once($CFG->dirroot . '/backup/util/includes/backup_includes.php');
 
-[$opts] = cli_get_params(['cmid' => 0, 'out' => '.', 'help' => false], ['h' => 'help']);
+[$opts] = cli_get_params(['cmid' => 0, 'out' => '.', 'borrador' => false, 'help' => false], ['h' => 'help']);
 $registro = dirname(__DIR__, 2) . '/registro-entregas.tsv';
 if ($opts['help'] || !$opts['cmid']) {
     echo "Uso: php exportar_actividad.php --cmid=<id> --out=<directorio>\n";
@@ -20,7 +22,7 @@ if ($opts['help'] || !$opts['cmid']) {
 $cm = get_coursemodule_from_id('', (int)$opts['cmid'], 0, false, MUST_EXIST);
 $courseref = $DB->get_field('course', 'idnumber', ['id' => $cm->course]) ?: $cm->course;
 $section = $DB->get_field('course_sections', 'section', ['id' => $cm->section]);
-foreach (file_exists($registro) ? file($registro, FILE_IGNORE_NEW_LINES) : [] as $line) {
+foreach (!$opts['borrador'] && file_exists($registro) ? file($registro, FILE_IGNORE_NEW_LINES) : [] as $line) {
     [, $c, , $type, $name] = array_pad(explode("\t", $line), 6, '');
     if ($c === (string)$courseref && $type === $cm->modname && $name === $cm->name) {
         cli_error("Ya entregada: $line\nLas correcciones se hacen en el aula; una sustitución completa se acuerda antes con sistemas.");
@@ -40,11 +42,15 @@ foreach (['users' => 0, 'role_assignments' => 0, 'comments' => 0, 'badges' => 0,
 }
 $bc->execute_plan();
 $file = $bc->get_results()['backup_destination'];
-$path = rtrim(veraqua_path($opts['out']), '/') . sprintf('/%s-s%02d-%s-cm%d.mbz',
-    $courseref, $section, $cm->modname, $cm->id);
+// La posición en la sección va en el nombre: sistemas restaura en orden alfabético y cada copia
+// se añade al final de su sección, así que el orden de los ficheros es el orden en el aula.
+$sequence = explode(',', $DB->get_field('course_sections', 'sequence', ['id' => $cm->section]));
+$position = array_search((string)$cm->id, $sequence) + 1;
+$path = rtrim(veraqua_path($opts['out']), '/') . sprintf('/%s-s%02d-%02d-%s-cm%d.mbz',
+    $courseref, $section, $position, $cm->modname, $cm->id);
 $file->copy_content_to($path);
 $file->delete();
 $bc->destroy();
-file_put_contents($registro, implode("\t", [date('Y-m-d'), $courseref, $section, $cm->modname,
+$opts['borrador'] || file_put_contents($registro, implode("\t", [date('Y-m-d'), $courseref, $section, $cm->modname,
     $cm->name, basename($path)]) . "\n", FILE_APPEND);
 echo $path . "\n";

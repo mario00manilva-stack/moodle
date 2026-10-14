@@ -1,0 +1,39 @@
+// MF2522_2 · UF1 · Tema 3 — Autocomprobación. Preguntas 01–03: redacción de Mario.
+// Preguntas 04–06: añadidas a partir del texto del tema (pendientes de revisión).
+
+::T3-01 · Desincrustado ácido y rejuntado::[html]Al realizar el desincrustado calcáreo de las paredes del vaso con un limpiador ácido, ¿cuál es el procedimiento previo correcto para no dañar el rejuntado de las baldosas?{
+~Aplicar el ácido puro directamente sobre la superficie seca, sin diluir.#Sobre superficie seca el ácido penetra en las juntas y las degrada.
+=Humedecer previamente los paramentos con agua limpia antes de aplicar la solución ácida.#Correcto. Mojar antes la pared evita que el ácido penetre en la masa de las juntas\: actúa solo sobre la cal superficial.
+~Mezclar el desincrustante ácido con hipoclorito sódico para que haga doble efecto.#Nunca\: un ácido con un producto clorado libera gas cloro.
+~Frotar con un cepillo metálico de púas de acero sobre el liner.#Las púas metálicas rasgan el liner. Se usan cepillos de cerdas duras.
+}
+
+::T3-02 · Reposo del antialgas antes del llenado::[html]Tras finalizar la limpieza y aclarar el vaso, ¿cuánto tiempo debe reposar el antialgas aplicado en paredes y fondo antes de iniciar el llenado?{
+~No requiere reposo\: se llena inmediatamente.#Sin reposo, el agua arrastra el biocida antes de que se fije.
+=Al menos 6 horas, para que el biocida se adhiera correctamente a las superficies.#Correcto. Unas 6 horas de reposo permiten que el antialgas se fije al revestimiento antes de introducir agua nueva.
+~Exactamente 5 minutos.#Es muy poco tiempo para que el biocida se fije en los poros del revestimiento.
+~Un mínimo de 3 días a pleno sol.#No es necesario, y alarga sin motivo la puesta en marcha.
+}
+
+::T3-03 · Mezcla de clorado y ácido::[html]¿Qué peligro grave para la salud laboral se produce si se mezcla accidentalmente un producto clorado con un desincrustante ácido durante la limpieza?{
+~La congelación instantánea del agua.#No hay ninguna reacción de ese tipo.
+~La emisión de nitrógeno gaseoso inerte.#El gas que se libera no es inerte\: es cloro.
+=La liberación inmediata de gas cloro, tóxico y corrosivo por inhalación.#Correcto. La reacción entre un derivado clorado y un ácido libera gas cloro de forma violenta y provoca lesiones respiratorias graves.
+~Su neutralización completa, convirtiéndose en agua potable.#Falso y peligroso\: la mezcla libera gas cloro.
+}
+
+::T3-04 · Destino de los lodos del desincrustado::[html]Los lodos y restos que se arrastran al fondo del vaso durante el desincrustado pueden enviarse al circuito de filtración para que el filtro los retenga.{FALSE#Incorrecto\: esos restos no deben entrar en el circuito de filtración.#Correcto. Se eliminan por el desagüe de fondo o se recogen como residuo químico antes del llenado definitivo.}
+
+::T3-05 · Ángulo de la hidrolimpiadora::[html]¿Con qué ángulo respecto a la superficie se mantiene la lanza de la hidrolimpiadora al aclarar el gresite?{
+~En perpendicular (90°), para concentrar toda la presión.#En perpendicular la presión puede saltar las piezas de gresite y el rejuntado.
+=A unos 45°.#Correcto. A 45° el agua desprende la suciedad sin arrancar las teselas ni el rejuntado.
+~Rasante (0°), casi paralela a la pared.#Rasante el chorro apenas actúa sobre la suciedad adherida.
+~El ángulo es indiferente si la presión es inferior a 150 bar.#El ángulo importa siempre\: a 100–150 bar en perpendicular se dañan las juntas.
+}
+
+::T3-06 · Protección respiratoria con desincrustantes::[html]Durante la limpieza del vaso con desincrustantes ácidos, ¿qué equipo protege las vías respiratorias?{
+~Una mascarilla quirúrgica de un solo uso.#No filtra gases ni vapores químicos.
+~Gafas de montura integral (EN 166).#Protegen los ojos, no las vías respiratorias.
+=Una mascarilla con filtro para gases y vapores (EN 14387).#Correcto. Es el filtro adecuado frente a los vapores de los productos ácidos y clorados.
+~No hace falta protección respiratoria si el vaso está al aire libre.#El EPI respiratorio es obligatorio al manipular corrosivos, también en exterior.
+}
