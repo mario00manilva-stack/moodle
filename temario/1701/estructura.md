@@ -6,8 +6,8 @@ Una sección del aula por tema (sección N = Tema N). Estado a 14/10/2026.
 |---|---|---|---|
 | 1 | UF1 · Vaciado, limpieza y conservación del vaso y anexos (50 h) | Verificación de parada segura, inspección de instalaciones y consignación del cuadro de mando | Redactado · en el aula |
 | 2 | UF1 | Vaciado de vasos: procedimientos por gravedad y motobomba, y normativa de evacuación de vertidos | Redactado · en el aula |
-| 3 | UF1 | Técnicas de limpieza, desincrustado e higienización de revestimientos, paramentos y elementos complementarios | Redactado · falta en el aula |
-| 4 | UF1 | Comprobación de estanqueidad, revisión de circuitos y protocolo de hibernación / parada invernal | Pendiente |
+| 3 | UF1 | Técnicas de limpieza, desincrustado e higienización de revestimientos, paramentos y elementos complementarios | Montado en local · pendiente de entrega |
+| 4 | UF1 | Comprobación de estanqueidad, revisión de circuitos y protocolo de hibernación / parada invernal | Montado en local · pendiente de revisión |
 | 5 | UF2 · Tratamiento físico-químico del agua y calidad del aire (80 h) | Parámetros indicadores de la calidad del agua (pH, cloro libre residual, cloro combinado, turbidez, ácido isocianúrico, REDOX) según el RD 742/2013 y normativas autonómicas (Decreto 485/2019) | Pendiente |
 | 6 | UF2 | Sistemas de desinfección y corrección química: hipoclorito, cloración salina, ozono, UV e inyección de reactivos | Pendiente |
 | 7 | UF2 | Determinaciones analíticas in situ (fotometría, DPD, sondas) y control microbiológico (E. coli, Pseudomonas aeruginosa; RD 487/2022 para Legionella) | Pendiente |

@@ -1,0 +1,39 @@
+// MF2522_2 · UF1 · Tema 4 — Autocomprobación. Preguntas 01–03: redacción de Mario.
+// Preguntas 04–06: añadidas a partir del texto del tema, como en el Tema 3.
+
+::T4-01 · Nivel de agua en la parada invernal::[html]¿Por qué es obligatorio bajar el nivel del agua por debajo de las tuberías de playa y los skimmers al preparar la piscina para la parada invernal?{
+~Para reducir la factura del agua.#No es un motivo económico, sino de protección de la instalación.
+=Para evitar que el agua retenida en skimmers y conducciones se congele y rompa las tuberías al dilatarse.#Correcto. El hielo que se forma dentro de skimmers y tuberías de playa genera una fuerza expansiva que fractura los tubos de PVC.
+~Para acelerar la evaporación del agua.#La evaporación no es el objetivo del invernaje.
+~Es un paso opcional que solo se hace en piscinas cubiertas.#Es un paso clave en las piscinas descubiertas, que son las expuestas a heladas.
+}
+
+::T4-02 · Sondas de pH y REDOX en la hibernación::[html]¿Qué cuidado específico requieren las sondas de medición de pH y REDOX durante la hibernación de la piscina?{
+~Dejarlas secar al sol durante todo el invierno.#Una sonda seca queda inservible.
+~Lavarlas con salfumán concentrado y guardarlas sin funda.#El ácido concentrado y el secado dañan la membrana.
+=Desmontarlas y guardarlas sumergidas en su capuchón con solución de almacenamiento (KCl o la que indique el fabricante).#Correcto. Si el bulbo de vidrio se seca, la sonda se degrada sin remedio: debe conservarse hidratada.
+~Dejarlas conectadas con las bombas funcionando a máxima potencia.#En la hibernación la instalación está parada y consignada.
+}
+
+::T4-03 · Flotadores antidilatación::[html]¿Cuál es la función principal de los flotadores antidilatación colocados sobre la lámina de agua en invierno?{
+~Servir de adorno para las aves migratorias.#No tienen función decorativa.
+=Absorber la presión del hielo al congelarse la superficie, evitando grietas en el vaso.#Correcto. Los flotadores se comprimen con el empuje del hielo y alivian la tensión sobre las paredes del vaso.
+~Calentar el agua de la piscina por radiación.#No aportan calor.
+~Generar corriente de agua sin encender las bombas.#No mueven el agua.
+}
+
+::T4-04 · Caída de presión en la prueba::[html]Durante una prueba de estanqueidad, si la presión del manómetro baja en el tramo aislado, hay una fisura o una unión que falla.{TRUE#Incorrecto\: una caída de presión en un tramo aislado indica una fuga.#Correcto. Con el tramo aislado y presurizado, cualquier caída de presión indica una fisura o un fallo en las uniones encoladas o embridadas.}
+
+::T4-05 · Cubierta de invierno opaca::[html]¿Por qué la cubierta de invierno debe ser opaca?{
+~Para que el agua se caliente más con el sol.#La opacidad no busca calentar el agua.
+=Porque impide que la luz llegue al agua y frena la fotosíntesis de las algas.#Correcto. Sin luz no hay fotosíntesis y las algas no proliferan durante el cierre.
+~Para que el vaso no se vea desde fuera por motivos estéticos.#El motivo es sanitario, no estético.
+~Porque las lonas opacas no necesitan anclajes.#La lona se tensa siempre con sus anclajes.
+}
+
+::T4-06 · Contadores y fugas ocultas::[html]¿Qué lectura ayuda a detectar una fuga oculta en el vaso?{
+~La del manómetro del filtro en marcha.#Indica la colmatación del filtro, no las pérdidas del vaso.
+=Un consumo anómalo en el contador de agua renovada (aporte).#Correcto. Si hay que reponer más agua de la normal, el vaso o las conducciones están perdiendo.
+~La temperatura del agua del vaso.#No informa sobre pérdidas de agua.
+~El valor de pH del agua.#El pH no mide pérdidas de volumen.
+}
