@@ -194,7 +194,7 @@ async function importarGift(page, base, cmid, giftRuta) {
 }
 
 /** Edita una actividad existente: abre su formulario, aplica `valores` y lo guarda. */
-async function editarActividad(page, cmid, valores) {
+async function editarActividad(page, cmid, valores, preparar) {
   // Si alguien ya completó la actividad, Moodle bloquea los ajustes de finalización (y la nota de
   // aprobado) hasta pulsar «Desbloquear»; al guardar recalcula las finalizaciones existentes.
   // Solo se desbloquea cuando la edición toca la finalización.
@@ -202,6 +202,7 @@ async function editarActividad(page, cmid, valores) {
   const base = page.url().split('/').slice(0, 3).join('/');
   await page.goto(`${base}/course/modedit.php?update=${cmid}&return=0`);
   if (!(await page.locator('form.mform #id_name').count())) throw new Error(`No se abre la edición de cm ${cmid}.`);
+  if (preparar) valores = { ...valores, ...(await preparar(page)) };
   const r = await page.evaluate(async (valores) => {
     if (window.tinymce) window.tinymce.triggerSave();
     const form = document.querySelector('#region-main form.mform');

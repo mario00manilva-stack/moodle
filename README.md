@@ -105,10 +105,11 @@ Ids en el aula: 1732 → 2, 1697 → 3, 1701 → 4.
 
 ## Cabeceras de los módulos
 
-Cada curso lleva arriba de la sección General una etiqueta «Cabecera del módulo» con una ilustración
-propia (sin fotos de terceros) y la misma ilustración como imagen del curso en «Mis cursos».
+Cada curso lleva arriba de la sección General una etiqueta «Cabecera del módulo» con su imagen, que
+también es la imagen del curso en «Mis cursos». Las imágenes son las de Mario, en
+`recursos/cabeceras/<módulo>.jpg` (con su dirección visual). Si falta alguna, se usan las ilustraciones
+generadas por `tools/cabeceras.py`.
 
-    python3 -I tools/cabeceras.py && node tools/aula/cabeceras_png.js   # genera los PNG en entregas/cabeceras
-    node tools/aula/cabeceras.js [--curso=1701]                          # los pone en el aula (se puede repetir)
+    node tools/aula/cabeceras.js [--curso=1701]   # pone o sustituye la imagen en el aula (se puede repetir)
 
-Para cambiar la imagen por una foto real: sustituir el PNG y editar la etiqueta en el aula.
+Para cambiar una imagen: sustituir el JPG en recursos/cabeceras y volver a lanzar el script.
