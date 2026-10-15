@@ -73,7 +73,7 @@ async function subirBorrador(page, itemid, ruta) {
  * Abre el formulario de una actividad nueva, aplica `valores` sobre los campos del propio formulario
  * y lo envía. `ficheros` = { campoFilepicker: ruta }. Devuelve el cmid creado.
  */
-async function crearActividad(page, { courseid, seccion, modulo, nombre, valores, ficheros = {} }) {
+async function crearActividad(page, { courseid, seccion, modulo, nombre, valores, ficheros = {}, preparar }) {
   const base = page.url().split('/').slice(0, 3).join('/');
   const { actividades } = await estado(page, courseid);
   if (actividades.some(a => a.name === nombre)) throw new Error(`Ya existe «${nombre}» en el curso ${courseid}.`);
@@ -83,6 +83,9 @@ async function crearActividad(page, { courseid, seccion, modulo, nombre, valores
     const itemid = await page.inputValue(`form.mform input[name="${campo}"]`);
     await subirBorrador(page, itemid, ruta);
   }
+  // `preparar(page)` actúa sobre el formulario ya abierto y devuelve valores extra (p. ej. un HTML
+  // que enlaza una imagen subida a su área de borrador).
+  if (preparar) valores = { ...valores, ...(await preparar(page)) };
   const resultado = await page.evaluate(async ({ nombre, valores }) => {
     if (window.tinymce) window.tinymce.triggerSave();
     const form = document.querySelector('#region-main form.mform');

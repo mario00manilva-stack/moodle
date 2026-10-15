@@ -102,3 +102,13 @@ Ids en el aula: 1732 → 2, 1697 → 3, 1701 → 4.
   tareas y el foro del caso práctico); el curso se completa con esas 5.
 - **1732**: solo tiene el libro y el foro de avisos; no hay actividades a las que aplicarlo.
 - El foro de avisos, los libros y el glosario no cuentan para la finalización.
+
+## Cabeceras de los módulos
+
+Cada curso lleva arriba de la sección General una etiqueta «Cabecera del módulo» con una ilustración
+propia (sin fotos de terceros) y la misma ilustración como imagen del curso en «Mis cursos».
+
+    python3 -I tools/cabeceras.py && node tools/aula/cabeceras_png.js   # genera los PNG en entregas/cabeceras
+    node tools/aula/cabeceras.js [--curso=1701]                          # los pone en el aula (se puede repetir)
+
+Para cambiar la imagen por una foto real: sustituir el PNG y editar la etiqueta en el aula.
