@@ -1,6 +1,6 @@
 # 1701 · MF2522_2 · Control de organismos nocivos en piscinas y otras instalaciones acuáticas
 
-Una sección del aula por tema (sección N = Tema N). Estado a 15/10/2026. Temas 1–10 y 12 en el aula y visibles; la sección 11 está creada y oculta, a la espera del Tema 11 (no hay alumnos hasta 2027). Autocomprobaciones: 3 intentos, aprobado con 5.
+Una sección del aula por tema (sección N = Tema N). Estado a 15/10/2026. Temas 1–12 en el aula y visibles (no hay alumnos hasta 2027). Autocomprobaciones: 3 intentos, aprobado con 5.
 
 | Sección | UF | Tema | Estado |
 |---|---|---|---|
@@ -14,7 +14,7 @@ Una sección del aula por tema (sección N = Tema N). Estado a 15/10/2026. Temas
 | 8 | UF2 | Calidad del aire en piscinas climatizadas y cubiertas: CO₂, humedad relativa, temperatura, deshumectación y renovación | En el aula · visible |
 | 9 | UF3 · Mantenimiento electromecánico e hidráulico (80 h) | Bombas de filtración (autoaspirantes y centrífugas) y de achique: componentes, funcionamiento, ruidos anómalos y averías | En el aula · visible |
 | 10 | UF3 | Sistemas y medios de filtración (sílex, diatomeas, zeolitas, vidrio): velocidades, retrolavado y enjuague | En el aula · visible |
-| 11 | UF3 | Circuito hidráulico de depuración: canal desbordante, depósito de compensación, PVC/PE, válvulas y contadores | Pendiente |
+| 11 | UF3 | Circuito hidráulico de depuración: canal desbordante, depósito de compensación, PVC/PE, válvulas y contadores | En el aula · visible |
 | 12 | UF3 | Dosificación automática/semiautomática, sondas y electrodos (pH, REDOX, cloro), calibración con patrones y electrólisis salina | En el aula · visible |
 | 13 | UF4 · Protocolos de autocontrol y registro SILOÉ (30 h) | Protocolo de autocontrol higiénico-sanitario (mantenimiento, limpieza y desinfección, plagas, proveedores) | Pendiente |
 | 14 | UF4 | Libro de registro diario (físico y digital) y alta y vuelco de datos en SILOÉ | Pendiente |
@@ -60,11 +60,21 @@ de UF2 y UF3.
 
 ## Correcciones al texto base del Tema 12
 
-- Dosificación automática o semiautomática: la exige el D 485/2019 (art. 7), no el RD 742/2013.
+- Dosificación automática o semiautomática: RD 742/2013 art. 7.3 (piscinas nuevas o reformadas) y, en
+  Andalucía, D 485/2019 art. 7.1 (todas). Paquete corregido en el aula el 15/10/2026.
 - Toma de las sondas antes de cualquier inyección. REDOX ligado al HClO (no proporcional); el isocianúrico
   lo baja. La temperatura cambia la pendiente del electrodo (ATC).
 - Limpiezas, desincrustante, pendiente mínima y consignas: según fabricante. Sondas nunca secas.
 - Verificación diaria frente al análisis manual con márgenes orientativos. Sin CR4.1 / SEA757_2.
+
+## Correcciones al texto base del Tema 11 (BOE y BOJA núm. 108 de 2019)
+
+- Tiempo de recirculación: el D 485/2019 no fija horas («según las especificaciones y necesidades de la
+  piscina»; control diario). Las horas por tipo de vaso, orientativas. Pregunta 3 ajustada.
+- El art. 7 del RD 742/2013 trata de productos químicos, no de contadores; los anexos III sitúan los
+  controles «en los contadores de la piscina».
+- Skimmers por m², volumen del depósito y velocidades: recomendaciones de diseño. Retención: habitual,
+  no obligatoria. Fuera la «reductora de presión en colectores de reactivos».
 
 ## Erratas detectadas en el aula
 

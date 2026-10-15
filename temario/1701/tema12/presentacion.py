@@ -1,8 +1,8 @@
 """MF2522_2 · UF3 · Tema 12 — presentación SCORM. Texto base: redacción de Mario (15/10/2026).
 
 Correcciones sobre el texto base:
-- La dosificación automática o semiautomática al circuito la exige el Decreto 485/2019 (art. 7) en
-  Andalucía; el RD 742/2013 prohíbe tratar en el vaso (art. 6.3), pero no exige equipos automáticos.
+- Dosificación automática o semiautomática: el RD 742/2013 (art. 7.3) la exige en piscinas nuevas o
+  reformadas; en Andalucía, el D 485/2019 (art. 7.1) en todas las instalaciones (BOJA núm. 108 de 2019).
 - Toma de muestra de las sondas: agua representativa del vaso, antes de cualquier punto de inyección
   (coherente con el Tema 6), no «de la impulsión».
 - REDOX: depende sobre todo del HClO, de forma logarítmica, no proporcional. El ácido isocianúrico
@@ -42,7 +42,7 @@ deck.add(
     tarjetas("Por qué automatizar", "1 · Dosificación automática", "Dosis pequeñas y continuas, no golpes de producto", [
         ("A mano", "Añadir producto de golpe provoca subidas y bajadas: falta de desinfección o exceso que irrita a los bañistas."),
         ("Automático", "El equipo mide en continuo y dosifica solo lo necesario para mantener la consigna."),
-        ("La norma", "Nunca en el vaso (RD 742/2013, art. 6.3). En Andalucía, al circuito con sistemas automáticos o semiautomáticos (D 485/2019, art. 7)."),
+        ("La norma", "Nunca en el vaso. Sistemas automáticos o semiautomáticos: en piscinas nuevas o reformadas (RD 742/2013, art. 7.3) y, en Andalucía, en todas (D 485/2019, art. 7.1)."),
     ], cols=3),
     pasos("El panel", "A · Partes de un panel de regulación", "De la muestra a la bomba dosificadora", [
         ("Toma de muestra", "Bypass con agua representativa del vaso, antes de cualquier punto de inyección."),

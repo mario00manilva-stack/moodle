@@ -1,0 +1,39 @@
+// MF2522_2 · UF3 · Tema 11 — Autocomprobación. Preguntas 01–03: redacción de Mario (la 03, ajustada
+// al Decreto 485/2019). Preguntas 04–06: añadidas a partir del texto del tema.
+
+::T11-01 · Depósito de compensación::[html]¿Qué función principal cumple el depósito de compensación en una piscina con desbordamiento perimetral continuo?{
+~Calentar el agua con paneles solares.#El depósito no calienta el agua.
+=Absorber el agua que desplazan los bañistas y guardar la reserva para lavar los filtros.#Correcto. Además mantiene agua en la aspiración para que las bombas no trabajen en seco.
+~Dosificar el ácido isocianúrico.#Los reactivos se dosifican con bombas en el circuito.
+~Servir de pediluvio.#El pediluvio es otra instalación.
+}
+
+::T11-02 · Velocidad en la aspiración::[html]¿Qué velocidad máxima se recomienda en las tuberías de aspiración para evitar la cavitación de las bombas?{
+=Entre 1,2 y 1,5 m/s.#Correcto. Así se limitan las pérdidas de carga y se evita la cavitación. Es una recomendación de diseño.
+~Más de 10 m/s.#Provocaría pérdidas enormes y cavitación.
+~Exactamente 0,1 m/s.#Exigiría tuberías desproporcionadas.
+~Es indiferente.#En la aspiración es especialmente importante.
+}
+
+::T11-03 · Tiempo de recirculación en el D 485/2019::[html]¿Qué establece el Decreto 485/2019 sobre el tiempo de recirculación del agua del vaso?{
+~Un máximo de 24 horas en todos los vasos.#El decreto no fija un número de horas.
+~Exactamente 1 hora en todos los vasos.#El decreto no fija un número de horas.
+=Que sea el que necesite la piscina para cumplir los parámetros de calidad, y que se controle a diario.#Correcto. No fija horas: depende de cada vaso y se comprueba en el control de rutina. Las horas por tipo de vaso son orientaciones de diseño.
+~Que no hace falta controlarlo.#Forma parte del control de rutina diario.
+}
+
+::T11-04 · Cálculo del tiempo de recirculación::[html]Un vaso de 450 m³ tiene una recirculación de 150 m³/h. ¿Cuál es su tiempo de recirculación?{
+~1,5 horas.#Revisa la fórmula\: volumen dividido entre caudal.
+=3 horas.#Correcto. 450 ÷ 150 = 3 horas.
+~30 horas.#Revisa las unidades.
+~0,33 horas.#Has dividido el caudal entre el volumen.
+}
+
+::T11-05 · Golpe de ariete::[html]Cerrar de golpe una válvula de mariposa con la bomba a pleno caudal no tiene riesgo, porque las tuberías de PVC soportan cualquier presión.{FALSE#Incorrecto\: puede reventar tuberías o romper el filtro.#Correcto. El cierre brusco provoca un golpe de ariete. Las válvulas se maniobran de forma suave y progresiva.}
+
+::T11-06 · Válvula de retención::[html]¿Para qué sirve una válvula de retención en la impulsión de la bomba?{
+~Para regular el caudal al vaso.#Para regular se usan válvulas de mariposa o de bola.
+=Para impedir que el agua vuelva atrás al parar la bomba, evitando que se desceba o que se vacíe el filtro.#Correcto. Solo deja pasar el agua en un sentido.
+~Para medir el caudal.#Eso lo hacen el contador y el caudalímetro.
+~Para dosificar el cloro.#La dosificación la hacen las bombas dosificadoras.
+}
