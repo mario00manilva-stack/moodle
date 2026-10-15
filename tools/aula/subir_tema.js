@@ -31,8 +31,11 @@ const leer = f => fs.readFileSync(path.join(temaDir, f), 'utf8');
     console.log(`Sección ${seccion} «${nombreSeccion}»: ${s.creada ? 'creada' : 'ya existía'}`);
     const { actividades } = await A.estado(page, courseid);
 
-    // El foro se abre al completar la autocomprobación de su tema (acordado el 14/10/2026).
+    // La autocomprobación se abre al ver todas las diapositivas del tema (15/10/2026) y el foro, al
+    // completar la autocomprobación (14/10/2026).
+    const tras = cm => JSON.stringify({ op: '&', showc: [true], c: [{ type: 'completion', cm, e: 1 }] });
     let quizCm = null;
+    let scormCm = null;
     for (const f of fichas) {
       const previa = actividades.find(a => a.name === f.name);
       let cmid = previa && Number(previa.id);
@@ -44,17 +47,17 @@ const leer = f => fs.readFileSync(path.join(temaDir, f), 'utf8');
           ficheros: { packagefile: path.resolve(temaDir, f.scorm_package) } });
       } else if (f.gift_file) {
         cmid = await A.crearActividad(page, { courseid, seccion, modulo: 'quiz', nombre: f.name,
-          valores: { ...A.AJUSTES.quiz, 'introeditor[text]': '' } });
+          valores: { ...A.AJUSTES.quiz, 'introeditor[text]': '', availabilityconditionsjson: scormCm ? tras(scormCm) : '' } });
       } else if (f.activity_file) {
         cmid = await A.crearActividad(page, { courseid, seccion, modulo: 'assign', nombre: f.name,
           valores: { ...A.AJUSTES.assign, 'introeditor[text]': '', 'activityeditor[text]': leer(f.activity_file) } });
       } else if (f.intro_file) {
         cmid = await A.crearActividad(page, { courseid, seccion, modulo: 'forum', nombre: f.name,
           valores: { ...A.AJUSTES.forum, 'introeditor[text]': leer(f.intro_file),
-            availabilityconditionsjson: f.availability === 'anterior' && quizCm
-              ? JSON.stringify({ op: '&', showc: [true], c: [{ type: 'completion', cm: quizCm, e: 1 }] }) : '' } });
+            availabilityconditionsjson: f.availability === 'anterior' && quizCm ? tras(quizCm) : '' } });
       }
       if (!previa) console.log(`· ${f.name}: creada y oculta (cm ${cmid})`);
+      if (f.scorm_package) scormCm = cmid;
       if (f.gift_file) quizCm = cmid;
       if (f.gift_file) {
         const base = page.url().split('/').slice(0, 3).join('/');

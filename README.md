@@ -113,3 +113,10 @@ generadas por `tools/cabeceras.py`.
     node tools/aula/cabeceras.js [--curso=1701]   # pone o sustituye la imagen en el aula (se puede repetir)
 
 Para cambiar una imagen: sustituir el JPG en recursos/cabeceras y volver a lanzar el script.
+
+## Autocomprobación tras las diapositivas (15/10/2026)
+
+La autocomprobación de cada tema solo se abre cuando el alumno ha completado la presentación (SCORM)
+de ese tema. `subir_tema.js` la deja así al crearla; para los temas ya subidos:
+
+    node tools/aula/examen_tras_diapositivas.js --courseid=N [--aplicar]
