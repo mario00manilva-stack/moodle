@@ -1,6 +1,6 @@
 # 1701 · MF2522_2 · Control de organismos nocivos en piscinas y otras instalaciones acuáticas
 
-Una sección del aula por tema (sección N = Tema N). Estado a 15/10/2026. Temas 1–12 en el aula y visibles (no hay alumnos hasta 2027). Autocomprobaciones: 3 intentos, aprobado con 5.
+Una sección del aula por tema (sección N = Tema N). Estado a 15/10/2026. Temas 1–14 en el aula y visibles: módulo completo (no hay alumnos hasta 2027). Autocomprobaciones: 3 intentos, aprobado con 5.
 
 | Sección | UF | Tema | Estado |
 |---|---|---|---|
@@ -16,8 +16,8 @@ Una sección del aula por tema (sección N = Tema N). Estado a 15/10/2026. Temas
 | 10 | UF3 | Sistemas y medios de filtración (sílex, diatomeas, zeolitas, vidrio): velocidades, retrolavado y enjuague | En el aula · visible |
 | 11 | UF3 | Circuito hidráulico de depuración: canal desbordante, depósito de compensación, PVC/PE, válvulas y contadores | En el aula · visible |
 | 12 | UF3 | Dosificación automática/semiautomática, sondas y electrodos (pH, REDOX, cloro), calibración con patrones y electrólisis salina | En el aula · visible |
-| 13 | UF4 · Protocolos de autocontrol y registro SILOÉ (30 h) | Protocolo de autocontrol higiénico-sanitario (mantenimiento, limpieza y desinfección, plagas, proveedores) | Pendiente |
-| 14 | UF4 | Libro de registro diario (físico y digital) y alta y vuelco de datos en SILOÉ | Pendiente |
+| 13 | UF4 · Protocolos de autocontrol y registro SILOÉ (30 h) | Protocolo de autocontrol higiénico-sanitario (mantenimiento, limpieza y desinfección, plagas, proveedores) | En el aula · visible |
+| 14 | UF4 | Libro de registro diario (físico y digital) y alta y vuelco de datos en SILOÉ | En el aula · visible |
 
 Material de apoyo ya en el aula: el libro base del módulo (11 bloques A.1–A.11) cubre buena parte
 de UF2 y UF3.
@@ -75,6 +75,18 @@ de UF2 y UF3.
   controles «en los contadores de la piscina».
 - Skimmers por m², volumen del depósito y velocidades: recomendaciones de diseño. Retención: habitual,
   no obligatoria. Fuera la «reductora de presión en colectores de reactivos».
+
+## Correcciones al texto base de los Temas 13 y 14 (BOE y BOJA núm. 108 de 2019)
+
+- Protocolo: los 7 aspectos del RD 742/2013 art. 11.5 y D 485/2019 art. 17.6 (la «revisión y mejora» no
+  es uno). A disposición del personal y de la autoridad sanitaria, no de los usuarios. Ausencia u
+  ocultación: infracción grave, D 485/2019 art. 22 (no art. 17.4).
+- Laboratorios: ISO/IEC 17025 o procedimientos validados (art. 9); sin «inscripción en SILOÉ».
+- Rutina: 1 vez al día (RD 742); en Andalucía, 2 en piscinas públicas y de chapoteo (D 485, anexo III).
+- Incidencia (daño a personas) ≠ incumplimiento (parámetro). Anexo VII antes de cinco días (no hábiles).
+- SILOÉ: art. 15 (redacción del RD 3/2023); ya era obligatorio antes. Anexo IV: partes A, B y C.
+- SEA757_2 y RD 46/2022 SÍ existen: RD 742/2013 disp. adicional 3.ª (añadida por el RD 3/2023). En los
+  Temas 9, 10 y 12 se quitaron como no contrastadas; los números de CR siguen sin contrastar.
 
 ## Erratas detectadas en el aula
 

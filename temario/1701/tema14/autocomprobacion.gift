@@ -1,0 +1,39 @@
+// MF2522_2 · UF4 · Tema 14 — Autocomprobación. Preguntas 01–03: redacción de Mario, ajustadas al
+// RD 742/2013 y al Decreto 485/2019. Preguntas 04–06: añadidas a partir del texto del tema.
+
+::T14-01 · Control de rutina::[html]En Andalucía, ¿con qué frecuencia mínima se hace y se anota el control de rutina (pH, desinfectante, turbidez, temperatura…) en una piscina pública?{
+~Una vez al mes.#Esa es la frecuencia del control periódico en laboratorio.
+=Dos veces al día, una de ellas en horas de máxima afluencia.#Correcto. El Decreto 485/2019 lo exige en piscinas públicas y de chapoteo\; en el resto, al menos una vez al día antes de abrir.
+~Solo cuando los usuarios se quejan.#El control es diario aunque no haya quejas.
+~Una vez al año.#El control de rutina es diario.
+}
+
+::T14-02 · Fecha de SILOÉ::[html]¿Cuál es la fecha límite para que las piscinas de uso público notifiquen en SILOÉ los datos del año anterior?{
+~El 31 de diciembre.#La fecha es otra.
+=El 30 de abril de cada año.#Correcto. Lo fija el art. 15 del RD 742/2013.
+~El 15 de agosto.#La fecha es otra.
+~No hay fecha límite.#Sí la hay.
+}
+
+::T14-03 · Plazo de una incidencia::[html]Un bañista sufre una lesión medular al tirarse de cabeza. ¿En qué plazo se comunica la incidencia a la Delegación Territorial de Salud con el anexo VII?{
+~En un máximo de 6 meses.#El plazo es mucho más corto.
+=Lo antes posible y siempre antes de cinco días.#Correcto. Lo establece el art. 17.9 del Decreto 485/2019.
+~Al final de la temporada.#El plazo es mucho más corto.
+~No hace falta comunicarlo.#Las incidencias se comunican siempre.
+}
+
+::T14-04 · Incumplimiento o incidencia::[html]El análisis da 0,2 mg/L de cloro libre por la mañana. ¿Qué es?{
+=Un incumplimiento: se investiga la causa, se corrige y se registra con sus medidas.#Correcto. Es un parámetro fuera de rango, no un daño a personas.
+~Una incidencia que se comunica con el anexo VII.#Las incidencias son daños a personas (ahogamientos, lesiones, quemaduras…).
+~Nada: no se anota.#Todo incumplimiento se registra.
+~Un dato que se notifica a SILOÉ ese mismo día.#SILOÉ recoge el resumen anual.
+}
+
+::T14-05 · Partes A y B::[html]Si los datos de la instalación (parte A) y del tratamiento (parte B) no cambian, basta con notificarlos en SILOÉ al menos cada 5 años.{TRUE#Correcto. Lo establece el art. 15 del RD 742/2013. Los muestreos (parte C) sí se notifican cada año.#Incorrecto\: el art. 15 del RD 742/2013 permite notificar las partes A y B cada 5 años si no varían.}
+
+::T14-06 · Registros falsos::[html]Al anotar el control de la mañana, el pH sale 8,4. ¿Qué haces?{
+~Anotar 7,6 para no tener problemas en la inspección.#Falsear los registros oculta un riesgo real y es una infracción grave.
+=Anotar 8,4, corregir el pH, volver a medir y anotar la medida tomada.#Correcto. Los registros reflejan lo que se mide y lo que se hace.
+~No anotar nada ese día.#El control de rutina se anota siempre.
+~Esperar a la tarde por si baja solo.#Hay que corregirlo y registrarlo.
+}

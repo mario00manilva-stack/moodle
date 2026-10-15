@@ -1,0 +1,39 @@
+// MF2522_2 · UF4 · Tema 13 — Autocomprobación. Preguntas 01–03: redacción de Mario, ajustadas al
+// RD 742/2013 y al Decreto 485/2019. Preguntas 04–06: añadidas a partir del texto del tema.
+
+::T13-01 · Dónde está el protocolo::[html]Según el RD 742/2013 y el Decreto 485/2019, ¿dónde debe estar el protocolo de autocontrol de la piscina?{
+~En la sede de la empresa constructora.#Debe estar en la propia piscina.
+=Siempre en la propia piscina, a disposición del personal de mantenimiento y de la autoridad sanitaria.#Correcto. Así se puede consultar en el día a día y en cualquier inspección.
+~En el domicilio del presidente de la comunidad.#Debe estar en la propia piscina.
+~En la comisaría más cercana.#No tiene relación con la policía.
+}
+
+::T13-02 · Laboratorio::[html]¿Qué se exige al laboratorio que hace los análisis mensuales del agua de la piscina?{
+~Que entregue la factura.#La factura no garantiza la validez de los análisis.
+=Que sus métodos estén acreditados según UNE-EN ISO/IEC 17025 o, al menos, tenga procedimientos validados.#Correcto. Lo exigen el art. 9 del RD 742/2013 y el art. 9 del Decreto 485/2019.
+~Que tenga un folleto publicitario.#No es un requisito.
+~Que esté inscrito en SILOÉ.#En SILOÉ se notifican los datos de la piscina, no se inscriben los laboratorios.
+}
+
+::T13-03 · Información al público::[html]¿Qué información debe estar a la vista de los usuarios de la piscina?{
+~El menú del bar.#No es información sanitaria.
+=Las normas de uso, los resultados de los últimos controles, la existencia de socorrista, la prevención de accidentes y los teléfonos de centros sanitarios y emergencias.#Correcto. Es la información del art. 14 del RD 742/2013, y el Decreto 485/2019 exige además el reglamento de régimen interno a la vista.
+~El mapa de carreteras de la provincia.#No es información de la piscina.
+~La lista de canciones de la megafonía.#No es información sanitaria.
+}
+
+::T13-04 · Siete aspectos::[html]¿Cuál de estos NO es uno de los siete aspectos mínimos del protocolo de autocontrol?{
+~Plan de control de plagas.#Sí es uno de los siete.
+~Gestión de proveedores y servicios.#Sí es uno de los siete.
+~Seguridad y buenas prácticas.#Sí es uno de los siete.
+=Plan de marketing de la instalación.#Correcto. Los siete son\: tratamiento, control de calidad del agua y del aire, mantenimiento, limpieza y desinfección, seguridad y buenas prácticas, plagas y proveedores.
+}
+
+::T13-05 · Protocolo y sanción::[html]En Andalucía, no tener el protocolo de autocontrol en la piscina durante una inspección es solo una recomendación incumplida, sin sanción.{FALSE#Incorrecto\: es una infracción grave.#Correcto. El art. 22 del Decreto 485/2019 tipifica como grave la ocultación, alteración o ausencia del protocolo de autocontrol.}
+
+::T13-06 · Cualificación del personal::[html]¿Qué cualificación debe tener el personal que se ocupa del tratamiento del agua de la piscina según el RD 742/2013?{
+~Ninguna en concreto.#La norma sí exige una cualificación.
+=La cualificación profesional de mantenimiento de piscinas e instalaciones acuáticas (SEA757_2).#Correcto. La añadió el RD 3/2023 como disposición adicional tercera del RD 742/2013.
+~El carné de conducir.#No tiene relación con el tratamiento del agua.
+~El título de socorrista.#El socorrismo es otra función.
+}
