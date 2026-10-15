@@ -147,3 +147,12 @@ cabeceras de los temas van ahora en las etiquetas: `node tools/aula/cabeceras_te
 Cada tema es una subsección plegable («TEMA N · título») dentro de su UF, con la etiqueta de cabecera y
 sus cuatro actividades: `node tools/aula/subsecciones_uf.js --courseid=4 [--aplicar]`. Mario prefirió los
 temas plegables al contador de progreso de la UF (Moodle no cuenta lo que hay dentro de las subsecciones).
+
+## Examen final de cada módulo (15/10/2026)
+
+Sección «Examen final del módulo» al final de cada curso con un cuestionario de 20 preguntas (opción
+múltiple y verdadero/falso, `temario/<módulo>/examen-final.gift`): aprobado con 5, 3 intentos, preguntas
+y respuestas barajadas en cada intento. Cuenta para la finalización del curso (1701: 57 actividades;
+1732: 17; 1697: 6, que ahora exige todas sus actividades).
+
+    DESBLOQUEAR_FINALIZACION_CURSO=1 node tools/aula/examen_final.js --modulo=1701

@@ -1,0 +1,107 @@
+// 1732 · Examen final del módulo (20 preguntas: 13 de opción múltiple y 7 de verdadero/falso).
+// Basado en los temas 1–4 tal como están en el aula. Se barajan en cada intento.
+
+::EF1732-01 · Ley de PRL::[html]¿Qué norma es la Ley de Prevención de Riesgos Laborales?{
+=La Ley 31/1995#Correcto.
+~El RD 742/2013#Regula las piscinas.
+~El RD 487/2022#Regula la prevención de la legionelosis.
+~La Ley 33/2011#Es la Ley General de Salud Pública.
+}
+
+::EF1732-02 · Riesgo grave e inminente::[html]Ante un riesgo grave e inminente para su salud, el trabajador tiene derecho a interrumpir su actividad y abandonar el lugar de trabajo.{TRUE#Correcto. Lo reconoce la Ley 31/1995 (art. 21).#Incorrecto\: la Ley 31/1995 reconoce ese derecho (art. 21).}
+
+::EF1732-03 · Obligación del trabajador::[html]Usar correctamente los equipos de protección individual que facilita la empresa es una obligación del trabajador.{TRUE#Correcto. Es una de sus obligaciones (Ley 31/1995, art. 29).#Incorrecto\: es una obligación del trabajador (Ley 31/1995, art. 29).}
+
+::EF1732-04 · Delegados de prevención::[html]¿Quiénes representan a los trabajadores en materia de prevención de riesgos?{
+~El servicio de prevención ajeno.#Es una entidad que asesora a la empresa.
+=Los delegados de prevención.#Correcto.
+~La mutua.#Gestiona las contingencias profesionales.
+~La inspección de trabajo.#Vigila el cumplimiento, no representa a los trabajadores.
+}
+
+::EF1732-05 · Señales de obligación::[html]¿De qué color es una señal de obligación (por ejemplo, «uso obligatorio de guantes»)?{
+~Roja#El rojo indica prohibición o equipos contra incendios.
+~Amarilla#El amarillo indica advertencia.
+=Azul#Correcto.
+~Verde#El verde indica salvamento o socorro.
+}
+
+::EF1732-06 · Clases de fuego::[html]Un fuego de gasóleo o de aceite mineral es un fuego de clase…{
+~A (sólidos)#Los sólidos son papel, madera, plásticos.
+=B (líquidos)#Correcto.
+~D (metales)#Los metales son una clase especial.
+~F (aceites de cocina)#La clase F es para aceites y grasas de cocina.
+}
+
+::EF1732-07 · Trabajos sin tensión::[html]Para trabajar sin tensión basta con apagar el interruptor del equipo.{FALSE#Correcto. Hay que aplicar las cinco reglas de oro\: desconectar, impedir la reconexión, comprobar la ausencia de tensión, poner a tierra y en cortocircuito y señalizar.#Incorrecto\: hay que aplicar las cinco reglas de oro del RD 614/2001.}
+
+::EF1732-08 · Cloro y ácido::[html]¿Qué ocurre si se mezcla hipoclorito con un ácido (reductor de pH)?{
+~Nada, se neutralizan.#La mezcla es muy peligrosa.
+=Se desprende gas cloro de forma inmediata.#Correcto. Nunca se mezclan ni comparten cubeto.
+~Se forma sal y agua sin riesgo.#Se libera un gas tóxico.
+~Aumenta el poder desinfectante.#Solo aumenta el peligro.
+}
+
+::EF1732-09 · Espacio confinado::[html]Si un compañero se desploma dentro de un depósito, lo correcto es entrar enseguida a sacarlo aunque no tengas protección respiratoria.{FALSE#Correcto. Sin protección respiratoria, el rescatador suele convertirse en otra víctima\: se avisa, se ventila y se rescata con medios adecuados.#Incorrecto\: la mayoría de las víctimas en espacios confinados son los rescatadores sin protección.}
+
+::EF1732-10 · Salpicadura en los ojos::[html]Te salpica un producto corrosivo en los ojos. ¿Qué haces?{
+~Frotarte los ojos con un paño limpio.#Frotar agrava la lesión.
+=Lavarlos con agua abundante o lavaojos al menos 15 minutos y acudir al médico.#Correcto.
+~Aplicar una pomada.#No se aplica nada\: agua abundante.
+~Esperar a ver si se pasa.#El lavado es inmediato.
+}
+
+::EF1732-11 · Información Toxicológica::[html]¿Cuál es el teléfono del Servicio de Información Toxicológica?{
+~112#Es el número de emergencias.
+=91 562 04 20#Correcto. Atiende las 24 horas.
+~061#No es el teléfono de Información Toxicológica.
+~016#No tiene relación.
+}
+
+::EF1732-12 · Biocidas::[html]¿Qué norma regula la capacitación para realizar tratamientos con biocidas?{
+~El RD 486/1997#Regula los lugares de trabajo.
+=El RD 830/2010#Correcto.
+~El RD 485/1997#Regula la señalización.
+~La Ley 31/1995#Es la ley general de prevención.
+}
+
+::EF1732-13 · Conducta PAS::[html]¿Qué significa la conducta PAS ante un accidente?{
+=Proteger, avisar y socorrer.#Correcto. Siempre en ese orden.
+~Parar, analizar y salir.#No es la conducta PAS.
+~Prevenir, actuar y sanar.#No es la conducta PAS.
+~Pedir ayuda, atender y señalizar.#No es la conducta PAS.
+}
+
+::EF1732-14 · RCP::[html]¿A qué ritmo y profundidad se hacen las compresiones torácicas en un adulto?{
+~60 por minuto y 2 cm#Demasiado lento y poco profundo.
+=Entre 100 y 120 por minuto y entre 5 y 6 cm#Correcto (ERC 2021).
+~150 por minuto y 10 cm#Demasiado rápido y profundo.
+~Solo cuando la víctima tose#La RCP se hace cuando no respira.
+}
+
+::EF1732-15 · Relación 30:2::[html]En la RCP de un adulto se alternan 30 compresiones y 2 ventilaciones.{TRUE#Correcto. Si no sabes o no puedes ventilar, compresiones continuas.#Incorrecto\: la relación es 30 compresiones y 2 ventilaciones.}
+
+::EF1732-16 · Ahogamiento::[html]En una víctima de ahogamiento que no respira, se empieza con 5 ventilaciones de rescate antes de las compresiones.{TRUE#Correcto. El problema principal es la falta de oxígeno.#Incorrecto\: en el ahogamiento se empieza con 5 ventilaciones de rescate.}
+
+::EF1732-17 · Atragantamiento grave::[html]Una persona se atraganta y no puede toser, hablar ni respirar. ¿Qué haces?{
+~Darle agua.#Puede empeorar la obstrucción.
+=Dar 5 golpes entre los omóplatos y, si no se resuelve, 5 compresiones abdominales, alternando.#Correcto. Si pierde la consciencia\: 112 y RCP.
+~Esperar a que se le pase.#La obstrucción grave es una emergencia.
+~Tumbarla boca arriba y levantarle las piernas.#No resuelve la obstrucción.
+}
+
+::EF1732-18 · Quemaduras::[html]¿Cómo se reconoce una quemadura de segundo grado?{
+~Piel roja sin ampollas, como una quemadura solar.#Es de primer grado.
+=Ampollas, piel roja y húmeda y mucho dolor.#Correcto. Afecta a la epidermis y la dermis.
+~Piel blanquecina o negruzca que puede no doler.#Es de tercer grado.
+~No deja ninguna marca.#Sí deja marca.
+}
+
+::EF1732-19 · Ampollas::[html]Ante una quemadura con ampollas conviene reventarlas para que la piel se cure antes.{FALSE#Correcto. No se rompen las ampollas\: se enfría con agua y se cubre con gasa estéril o un paño limpio.#Incorrecto\: las ampollas no se rompen.}
+
+::EF1732-20 · Triaje START::[html]En el método de triaje START, ¿qué color se asigna a la víctima que puede caminar?{
+=Verde#Correcto. Puede esperar.
+~Rojo#El rojo es para la atención inmediata.
+~Amarillo#El amarillo es para quien no camina pero respira y obedece.
+~Negro#El negro es para quien no respira tras abrir la vía aérea.
+}

@@ -1,0 +1,107 @@
+// 1701 · Examen final del módulo (20 preguntas: 13 de opción múltiple y 7 de verdadero/falso).
+// Basado en los temas 1–14 tal como están en el aula. Se barajan en cada intento.
+
+::EF1701-01 · Consignación::[html]Antes de trabajar en el cuadro de mando de la sala técnica, ¿qué secuencia es la correcta?{
+=Cortar la alimentación, bloquear con candado y tarjeta, y comprobar la ausencia de tensión.#Correcto. Son los pasos básicos de la consignación (RD 614/2001).
+~Apagar el diferencial y empezar a trabajar si no se oye la bomba.#Que la bomba no suene no garantiza que no haya tensión.
+~Avisar a un compañero y trabajar con guantes de látex.#Los guantes de látex no protegen frente al riesgo eléctrico.
+~Comprobar con la pinza amperimétrica que marca 0 A.#0 A solo indica que no circula corriente, no que no haya tensión.
+}
+
+::EF1701-02 · Ácido y lejía::[html]Durante la limpieza del vaso, ¿qué ocurre si se mezcla un desincrustante ácido con lejía (hipoclorito)?{
+~Se potencia la limpieza sin ningún riesgo.#Es una mezcla peligrosa.
+=Se desprende gas cloro, tóxico y corrosivo.#Correcto. Ácido y cloro nunca se mezclan ni se guardan juntos.
+~Se neutralizan y se convierten en agua.#No se neutralizan de forma inofensiva.
+~Solo cambia de color.#La reacción libera un gas tóxico.
+}
+
+::EF1701-03 · Vertido del vaso::[html]El agua de un vaso con cloro puede verterse al cauce público o al terreno sin ninguna comprobación ni autorización.{FALSE#Correcto. El vertido debe cumplir las condiciones de la autorización y el agua debe estar en condiciones (por ejemplo, sin cloro residual) antes de evacuarla.#Incorrecto\: el vertido no es libre\; se hace según la autorización y con el agua en condiciones.}
+
+::EF1701-04 · Rango de pH::[html]¿Cuál es el rango de pH del agua del vaso según el RD 742/2013?{
+~6,0 – 7,0#Es demasiado ácido.
+=7,2 – 8,0#Correcto.
+~8,0 – 9,0#Con ese pH el cloro apenas desinfecta.
+~5,0 – 9,0#Por debajo de 6,0 o por encima de 9,0 se cierra el vaso.
+}
+
+::EF1701-05 · Cloro combinado::[html]¿Cuál es el valor máximo de cloro combinado residual en el agua del vaso?{
+=0,6 mg/L#Correcto. Por encima de 3 mg/L se cierra el vaso.
+~2,0 mg/L#Ese es el máximo del cloro libre.
+~5,0 mg/L#Es mucho más que el valor permitido.
+~No tiene límite#Sí lo tiene.
+}
+
+::EF1701-06 · Ácido isocianúrico::[html]El ácido isocianúrico tiene un valor máximo de 75 mg/L y por encima de 150 mg/L se cierra el vaso.{TRUE#Correcto. Es el límite del anexo I del RD 742/2013.#Incorrecto\: el máximo es 75 mg/L, con cierre por encima de 150 mg/L.}
+
+::EF1701-07 · Forma activa del cloro::[html]¿Qué forma del cloro en el agua tiene el verdadero poder desinfectante?{
+~El ión cloruro (Cl⁻).#Es lo que queda cuando el cloro ya ha actuado.
+=El ácido hipocloroso (HClO).#Correcto. Su proporción depende del pH.
+~La monocloramina.#Es cloro combinado, desinfecta poco.
+~El ácido isocianúrico.#Es un estabilizante.
+}
+
+::EF1701-08 · Radiación UV::[html]Un reactor de radiación UV deja desinfectante residual en el vaso, por lo que permite prescindir del cloro.{FALSE#Correcto. La UV no deja residual\: el vaso siempre necesita un desinfectante residual.#Incorrecto\: la UV no deja residual y siempre se combina con cloro.}
+
+::EF1701-09 · Cloro combinado con DPD::[html]¿Cómo se calcula el cloro combinado con los reactivos DPD?{
+~Sumando la lectura de DPD 1 y la de DPD 3.#La lectura tras DPD 3 ya es el cloro total.
+=Cloro total (DPD 1 + DPD 3) menos cloro libre (DPD 1).#Correcto.
+~Multiplicando el pH por la turbidez.#No tiene relación.
+~Midiendo solo con rojo fenol.#El rojo fenol mide el pH.
+}
+
+::EF1701-10 · E. coli::[html]¿Cuál es el valor paramétrico de <em>Escherichia coli</em> en el agua del vaso?{
+=0 UFC en 100 mL#Correcto. Igual que <em>Pseudomonas aeruginosa</em>.
+~10 UFC en 100 mL#No se admite ninguna colonia.
+~100 UFC por litro#Ese valor corresponde a <em>Legionella</em> spp. en vasos climatizados con aerosolización.
+~500 UFC en 100 mL#No se admite ninguna colonia.
+}
+
+::EF1701-11 · Legionella en un spa::[html]El análisis de un spa da 1 500 UFC/L de <em>Legionella</em> spp. ¿Qué establece el RD 487/2022?{
+~Seguir abierto y repetir el análisis el mes siguiente.#Desde 1 000 UFC/L hay que parar la instalación.
+=Parar y vaciar la instalación, limpiar y desinfectar antes de reabrir y tomar una nueva muestra a los 15–30 días.#Correcto.
+~Cambiar solo la arena del filtro.#Hace falta limpiar y desinfectar toda la instalación.
+~Subir la temperatura del agua del spa.#No es la medida que establece la norma.
+}
+
+::EF1701-12 · Humedad relativa::[html]¿Cuál es la humedad relativa máxima del aire en el recinto de una piscina cubierta?{
+~45 %#No es el límite legal.
+=Por debajo del 65 %#Correcto. Lo fijan el RD 742/2013 y el RITE.
+~80 %#Provocaría condensaciones y mohos.
+~No hay límite#Sí lo hay.
+}
+
+::EF1701-13 · Temperatura del aire::[html]En una piscina climatizada, el aire del recinto debe estar entre 1 y 2 ºC por encima de la temperatura del agua, con un máximo de 30 ºC.{TRUE#Correcto. Así se limita la evaporación (RD 742/2013 y RITE).#Incorrecto\: esa es precisamente la regla del RD 742/2013 y del RITE.}
+
+::EF1701-14 · Sello mecánico::[html]¿Qué le ocurre al sello mecánico si la bomba funciona en seco?{
+~Nada, el sello no necesita agua.#El agua lo lubrica y refrigera.
+=Se calienta, sus caras se agrietan y empieza a perder agua.#Correcto. Por eso el prefiltro se ceba antes de arrancar.
+~Mejora su estanqueidad.#Ocurre lo contrario.
+~El motor gira más despacio.#El efecto grave es sobre el sello.
+}
+
+::EF1701-15 · Velocidad de filtración::[html]A un filtro con 2 m² de superficie filtrante le llegan 50 m³/h. ¿Cuál es su velocidad de filtración?{
+~100 m/h#Has multiplicado en lugar de dividir.
+=25 m/h#Correcto. 50 ÷ 2 = 25 m/h.
+~2,5 m/h#Revisa la división.
+~0,04 m/h#Has dividido la superficie entre el caudal.
+}
+
+::EF1701-16 · Válvula selectora::[html]La palanca de la válvula selectora del filtro puede girarse con la bomba en marcha si se hace despacio.{FALSE#Correcto. Primero se para la bomba\: con presión se daña la junta interior y hay golpes de ariete.#Incorrecto\: la bomba se para siempre antes de cambiar de posición.}
+
+::EF1701-17 · Tiempo de recirculación::[html]Un vaso de 600 m³ recircula 150 m³/h. ¿Cuál es su tiempo de recirculación?{
+=4 horas#Correcto. 600 ÷ 150 = 4 h.
+~0,25 horas#Has dividido el caudal entre el volumen.
+~40 horas#Revisa la división.
+~9 horas#Revisa la división.
+}
+
+::EF1701-18 · pH y REDOX::[html]Si el pH del vaso sube a 8,2, la lectura de REDOX baja porque hay menos ácido hipocloroso activo.{TRUE#Correcto. Con el pH alto el cloro desinfecta menos de lo que parece.#Incorrecto\: el REDOX depende sobre todo del HClO, que disminuye al subir el pH.}
+
+::EF1701-19 · Protocolo de autocontrol::[html]¿Dónde debe estar el protocolo de autocontrol de la piscina?{
+~En la sede de la empresa de mantenimiento.#Debe estar en la propia piscina.
+=En la propia piscina, a disposición del personal de mantenimiento y de la autoridad sanitaria.#Correcto. Su ausencia es una infracción grave en Andalucía.
+~Solo en formato digital en la nube.#Puede ser digital, pero accesible en la propia piscina.
+~En el ayuntamiento.#Debe estar en la propia piscina.
+}
+
+::EF1701-20 · SILOÉ::[html]Las piscinas de uso público deben notificar en SILOÉ los datos del año anterior antes del 30 de abril de cada año.{TRUE#Correcto. Lo establece el art. 15 del RD 742/2013.#Incorrecto\: la fecha límite es el 30 de abril (RD 742/2013, art. 15).}
