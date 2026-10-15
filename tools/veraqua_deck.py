@@ -263,7 +263,7 @@ class Deck:
         slides = []
         for i, s in enumerate(self.slides, 1):
             slides.append(s.replace("<section ", f'<section data-screen-label="{i:02d}" ', 1))
-        return ('<!DOCTYPE html>\n<html lang="es">\n' + head + '\n<body>\n<deck-stage width="1920" height="1080">\n\n  '
+        return ('<!DOCTYPE html>\n<html lang="es">\n' + head + '\n<body>\n<deck-stage width="1920" height="1080" no-rail>\n\n  '
                 + "\n\n  ".join(slides) + "\n\n</deck-stage>\n</body>\n</html>\n")
 
     def manifest(self, files):
