@@ -141,3 +141,9 @@ Una sección por UF y, dentro, cada tema con su etiqueta «TEMA N» y sus activi
 el progreso de cada UF. `node tools/aula/reorganizar_uf.js --courseid=4 [--aplicar]` (repetible). Las
 cabeceras de los temas van ahora en las etiquetas: `node tools/aula/cabeceras_temas.js --modulo=1701 --tema=N`.
 `subir_tema.js` supone una sección por tema: para añadir algo al 1701 habría que adaptarlo.
+
+## 1701 · temas plegables dentro de cada UF (15/10/2026)
+
+Cada tema es una subsección plegable («TEMA N · título») dentro de su UF, con la etiqueta de cabecera y
+sus cuatro actividades: `node tools/aula/subsecciones_uf.js --courseid=4 [--aplicar]`. Mario prefirió los
+temas plegables al contador de progreso de la UF (Moodle no cuenta lo que hay dentro de las subsecciones).
