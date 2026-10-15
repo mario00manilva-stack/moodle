@@ -1,6 +1,6 @@
 # 1701 · MF2522_2 · Control de organismos nocivos en piscinas y otras instalaciones acuáticas
 
-Una sección del aula por tema (sección N = Tema N). Estado a 15/10/2026. Temas 1–14 en el aula y visibles: módulo completo (no hay alumnos hasta 2027). Autocomprobaciones: 3 intentos, aprobado con 5.
+Desde el 15/10/2026 el aula está organizada por unidades formativas: una sección por UF (1–4) y, dentro, cada tema con su etiqueta «TEMA N» (cabecera) y sus cuatro actividades (tools/aula/reorganizar_uf.js). La tabla indica la sección original de cada tema. Estado a 15/10/2026. Temas 1–14 en el aula y visibles: módulo completo (no hay alumnos hasta 2027). Autocomprobaciones: 3 intentos, aprobado con 5.
 
 | Sección | UF | Tema | Estado |
 |---|---|---|---|

@@ -1,5 +1,6 @@
-// Pone la imagen de cabecera de cada tema (recursos/cabeceras/temas/<módulo>-temaNN.jpg) como
-// descripción de su sección en el aula. Imágenes de Mario (15/10/2026).
+// Pone la imagen de cabecera de cada tema (recursos/cabeceras/temas/<módulo>-temaNN.jpg) en el aula.
+// Imágenes de Mario (15/10/2026). Si el curso está organizado por UF (reorganizar_uf.js), la imagen va
+// en la etiqueta «TEMA N»; si no, en la descripción de la sección del tema.
 //
 //   node tools/aula/cabeceras_temas.js [--modulo=1701] [--tema=7]
 //
@@ -25,8 +26,28 @@ const MARCA = 'veraqua-cabecera-tema';
     for (const [f, m, t] of imagenes) (porCurso[m] = porCurso[m] || []).push({ f, tema: Number(t) });
     for (const [modulo, lista] of Object.entries(porCurso)) {
       const courseid = CURSOS[modulo];
-      const { secciones } = await A.estado(page, courseid);
+      const { secciones, actividades } = await A.estado(page, courseid);
       for (const { f, tema } of lista.sort((a, b) => a.tema - b.tema)) {
+        const lab = actividades.find(a => a.module === 'label' && a.name === `TEMA ${tema}`);
+        if (lab) {
+          await A.editarActividad(page, Number(lab.id), { 'introeditor[format]': 1 }, async (p) => {
+            const itemid = await p.inputValue('form.mform input[name="introeditor[itemid]"]');
+            await p.evaluate(async (itemid) => {
+              const fd = new FormData();
+              for (const [k, v] of Object.entries({ sesskey: M.cfg.sesskey, itemid, filepath: '/', client_id: 'herramienta' })) fd.append(k, v);
+              const lista = await (await fetch(`${M.cfg.wwwroot}/repository/draftfiles_ajax.php?action=list`, { method: 'POST', body: fd })).json();
+              for (const x of (lista.list || [])) {
+                const d = new FormData();
+                for (const [k, v] of Object.entries({ sesskey: M.cfg.sesskey, itemid, filepath: '/', filename: x.filename, client_id: 'herramienta' })) d.append(k, v);
+                await fetch(`${M.cfg.wwwroot}/repository/draftfiles_ajax.php?action=delete`, { method: 'POST', body: d });
+              }
+            }, itemid);
+            const sub = await A.subirBorrador(p, itemid, path.join(DIR, f));
+            return { 'introeditor[text]': `<p class="${MARCA}"><img src="${sub.url}" alt="Tema ${tema}" class="img-fluid" style="width:100%;height:auto;border-radius:12px"></p>` };
+          });
+          console.log(`${modulo} · Tema ${tema}: cabecera puesta en la etiqueta «TEMA ${tema}»`);
+          continue;
+        }
         const s = secciones.find(x => !x.component && Number(x.number ?? x.section) === tema);
         if (!s) { console.log(`${modulo} · Tema ${tema}: sin sección en el aula todavía (se salta)`); continue; }
         await page.goto(`${base}/course/editsection.php?id=${s.id}&sr=0`);

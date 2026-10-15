@@ -134,3 +134,10 @@ Imágenes de Mario en `recursos/cabeceras/temas/<módulo>-temaNN.jpg`, puestas c
 sección de cada tema. Al subir un tema nuevo con su imagen:
 
     node tools/aula/cabeceras_temas.js --modulo=1701 --tema=9
+
+## 1701 organizado por unidades formativas (15/10/2026)
+
+Una sección por UF y, dentro, cada tema con su etiqueta «TEMA N» y sus actividades; la portada muestra
+el progreso de cada UF. `node tools/aula/reorganizar_uf.js --courseid=4 [--aplicar]` (repetible). Las
+cabeceras de los temas van ahora en las etiquetas: `node tools/aula/cabeceras_temas.js --modulo=1701 --tema=N`.
+`subir_tema.js` supone una sección por tema: para añadir algo al 1701 habría que adaptarlo.
