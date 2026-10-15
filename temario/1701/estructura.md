@@ -1,6 +1,6 @@
 # 1701 · MF2522_2 · Control de organismos nocivos en piscinas y otras instalaciones acuáticas
 
-Una sección del aula por tema (sección N = Tema N). Estado a 14/10/2026. Temas 1–6 en el aula y visibles (no hay alumnos hasta 2027). Autocomprobaciones: 3 intentos, aprobado con 5.
+Una sección del aula por tema (sección N = Tema N). Estado a 15/10/2026. Temas 1–7 en el aula y visibles (no hay alumnos hasta 2027). Autocomprobaciones: 3 intentos, aprobado con 5.
 
 | Sección | UF | Tema | Estado |
 |---|---|---|---|
@@ -10,7 +10,7 @@ Una sección del aula por tema (sección N = Tema N). Estado a 14/10/2026. Temas
 | 4 | UF1 | Comprobación de estanqueidad, revisión de circuitos y protocolo de hibernación / parada invernal | En el aula · visible |
 | 5 | UF2 · Tratamiento físico-químico del agua y calidad del aire (80 h) | Parámetros indicadores de la calidad del agua (pH, cloro libre residual, cloro combinado, turbidez, ácido isocianúrico, REDOX) según el RD 742/2013 y normativas autonómicas (Decreto 485/2019) | En el aula · visible |
 | 6 | UF2 | Sistemas de desinfección y corrección química: hipoclorito, cloración salina, ozono, UV e inyección de reactivos | En el aula · visible |
-| 7 | UF2 | Determinaciones analíticas in situ (fotometría, DPD, sondas) y control microbiológico (E. coli, Pseudomonas aeruginosa; RD 487/2022 para Legionella) | Pendiente |
+| 7 | UF2 | Determinaciones analíticas in situ (fotometría, DPD, sondas) y control microbiológico (E. coli, Pseudomonas aeruginosa; RD 487/2022 para Legionella) | En el aula · visible |
 | 8 | UF2 | Calidad del aire en piscinas climatizadas y cubiertas: CO₂, humedad relativa, temperatura, deshumectación y renovación | Pendiente |
 | 9 | UF3 · Mantenimiento electromecánico e hidráulico (80 h) | Bombas de filtración (autoaspirantes y centrífugas) y de achique: componentes, funcionamiento, ruidos anómalos y averías | Pendiente |
 | 10 | UF3 | Sistemas y medios de filtración (sílex, diatomeas, zeolitas, vidrio): velocidades, retrolavado y enjuague | Pendiente |
@@ -21,6 +21,16 @@ Una sección del aula por tema (sección N = Tema N). Estado a 14/10/2026. Temas
 
 Material de apoyo ya en el aula: el libro base del módulo (11 bloques A.1–A.11) cubre buena parte
 de UF2 y UF3.
+
+## Correcciones al texto base del Tema 7 (contrastadas con el BOE)
+
+- RD 742/2013, anexo I: el indicador es *Legionella* spp. (< 100 UFC/L), solo en vasos climatizados con
+  aerosolización. La dosis de la cloración de choque la fija el protocolo de autocontrol y el fabricante.
+- RD 487/2022, art. 7: el titular elige entre PPCL (punto de partida) y PSL (opcional).
+- Anexo I.7: aplica a agua a 24 ºC o más con aerosolización (spas, hidromasajes, juegos de agua) y a las
+  redes de agua sanitaria. Legionella: mensual en spas y trimestral en ACS (anexo V, tabla 3).
+- Tabla 9: de 100 a < 1 000 UFC/L, revisión, limpieza y desinfección; desde 1 000, parada y vaciado; nueva
+  muestra a los 15–30 días. Choque en spas: recirculación con biocida 10 h (no 20 mg/L). ACS: 70 ºC, 2 h.
 
 ## Erratas detectadas en el aula
 

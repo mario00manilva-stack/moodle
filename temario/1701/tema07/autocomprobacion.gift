@@ -1,0 +1,39 @@
+// MF2522_2 · UF2 · Tema 7 — Autocomprobación. Preguntas 01–03: redacción de Mario.
+// Preguntas 04–06: añadidas a partir del texto del tema.
+
+::T7-01 · Cálculo del cloro combinado::[html]Para calcular el cloro combinado residual por fotometría con reactivos DPD, ¿qué operación se aplica?{
+~Sumar la lectura de DPD 1 y la de DPD 3.#La suma no tiene sentido\: la lectura tras DPD 3 ya es el cloro total.
+=Restar al cloro total (DPD 1 + DPD 3) el cloro libre (DPD 1).#Correcto. El cloro combinado es la diferencia entre el cloro total, leído tras añadir DPD 3, y el cloro libre, leído con DPD 1.
+~Multiplicar el pH por la turbidez.#No hay ninguna relación entre esos parámetros y el cloro combinado.
+~Medir solo con la pastilla de rojo fenol.#El rojo fenol mide el pH, no el cloro.
+}
+
+::T7-02 · Valor de Escherichia coli::[html]¿Cuál es el valor paramétrico de <em>Escherichia coli</em> en el agua del vaso según el RD 742/2013?{
+~100 UFC en 100 mL.#Con 100 UFC el vaso estaría gravemente contaminado.
+~10 UFC en 100 mL.#No se admite ninguna colonia.
+=0 UFC en 100 mL (ausencia total).#Correcto. La norma exige ausencia total de <em>E. coli</em> y de <em>Pseudomonas aeruginosa</em>. Si aparecen, se cierra el vaso.
+~500 UFC por litro.#No se admite ninguna colonia.
+}
+
+::T7-03 · Piscina descubierta y RD 487/2022::[html]¿Aplica el RD 487/2022 al agua del vaso de una piscina descubierta de agua fría, sin chorros ni elementos que generen aerosoles?{
+~Sí, todas las piscinas deben analizar Legionella cada semana.#El RD 487/2022 no incluye los vasos fríos sin aerosolización.
+=No. El agua de ese vaso se controla con el RD 742/2013 y el Decreto 485/2019.#Correcto. El RD 487/2022 se centra en sistemas de agua a 24 ºC o más con aerosolización (spas, hidromasajes, juegos de agua) y en las redes de agua sanitaria, que sí incluyen las duchas de esa piscina.
+~Solo si la piscina es de agua salada.#La salinidad no decide la aplicación del real decreto.
+~Solo durante los meses de invierno.#La época del año no decide la aplicación del real decreto.
+}
+
+::T7-04 · Lectura del cloro libre::[html]Tras añadir la pastilla DPD 1 a la cubeta, hay que esperar unos minutos antes de leer el cloro libre para que el color sea estable.{FALSE#Incorrecto\: el cloro libre se lee de inmediato.#Correcto. El cloro libre se lee justo después de disolver la DPD 1\; si se espera, las cloraminas empiezan a reaccionar y el valor sale más alto. La espera es para el cloro total, tras la DPD 3.}
+
+::T7-05 · Recuento alto en un spa::[html]El análisis mensual de un spa da 1 500 UFC/L de <em>Legionella</em> spp. Según el RD 487/2022, ¿qué hay que hacer?{
+~Nada hasta el siguiente análisis mensual.#Con 1 000 UFC/L o más hay que parar la instalación.
+~Subir el cloro y seguir abierto, ya que no supera las 10 000 UFC/L.#Desde 1 000 UFC/L la instalación se para.
+=Parar y vaciar la instalación, limpiar y desinfectar antes de reabrir, revisar los programas y tomar una nueva muestra a los 15–30 días.#Correcto. Son las medidas de la tabla 9 del anexo V para recuentos de 1 000 UFC/L o más.
+~Cambiar solo el material filtrante.#Hace falta limpieza y desinfección de toda la instalación, no solo del filtro.
+}
+
+::T7-06 · Protección al muestrear::[html]¿Qué protección respiratoria se usa al tomar muestras en un hidromasaje o una red de ACS con sospecha de <em>Legionella</em>?{
+~Ninguna, si se trabaja deprisa.#La Legionella se transmite al respirar aerosoles\: el tiempo no protege.
+~Una mascarilla quirúrgica.#No está pensada para proteger a quien la lleva frente a bioaerosoles.
+=Una mascarilla autofiltrante FFP3 (UNE-EN 149).#Correcto. Protege frente a los bioaerosoles. Además, se paran los chorros mientras se muestrea.
+~Unas gafas de protección.#Protegen los ojos, pero la vía de contagio es respiratoria.
+}
