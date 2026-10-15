@@ -1,7 +1,9 @@
 // Las presentaciones se abren en una ventana nueva a pantalla completa, sin el índice lateral de SCORM
 // ni la columna de miniaturas (paquetes con <deck-stage no-rail>). Pedido por Mario el 15/10/2026.
 //
-//   node tools/aula/diapositivas_pantalla.js [--courseid=4] [--sin-paquete]
+//   node tools/aula/diapositivas_pantalla.js [--courseid=4] [--sin-paquete] [--tamano=80%]
+//
+// Tamaño de la ventana: 80 % de la pantalla (Mario, 15/10/2026: al 100 % se veía demasiado grande).
 //
 // Se puede repetir. La finalización de las actividades no cambia.
 const fs = require('fs');
@@ -12,7 +14,8 @@ const A = require('./acciones');
 const args = Object.fromEntries(process.argv.slice(2).map(a => { const [k, v = true] = a.replace(/^--/, '').split('='); return [k, v]; }));
 const ROOT = path.resolve(__dirname, '..', '..');
 const E = path.join(ROOT, 'entregas');
-const AJUSTES = { popup: 1, width: '100%', height: '100%', hidetoc: 3, nav: 0, skipview: 0 };
+const TAMANO = String(args.tamano || '80%');
+const AJUSTES = { popup: 1, width: TAMANO, height: TAMANO, hidetoc: 3, nav: 0, skipview: 0 };
 
 // Paquete de cada presentación según el curso y el nombre de la actividad.
 function paquete(courseid, nombre) {
@@ -39,7 +42,7 @@ function paquete(courseid, nombre) {
           await A.subirBorrador(p, itemid, zip);
           return {};
         } : undefined);
-        console.log(`${courseid} · ${s.name}: ventana nueva${zip ? ' + ' + path.basename(zip) : ''}`);
+        console.log(`${courseid} · ${s.name}: ventana nueva al ${TAMANO}${zip ? ' + ' + path.basename(zip) : ''}`);
       }
     }
   } finally { await browser.close(); }

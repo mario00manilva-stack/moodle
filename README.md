@@ -159,7 +159,7 @@ y respuestas barajadas en cada intento. Cuenta para la finalización del curso (
 
 ## Presentaciones a pantalla completa (15/10/2026)
 
-Las presentaciones se abren en una ventana nueva al 100 %, sin índice lateral de SCORM ni botones de
+Las presentaciones se abren en una ventana nueva al 80 % de la pantalla, sin índice lateral de SCORM ni botones de
 navegación de Moodle, y los paquetes llevan `<deck-stage no-rail>` (sin columna de miniaturas). Los tres
 paquetes de la instantánea (1701 T1–T2 y 1697) se parchearon igual (entregas/snapshot-norail).
 
