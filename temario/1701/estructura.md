@@ -1,6 +1,6 @@
 # 1701 · MF2522_2 · Control de organismos nocivos en piscinas y otras instalaciones acuáticas
 
-Una sección del aula por tema (sección N = Tema N). Estado a 15/10/2026. Temas 1–10 en el aula y visibles (no hay alumnos hasta 2027). Autocomprobaciones: 3 intentos, aprobado con 5.
+Una sección del aula por tema (sección N = Tema N). Estado a 15/10/2026. Temas 1–10 y 12 en el aula y visibles; la sección 11 está creada y oculta, a la espera del Tema 11 (no hay alumnos hasta 2027). Autocomprobaciones: 3 intentos, aprobado con 5.
 
 | Sección | UF | Tema | Estado |
 |---|---|---|---|
@@ -15,7 +15,7 @@ Una sección del aula por tema (sección N = Tema N). Estado a 15/10/2026. Temas
 | 9 | UF3 · Mantenimiento electromecánico e hidráulico (80 h) | Bombas de filtración (autoaspirantes y centrífugas) y de achique: componentes, funcionamiento, ruidos anómalos y averías | En el aula · visible |
 | 10 | UF3 | Sistemas y medios de filtración (sílex, diatomeas, zeolitas, vidrio): velocidades, retrolavado y enjuague | En el aula · visible |
 | 11 | UF3 | Circuito hidráulico de depuración: canal desbordante, depósito de compensación, PVC/PE, válvulas y contadores | Pendiente |
-| 12 | UF3 | Dosificación automática/semiautomática, sondas y electrodos (pH, REDOX, cloro), calibración con patrones y electrólisis salina | Pendiente |
+| 12 | UF3 | Dosificación automática/semiautomática, sondas y electrodos (pH, REDOX, cloro), calibración con patrones y electrólisis salina | En el aula · visible |
 | 13 | UF4 · Protocolos de autocontrol y registro SILOÉ (30 h) | Protocolo de autocontrol higiénico-sanitario (mantenimiento, limpieza y desinfección, plagas, proveedores) | Pendiente |
 | 14 | UF4 | Libro de registro diario (físico y digital) y alta y vuelco de datos en SILOÉ | Pendiente |
 
@@ -57,6 +57,14 @@ de UF2 y UF3.
   marcas. Velocidades: recomendaciones técnicas, no límites legales (el RD 742 solo pide declararla en SILOÉ).
 - Lavado: se cierra el limpiafondos (no los skimmers) y se asegura nivel; nunca bomba en marcha en CERRADO.
 - Sin las referencias a CR y RD 46/2022, no contrastadas.
+
+## Correcciones al texto base del Tema 12
+
+- Dosificación automática o semiautomática: la exige el D 485/2019 (art. 7), no el RD 742/2013.
+- Toma de las sondas antes de cualquier inyección. REDOX ligado al HClO (no proporcional); el isocianúrico
+  lo baja. La temperatura cambia la pendiente del electrodo (ATC).
+- Limpiezas, desincrustante, pendiente mínima y consignas: según fabricante. Sondas nunca secas.
+- Verificación diaria frente al análisis manual con márgenes orientativos. Sin CR4.1 / SEA757_2.
 
 ## Erratas detectadas en el aula
 

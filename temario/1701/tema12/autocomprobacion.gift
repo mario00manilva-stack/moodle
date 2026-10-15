@@ -1,0 +1,39 @@
+// MF2522_2 · UF3 · Tema 12 — Autocomprobación. Preguntas 01–03: redacción de Mario.
+// Preguntas 04–06: añadidas a partir del texto del tema.
+
+::T12-01 · Detector de flujo::[html]¿Qué dispositivo del portasondas bloquea las bombas dosificadoras si se detiene la recirculación?{
+~El manómetro de la bomba.#Mide la presión, pero no actúa sobre las bombas dosificadoras.
+=El interruptor o detector de flujo.#Correcto. Detecta que no hay caudal y evita que se inyecte reactivo en agua estancada.
+~El rotámetro de la tubería de llenado.#Está en otra línea y no bloquea la dosificación.
+~El reloj programador del cuadro.#Programa horarios, pero no detecta la falta de caudal.
+}
+
+::T12-02 · Limpiar la célula salina::[html]¿Cómo se limpian las placas de titanio de una célula de cloración salina incrustadas de cal sin dañarlas?{
+~Rascándolas con una espátula de acero o un cepillo metálico.#Destruye el recubrimiento de óxidos de las placas.
+~Conectando la célula a 400 V.#Es peligroso y no limpia la cal.
+=Sumergiéndolas en un desincrustante ácido diluido, sin rascar el recubrimiento de óxidos.#Correcto. Las placas llevan una capa muy fina de óxidos de rutenio e iridio que se pierde si se rasca.
+~Lijándolas con lija de agua gruesa.#Elimina el recubrimiento y deja la célula inservible.
+}
+
+::T12-03 · pH alto y REDOX::[html]Si el agua del vaso tiene un pH de 8,2, ¿cómo afecta a la lectura del REDOX?{
+~El REDOX sube a 900 mV.#Ocurre lo contrario.
+=El REDOX baja: hay menos ácido hipocloroso y el agua desinfecta menos de lo que parece.#Correcto. Con el pH alto, gran parte del cloro pasa a ion hipoclorito, mucho menos activo.
+~El REDOX no depende del pH.#Sí depende, y mucho.
+~La sonda de REDOX se rompe.#El pH alto no rompe la sonda.
+}
+
+::T12-04 · Conservar una sonda::[html]Una sonda de pH que se saca del portasondas durante unos días se guarda seca, en un cajón, para que no se ensucie.{FALSE#Incorrecto\: una sonda que se seca se estropea.#Correcto. Se guarda con su capuchón lleno de solución de conservación (KCl), nunca seca ni en agua destilada.}
+
+::T12-05 · Pendiente de la sonda::[html]Al calibrar la sonda de pH con los patrones 7,00 y 4,01, el equipo da una pendiente del 72 %, por debajo del mínimo del fabricante. ¿Qué haces?{
+~Nada, la calibración ya está hecha.#La pendiente indica que la sonda no responde bien.
+~Repetir la calibración con el mismo patrón ya usado varias veces.#Los patrones no se reutilizan.
+=Limpiar la sonda y repetir con patrones nuevos y, si sigue baja, cambiarla.#Correcto. Una pendiente baja indica una sonda sucia o agotada.
+~Subir la consigna de pH.#La consigna no corrige una sonda que mide mal.
+}
+
+::T12-06 · REDOX bajo con cloro correcto::[html]El fotómetro marca 1,5 mg/L de cloro libre y el pH es 7,4, pero el REDOX está muy bajo. ¿Qué revisas primero?{
+~Subir la dosis de cloro al máximo.#Antes hay que entender por qué el REDOX está bajo.
+=El ácido isocianúrico, que retiene parte del cloro, y el estado de la sonda de REDOX.#Correcto. Con mucho isocianúrico el fotómetro marca cloro, pero hay menos HClO activo y el REDOX baja\; una sonda sucia también lo falsea.
+~La temperatura del aire.#No explica la diferencia.
+~El sentido de giro de la bomba.#No afecta a la lectura del REDOX.
+}
