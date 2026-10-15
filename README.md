@@ -127,3 +127,10 @@ Los tres cursos muestran cada tema en su propia página; la portada enseña en c
 «Progreso: X / 4». Para volver a todos los temas en una página:
 
     node tools/aula/una_seccion_por_pagina.js --deshacer
+
+## Cabeceras de los temas
+
+Imágenes de Mario en `recursos/cabeceras/temas/<módulo>-temaNN.jpg`, puestas como descripción de la
+sección de cada tema. Al subir un tema nuevo con su imagen:
+
+    node tools/aula/cabeceras_temas.js --modulo=1701 --tema=9
