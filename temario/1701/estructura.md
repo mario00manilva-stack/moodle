@@ -1,6 +1,6 @@
 # 1701 · MF2522_2 · Control de organismos nocivos en piscinas y otras instalaciones acuáticas
 
-Una sección del aula por tema (sección N = Tema N). Estado a 15/10/2026. Temas 1–8 en el aula y visibles (no hay alumnos hasta 2027). Autocomprobaciones: 3 intentos, aprobado con 5.
+Una sección del aula por tema (sección N = Tema N). Estado a 15/10/2026. Temas 1–9 en el aula y visibles (no hay alumnos hasta 2027). Autocomprobaciones: 3 intentos, aprobado con 5.
 
 | Sección | UF | Tema | Estado |
 |---|---|---|---|
@@ -12,7 +12,7 @@ Una sección del aula por tema (sección N = Tema N). Estado a 15/10/2026. Temas
 | 6 | UF2 | Sistemas de desinfección y corrección química: hipoclorito, cloración salina, ozono, UV e inyección de reactivos | En el aula · visible |
 | 7 | UF2 | Determinaciones analíticas in situ (fotometría, DPD, sondas) y control microbiológico (E. coli, Pseudomonas aeruginosa; RD 487/2022 para Legionella) | En el aula · visible |
 | 8 | UF2 | Calidad del aire en piscinas climatizadas y cubiertas: CO₂, humedad relativa, temperatura, deshumectación y renovación | En el aula · visible |
-| 9 | UF3 · Mantenimiento electromecánico e hidráulico (80 h) | Bombas de filtración (autoaspirantes y centrífugas) y de achique: componentes, funcionamiento, ruidos anómalos y averías | Pendiente |
+| 9 | UF3 · Mantenimiento electromecánico e hidráulico (80 h) | Bombas de filtración (autoaspirantes y centrífugas) y de achique: componentes, funcionamiento, ruidos anómalos y averías | En el aula · visible |
 | 10 | UF3 | Sistemas y medios de filtración (sílex, diatomeas, zeolitas, vidrio): velocidades, retrolavado y enjuague | Pendiente |
 | 11 | UF3 | Circuito hidráulico de depuración: canal desbordante, depósito de compensación, PVC/PE, válvulas y contadores | Pendiente |
 | 12 | UF3 | Dosificación automática/semiautomática, sondas y electrodos (pH, REDOX, cloro), calibración con patrones y electrólisis salina | Pendiente |
@@ -40,6 +40,15 @@ de UF2 y UF3.
 - Depresión de 20–40 Pa del recinto del vaso (no de la sala técnica) y 2,5 dm³/s·m² de aire exterior:
   RITE IT 1.1.4.2.3 (no IT 1.1.4.1). Barreras térmicas obligatorias fuera de servicio (IT 1.2.4.5.5) y
   recuperación de calor del aire expulsado (IT 1.2.4.5.2).
+
+## Correcciones al texto base del Tema 9
+
+- Marcha/paro con el pulsador o contactor de la bomba, no con el IGA. Giro invertido: sigue impulsando
+  en el mismo sentido con menos caudal y presión; se corrige intercambiando dos fases (electricista).
+- Cavitación (restricción en la aspiración) separada de la entrada de aire. Guardamotor (sobrecarga) y
+  diferencial (derivación a tierra) separados.
+- Ausencia de tensión con comprobador o multímetro, no con pinza amperimétrica; RD 614/2001, no REBT.
+- Registro: RD 742/2013, art. 11.5 c). Sin las referencias a CR y RD 46/2022, no contrastadas.
 
 ## Erratas detectadas en el aula
 

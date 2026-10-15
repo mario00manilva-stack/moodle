@@ -1,0 +1,39 @@
+// MF2522_2 · UF3 · Tema 9 — Autocomprobación. Preguntas 01–03: redacción de Mario.
+// Preguntas 04–06: añadidas a partir del texto del tema.
+
+::T9-01 · Bomba en seco::[html]¿Qué consecuencia grave tiene hacer funcionar una bomba de filtración en seco, sin agua en el prefiltro?{
+~El motor dobla su velocidad.#La velocidad la fija el motor y la red, no la presencia de agua.
+=El sello mecánico se sobrecalienta por falta de lubricación, se agrieta y empieza a perder agua.#Correcto. Sin agua, las caras del sello se calientan en segundos y la cerámica se agrieta. Por eso el prefiltro se ceba antes de arrancar.
+~El lecho filtrante se congela.#No tiene relación con el funcionamiento en seco.
+~El pH del agua sube a 9,0.#La bomba no modifica el pH.
+}
+
+::T9-02 · Ruido de grava::[html]Al poner en marcha una bomba se oye un ruido como si entrara grava en el cuerpo hidráulico. ¿Qué fenómeno se está produciendo?{
+~El motor gira en sentido inverso.#El giro invertido reduce caudal y presión, pero no produce ese ruido característico.
+=Cavitación, por una restricción en la aspiración (cestillo sucio o válvula medio cerrada).#Correcto. La presión en el ojo del rodete baja tanto que se forman burbujas de vapor que colapsan y erosionan el rodete.
+~Ha explotado el condensador.#Un condensador averiado produce un zumbido sin giro, no ruido de grava.
+~La arena del filtro ha pasado al vaso.#Eso no genera ruido en la bomba.
+}
+
+::T9-03 · Giro de un motor trifásico::[html]Tras conectar un motor trifásico (400 V) sustituido, ¿qué se comprueba con la maniobra rápida de marcha y paro?{
+~La temperatura del agua del vaso.#No tiene relación con la conexión del motor.
+=Que el ventilador gire en el sentido de la flecha de la carcasa.#Correcto. En los motores trifásicos el sentido de giro depende del orden de las fases. Si gira al revés, un electricista intercambia dos fases.
+~Que se haya añadido sulfato de cobre.#No es un producto que intervenga en la puesta en marcha.
+~Que la válvula de desagüe esté abierta.#La válvula de desagüe no se abre para poner en marcha la filtración.
+}
+
+::T9-04 · Ausencia de tensión::[html]Para comprobar la ausencia de tensión antes de tocar los bornes de una bomba basta con la pinza amperimétrica: si marca 0 A, no hay tensión.{FALSE#Incorrecto\: con la bomba parada no circula corriente aunque haya tensión.#Correcto. 0 A solo indica que no circula corriente. La ausencia de tensión se comprueba con un comprobador o un multímetro, después de cortar y bloquear con candado.}
+
+::T9-05 · Guardamotor y diferencial::[html]En el cuadro de la bomba salta el diferencial. ¿Cuál es la causa más probable y qué se hace?{
+~Una sobrecarga mecánica; se rearma y se sigue.#Las sobrecargas las detecta el guardamotor, y un disparo nunca se rearma sin buscar la causa.
+=Una derivación a tierra en el motor o en el cable; se consigna la bomba y se avisa al electricista para medir el aislamiento.#Correcto. El diferencial detecta fugas de corriente a tierra, un riesgo de electrocución junto al agua.
+~El cestillo del prefiltro está sucio.#Un cestillo sucio provoca cavitación, no disparos del diferencial.
+~El sentido de giro está invertido.#El giro invertido no produce fugas a tierra.
+}
+
+::T9-06 · Zumbido sin giro::[html]Una bomba monofásica zumba pero el eje no gira. ¿Qué comprobaciones son correctas?{
+~Golpear el motor con la bomba en marcha hasta que arranque.#Es peligroso y no resuelve la causa.
+~Abrir la caja de bornes con la bomba conectada para ver el condensador.#Nunca se trabaja en los bornes con tensión.
+=Consignar la bomba, girar el eje a mano para ver si el rodete está bloqueado y, si gira libre, revisar el condensador de arranque.#Correcto. Las dos causas típicas son el rodete bloqueado y el condensador averiado, y ambas se revisan sin tensión.
+~Aumentar el cloro del vaso.#No tiene relación con la avería.
+}
