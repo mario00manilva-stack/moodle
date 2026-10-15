@@ -120,3 +120,10 @@ La autocomprobación de cada tema solo se abre cuando el alumno ha completado la
 de ese tema. `subir_tema.js` la deja así al crearla; para los temas ya subidos:
 
     node tools/aula/examen_tras_diapositivas.js --courseid=N [--aplicar]
+
+## Progreso por tema (15/10/2026)
+
+Los tres cursos muestran cada tema en su propia página; la portada enseña en cada tema
+«Progreso: X / 4». Para volver a todos los temas en una página:
+
+    node tools/aula/una_seccion_por_pagina.js --deshacer
