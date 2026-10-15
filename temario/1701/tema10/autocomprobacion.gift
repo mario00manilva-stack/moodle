@@ -1,0 +1,39 @@
+// MF2522_2 · UF3 · Tema 10 — Autocomprobación. Preguntas 01–03: redacción de Mario.
+// Preguntas 04–06: añadidas a partir del texto del tema.
+
+::T10-01 · Vidrio filtrante::[html]¿Qué medio filtrante destaca por resistir la formación de biopelícula bacteriana y necesitar menos agua en los lavados?{
+~La arena de sílex convencional.#La arena es el medio más extendido, pero en ella sí se forma biopelícula.
+=El vidrio filtrante activado.#Correcto. Su superficie dificulta que se fijen las bacterias y, según los fabricantes, necesita menos agua de lavado.
+~Las virutas de madera.#No es un medio filtrante para piscinas.
+~El sulfato de cobre granulado.#Es un producto químico, no un medio filtrante.
+}
+
+::T10-02 · Presión alta en el filtro::[html]El manómetro del filtro marca 0,5 bar más que la presión habitual con el filtro limpio. ¿Qué haces?{
+~Doblar la dosis de cloro.#La presión del filtro no se corrige con desinfectante.
+=Parar la bomba, poner la selectora en LAVADO y lavar el filtro a contracorriente.#Correcto. La subida de presión indica que el lecho está colmatado de suciedad.
+~Abrir la ventana de la sala técnica.#No tiene relación con la presión del filtro.
+~Vaciar el vaso por gravedad.#No hace falta vaciar el vaso para lavar el filtro.
+}
+
+::T10-03 · Enjuague::[html]¿Por qué se hace un ENJUAGUE de 30 a 60 segundos después del lavado y antes de volver a FILTRACIÓN?{
+~Para calentar el agua del vaso.#El enjuague no calienta el agua.
+=Para asentar el lecho filtrante y expulsar al desagüe la suciedad que queda arriba, para que no vaya al vaso.#Correcto. Tras el lavado el lecho está suelto y con restos de suciedad\: el enjuague los manda al desagüe.
+~Para medir el pH.#El pH se mide en el análisis del agua.
+~Para dosificar el floculante.#El floculante se dosifica con bomba antes del filtro, en filtración.
+}
+
+::T10-04 · Velocidad de filtración::[html]Un filtro de arena tiene 1,13 m² de superficie filtrante y le llegan 34 m³/h. ¿Cuál es su velocidad de filtración?{
+~Unos 38 m/h.#Revisa la fórmula\: caudal dividido entre superficie.
+=Unos 30 m/h.#Correcto. 34 ÷ 1,13 ≈ 30 m/h, en el límite alto de lo recomendado para uso público.
+~Unos 3 m/h.#Esa velocidad sería propia de un filtro de diatomeas.
+~Unos 300 m/h.#Revisa la fórmula y las unidades.
+}
+
+::T10-05 · Selectora y bomba en marcha::[html]Se puede girar la palanca de la válvula selectora con la bomba en marcha si se hace despacio.{FALSE#Incorrecto\: la bomba se para siempre antes de cambiar de posición.#Correcto. Con presión se daña la junta en estrella interior y se provocan golpes de ariete. Primero se para la bomba en el cuadro.}
+
+::T10-06 · Floculante en diatomeas::[html]¿Se puede usar floculante en un filtro de diatomeas?{
+~Sí, siempre mejora la filtración.#En diatomeas colmata el soporte.
+=No: en filtros de diatomeas y de cartucho el floculante colmata el soporte filtrante.#Correcto. El floculante se usa en filtros de arena o de vidrio, dosificado antes del filtro.
+~Sí, pero solo echándolo directamente en el vaso.#Los tratamientos químicos no se hacen en el vaso.
+~Solo en invierno.#La época del año no cambia el problema.
+}

@@ -1,6 +1,6 @@
 # 1701 · MF2522_2 · Control de organismos nocivos en piscinas y otras instalaciones acuáticas
 
-Una sección del aula por tema (sección N = Tema N). Estado a 15/10/2026. Temas 1–9 en el aula y visibles (no hay alumnos hasta 2027). Autocomprobaciones: 3 intentos, aprobado con 5.
+Una sección del aula por tema (sección N = Tema N). Estado a 15/10/2026. Temas 1–10 en el aula y visibles (no hay alumnos hasta 2027). Autocomprobaciones: 3 intentos, aprobado con 5.
 
 | Sección | UF | Tema | Estado |
 |---|---|---|---|
@@ -13,7 +13,7 @@ Una sección del aula por tema (sección N = Tema N). Estado a 15/10/2026. Temas
 | 7 | UF2 | Determinaciones analíticas in situ (fotometría, DPD, sondas) y control microbiológico (E. coli, Pseudomonas aeruginosa; RD 487/2022 para Legionella) | En el aula · visible |
 | 8 | UF2 | Calidad del aire en piscinas climatizadas y cubiertas: CO₂, humedad relativa, temperatura, deshumectación y renovación | En el aula · visible |
 | 9 | UF3 · Mantenimiento electromecánico e hidráulico (80 h) | Bombas de filtración (autoaspirantes y centrífugas) y de achique: componentes, funcionamiento, ruidos anómalos y averías | En el aula · visible |
-| 10 | UF3 | Sistemas y medios de filtración (sílex, diatomeas, zeolitas, vidrio): velocidades, retrolavado y enjuague | Pendiente |
+| 10 | UF3 | Sistemas y medios de filtración (sílex, diatomeas, zeolitas, vidrio): velocidades, retrolavado y enjuague | En el aula · visible |
 | 11 | UF3 | Circuito hidráulico de depuración: canal desbordante, depósito de compensación, PVC/PE, válvulas y contadores | Pendiente |
 | 12 | UF3 | Dosificación automática/semiautomática, sondas y electrodos (pH, REDOX, cloro), calibración con patrones y electrólisis salina | Pendiente |
 | 13 | UF4 · Protocolos de autocontrol y registro SILOÉ (30 h) | Protocolo de autocontrol higiénico-sanitario (mantenimiento, limpieza y desinfección, plagas, proveedores) | Pendiente |
@@ -49,6 +49,14 @@ de UF2 y UF3.
   diferencial (derivación a tierra) separados.
 - Ausencia de tensión con comprobador o multímetro, no con pinza amperimétrica; RD 614/2001, no REBT.
 - Registro: RD 742/2013, art. 11.5 c). Sin las referencias a CR y RD 46/2022, no contrastadas.
+
+## Correcciones al texto base del Tema 10
+
+- Turbidez ≤ 5 UNF y cierre por encima de 20 UNF (RD 742/2013, anexo I); filtración obligatoria (art. 6.2).
+- Retención de los medios, ahorro de agua y vida del vidrio: valores de fabricantes. Sin el «87,6 %» ni
+  marcas. Velocidades: recomendaciones técnicas, no límites legales (el RD 742 solo pide declararla en SILOÉ).
+- Lavado: se cierra el limpiafondos (no los skimmers) y se asegura nivel; nunca bomba en marcha en CERRADO.
+- Sin las referencias a CR y RD 46/2022, no contrastadas.
 
 ## Erratas detectadas en el aula
 
