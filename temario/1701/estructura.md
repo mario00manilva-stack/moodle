@@ -1,6 +1,6 @@
 # 1701 · MF2522_2 · Control de organismos nocivos en piscinas y otras instalaciones acuáticas
 
-Una sección del aula por tema (sección N = Tema N). Estado a 15/10/2026. Temas 1–7 en el aula y visibles (no hay alumnos hasta 2027). Autocomprobaciones: 3 intentos, aprobado con 5.
+Una sección del aula por tema (sección N = Tema N). Estado a 15/10/2026. Temas 1–8 en el aula y visibles (no hay alumnos hasta 2027). Autocomprobaciones: 3 intentos, aprobado con 5.
 
 | Sección | UF | Tema | Estado |
 |---|---|---|---|
@@ -11,7 +11,7 @@ Una sección del aula por tema (sección N = Tema N). Estado a 15/10/2026. Temas
 | 5 | UF2 · Tratamiento físico-químico del agua y calidad del aire (80 h) | Parámetros indicadores de la calidad del agua (pH, cloro libre residual, cloro combinado, turbidez, ácido isocianúrico, REDOX) según el RD 742/2013 y normativas autonómicas (Decreto 485/2019) | En el aula · visible |
 | 6 | UF2 | Sistemas de desinfección y corrección química: hipoclorito, cloración salina, ozono, UV e inyección de reactivos | En el aula · visible |
 | 7 | UF2 | Determinaciones analíticas in situ (fotometría, DPD, sondas) y control microbiológico (E. coli, Pseudomonas aeruginosa; RD 487/2022 para Legionella) | En el aula · visible |
-| 8 | UF2 | Calidad del aire en piscinas climatizadas y cubiertas: CO₂, humedad relativa, temperatura, deshumectación y renovación | Pendiente |
+| 8 | UF2 | Calidad del aire en piscinas climatizadas y cubiertas: CO₂, humedad relativa, temperatura, deshumectación y renovación | En el aula · visible |
 | 9 | UF3 · Mantenimiento electromecánico e hidráulico (80 h) | Bombas de filtración (autoaspirantes y centrífugas) y de achique: componentes, funcionamiento, ruidos anómalos y averías | Pendiente |
 | 10 | UF3 | Sistemas y medios de filtración (sílex, diatomeas, zeolitas, vidrio): velocidades, retrolavado y enjuague | Pendiente |
 | 11 | UF3 | Circuito hidráulico de depuración: canal desbordante, depósito de compensación, PVC/PE, válvulas y contadores | Pendiente |
@@ -31,6 +31,15 @@ de UF2 y UF3.
   redes de agua sanitaria. Legionella: mensual en spas y trimestral en ACS (anexo V, tabla 3).
 - Tabla 9: de 100 a < 1 000 UFC/L, revisión, limpieza y desinfección; desde 1 000, parada y vaciado; nueva
   muestra a los 15–30 días. Choque en spas: recirculación con biocida 10 h (no 20 mg/L). ACS: 70 ºC, 2 h.
+
+## Correcciones al texto base del Tema 8 (contrastadas con el BOE)
+
+- Aire 1–2 ºC sobre el agua con máximo de 30 ºC (RITE IT 1.1.4.1.2); HR < 65 % (RD 742/2013 y RITE);
+  CO₂ ≤ 500 ppm sobre el exterior. Control diario de los tres (RD 742/2013, anexo III).
+- Tricloramina 0,5 mg/m³: referencia de la OMS, no límite del RD 742/2013 ni del RITE.
+- Depresión de 20–40 Pa del recinto del vaso (no de la sala técnica) y 2,5 dm³/s·m² de aire exterior:
+  RITE IT 1.1.4.2.3 (no IT 1.1.4.1). Barreras térmicas obligatorias fuera de servicio (IT 1.2.4.5.5) y
+  recuperación de calor del aire expulsado (IT 1.2.4.5.2).
 
 ## Erratas detectadas en el aula
 

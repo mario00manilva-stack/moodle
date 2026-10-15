@@ -1,0 +1,39 @@
+// MF2522_2 · UF2 · Tema 8 — Autocomprobación. Preguntas 01–03: redacción de Mario.
+// Preguntas 04–06: añadidas a partir del texto del tema.
+
+::T8-01 · Temperatura del aire::[html]En una piscina cubierta climatizada con el agua a 28 ºC, ¿a qué temperatura se debe mantener el aire del recinto?{
+~A 20 ºC, para que los bañistas no pasen calor.#Con el aire tan frío el agua se evaporaría mucho más.
+=Entre 29 y 30 ºC (de 1 a 2 ºC por encima del agua).#Correcto. El RD 742/2013 y el RITE fijan el aire entre 1 y 2 ºC por encima del agua, y el RITE pone un máximo de 30 ºC. Así se limita la evaporación.
+~A la misma temperatura que el aire de la calle.#La temperatura exterior no tiene nada que ver con la regla.
+~A 35 ºC de forma constante.#Supera el máximo de 30 ºC del RITE y produce bochorno.
+}
+
+::T8-02 · Humedad relativa máxima::[html]¿Cuál es el límite máximo de humedad relativa del aire en una piscina cubierta?{
+~30 %.#Un aire tan seco no es un límite legal y resultaría incómodo.
+=65 %.#Correcto. El RD 742/2013 y el RITE fijan la humedad relativa por debajo del 65 % para evitar condensaciones, mohos y corrosión.
+~95 %.#Con esa humedad habría condensaciones por todo el recinto.
+~No existe límite de humedad.#Sí existe\: menos del 65 %.
+}
+
+::T8-03 · Manta térmica::[html]¿Qué aporta, sobre todo, una manta térmica flotante sobre el vaso climatizado al cerrar la instalación?{
+~Filtra el agua sin encender las bombas.#La manta no filtra.
+=Reduce mucho la evaporación (en torno al 90 %), ahorrando energía en deshumectación y calentamiento.#Correcto. Además, en las piscinas climatizadas el RITE obliga a proteger la lámina con barreras térmicas cuando están fuera de servicio.
+~Aumenta automáticamente la dosis de cloro.#La manta no dosifica productos.
+~Enfría el vaso rápidamente.#Al contrario\: conserva el calor del agua.
+}
+
+::T8-04 · CO₂ en el recinto::[html]El CO₂ del aire exterior es de 420 ppm y en el recinto del vaso se miden 1 100 ppm. ¿Cumple el RD 742/2013?{
+~Sí, porque está por debajo de 1 500 ppm.#El límite no es un valor fijo, sino la diferencia con el aire exterior.
+=No: supera en 680 ppm al aire exterior y el máximo es 500 ppm más. Hay que aumentar la renovación de aire.#Correcto. El CO₂ del recinto no puede superar en más de 500 ppm al del aire exterior.
+~Sí, el CO₂ no tiene límite en piscinas.#El anexo II del RD 742/2013 sí lo limita.
+~Solo importa si hay más de 100 bañistas.#El límite se aplica siempre que la piscina esté abierta.
+}
+
+::T8-05 · Depresión del recinto::[html]Según el RITE, el recinto del vaso de una piscina climatizada debe estar en depresión (presión negativa) respecto a vestuarios y pasillos para que la humedad y los olores no pasen al resto del edificio.{TRUE#Correcto. El RITE fija una presión negativa de 20 a 40 Pa respecto a los locales contiguos.#Incorrecto\: el RITE lo exige, entre 20 y 40 Pa por debajo de los locales contiguos.}
+
+::T8-06 · Filtro saturado::[html]¿Qué consecuencia tiene un filtro de la UTA saturado?{
+~Ninguna: el filtro solo se cambia una vez al año.#Los filtros se revisan cada mes.
+~Baja la humedad del recinto.#Ocurre lo contrario.
+=Baja el caudal de aire y sube la humedad del recinto.#Correcto. Con menos caudal la UTA deshumecta y renueva menos aire. Por eso los filtros se revisan cada mes.
+~Aumenta el cloro libre del agua.#El filtro de aire no afecta al cloro del agua.
+}
