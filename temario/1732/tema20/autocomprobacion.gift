@@ -1,0 +1,39 @@
+// MF2519_2 · UF1 · Tema 20 — Autocomprobación. Preguntas 01–03: redacción de Mario.
+// Preguntas 04–06: añadidas a partir del texto del tema.
+
+::T20-01 · Filtro respiratorio::[html]¿Qué filtro debe montarse en una máscara buconasal para protegerse frente a vapores ácidos y gas cloro?{
+~Un filtro de papel para polvo.#No retiene gases.
+=Un filtro combinado ABEK.#Correcto.
+~Un filtro de tela casero.#No protege.
+~Ninguno.#Hace falta protección.
+}
+
+::T20-02 · Lavado de ojos::[html]¿Durante cuánto tiempo como mínimo se lavan los ojos tras una salpicadura de hipoclorito o ácido?{
+~5 segundos.#Es insuficiente.
+=Al menos 15 minutos con abundante agua corriente.#Correcto.
+~1 minuto.#Es insuficiente.
+~Se frota el ojo con un paño seco.#Agrava la lesión.
+}
+
+::T20-03 · Legionella::[html]¿A qué grupo de riesgo biológico pertenece Legionella pneumophila según el RD 664/1997?{
+~Grupo 1 (sin riesgo).#Sí causa enfermedad.
+=Grupo 2 (puede causar una enfermedad en las personas).#Correcto.
+~Grupo 4.#Es para agentes muy graves sin tratamiento.
+~No es un agente biológico.#Es una bacteria.
+}
+
+::T20-04 · VLA-EC::[html]El VLA-EC es el valor límite para una exposición de corta duración, de 15 minutos.{TRUE#Correcto.#Incorrecto\: la exposición diaria de 8 horas es el VLA-ED.}
+
+::T20-05 · Vía de entrada::[html]¿Cuál es la vía de entrada más frecuente de los contaminantes químicos en una sala técnica?{
+=La inhalatoria.#Correcto. Vapores de cloro, cloraminas y ácidos.
+~La auditiva.#No es una vía de entrada.
+~La digestiva, siempre.#Es posible, pero menos frecuente.
+~Ninguna.#Hay exposición.
+}
+
+::T20-06 · Vigilancia de la salud::[html]¿Qué artículo de la Ley 31/1995 regula la vigilancia de la salud?{
+~El artículo 1.#Es el objeto de la ley.
+=El artículo 22.#Correcto.
+~El artículo 50.#No es el de vigilancia de la salud.
+~Ninguno.#Está regulada en la ley.
+}

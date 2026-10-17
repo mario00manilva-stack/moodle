@@ -1,0 +1,39 @@
+// MF2519_2 · UF1 · Tema 19 — Autocomprobación. Preguntas 01–03: redacción de Mario.
+// Preguntas 04–06: añadidas a partir del texto del tema.
+
+::T19-01 · Volumen 0::[html]Según el REBT (ITC-BT-31), ¿qué tensión máxima se admite en los proyectores instalados dentro del vaso (volumen 0)?{
+~230 V.#Es la tensión de la red: prohibida en el vaso.
+=Muy baja tensión de seguridad (MBTS) de 12 V en corriente alterna.#Correcto.
+~400 V trifásica.#Prohibida en el vaso.
+~100 V.#No es MBTS.
+}
+
+::T19-02 · Oxígeno::[html]¿Qué porcentaje mínimo de oxígeno se exige para autorizar la entrada a un espacio confinado como un depósito de compensación?{
+~10 %.#Es mortal.
+=Al menos un 19,5 % (el aire normal tiene un 20,9 %).#Correcto.
+~50 %.#No es una atmósfera normal.
+~0 %.#Es mortal.
+}
+
+::T19-03 · Diferencial::[html]¿Qué protección es obligatoria en los circuitos de la sala técnica para cortar la corriente ante un contacto?{
+~Un fusible de plomo.#No protege a las personas.
+=Un interruptor diferencial de alta sensibilidad (30 mA).#Correcto.
+~Un diferencial de 300 mA.#No es de alta sensibilidad.
+~Un trozo de cobre.#Es peligroso y está prohibido.
+}
+
+::T19-04 · Trabajo en solitario::[html]Si el detector marca un 20,9 % de oxígeno, se puede entrar solo al depósito de compensación.{FALSE#Correcto. Siempre debe quedar un vigilante exterior con el equipo de rescate.#Incorrecto\: nunca se entra solo en un espacio confinado.}
+
+::T19-05 · Volumen 1::[html]¿Hasta dónde llega el volumen 1 alrededor del vaso según la ITC-BT-31?{
+~Solo el agua del vaso.#Ese es el volumen 0.
+=Hasta 2 m en horizontal desde el borde y 2,5 m de altura.#Correcto.
+~Hasta 10 m del vaso.#Es demasiado.
+~Toda la sala técnica.#La sala técnica es un local mojado, no el volumen 1.
+}
+
+::T19-06 · Principios preventivos::[html]¿Cuál es uno de los principios de la acción preventiva de la Ley 31/1995?{
+~Dar siempre EPI antes de pensar en otras medidas.#El EPI es la última medida.
+=Combatir los riesgos en su origen.#Correcto. Art. 15.
+~Que cada trabajador decida sus medidas.#Es responsabilidad de la empresa.
+~Evaluar solo después de un accidente.#Se evalúa antes.
+}

@@ -1,0 +1,39 @@
+// MF2519_2 · UF2 · Tema 22 — Autocomprobación. Preguntas 01–03: redacción de Mario.
+// Preguntas 04–06: añadidas a partir del texto del tema.
+
+::T22-01 · Ahogamiento::[html]En el soporte vital básico de una víctima de ahogamiento, ¿qué se hace antes de empezar las compresiones torácicas?{
+=Dar 5 ventilaciones de rescate iniciales.#Correcto.
+~Dar 100 compresiones seguidas sin ventilar.#En el ahogado se empieza ventilando.
+~Esperar a que despierte.#Se pierde un tiempo vital.
+~Darle de beber agua.#Nunca a una persona inconsciente.
+}
+
+::T22-02 · Fuga de cloro::[html]¿Hacia dónde se evacúa al personal ante una fuga de cloro en la sala técnica?{
+~Hacia sótanos y vehículos cerrados.#El cloro se acumula en zonas bajas.
+=Hacia zonas altas y al aire libre, con el viento de cara o en perpendicular a la nube.#Correcto.
+~Hacia el almacén de productos.#Es la zona de peligro.
+~Al interior del vaso vacío.#Es una zona baja.
+}
+
+::T22-03 · RCP en adultos::[html]¿Cuál es la relación de compresiones y ventilaciones en la RCP de adultos según el Consejo Europeo de Resucitación (ERC)?{
+~15 compresiones y 5 ventilaciones.#No es la pauta.
+=30 compresiones y 2 ventilaciones.#Correcto.
+~100 compresiones y ninguna ventilación.#No es la pauta del ERC con ventilaciones.
+~1 compresión y 30 ventilaciones.#No es la pauta.
+}
+
+::T22-04 · Uso del DEA::[html]Solo el personal sanitario puede usar un desfibrilador externo automatizado (DEA).{FALSE#Correcto. El DEA guía con voz y solo descarga si es necesario\: cualquier persona puede usarlo.#Incorrecto\: el DEA está pensado para que lo use cualquier persona.}
+
+::T22-05 · Medidas de emergencia::[html]¿Qué artículo de la Ley 31/1995 obliga a toda empresa a adoptar medidas de emergencia?{
+~El artículo 1.#Es el objeto de la ley.
+=El artículo 20.#Correcto.
+~El artículo 100.#No existe con ese contenido.
+~Ninguno: solo el RD 393/2007.#El art. 20 se aplica a todas las empresas.
+}
+
+::T22-06 · Conato::[html]Un pequeño goteo en un racor de la dosificación, controlable con medios propios, es…{
+=Un conato de emergencia.#Correcto. Lo resuelve el equipo de primera intervención.
+~Una emergencia general.#No obliga a evacuar todo.
+~Una emergencia parcial.#No afecta a toda una zona.
+~Nada que hacer.#Hay que actuar con EPI y kit de derrames.
+}

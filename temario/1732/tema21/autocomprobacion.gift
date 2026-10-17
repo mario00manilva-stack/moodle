@@ -1,0 +1,39 @@
+// MF2519_2 · UF2 · Tema 21 — Autocomprobación. Preguntas 01–03: redacción de Mario.
+// Preguntas 04–06: añadidas a partir del texto del tema.
+
+::T21-01 · Categoría III::[html]¿A qué categoría pertenecen los EPI que protegen frente a riesgos mortales o daños irreversibles, como las máscaras para gas cloro?{
+~Categoría I.#Es para riesgos mínimos.
+=Categoría III.#Correcto.
+~Categoría IV.#No existe.
+~No tienen categoría.#Todos los EPI tienen categoría.
+}
+
+::T21-02 · Señal de obligación::[html]¿Cómo es la señal que indica la obligación de usar gafas de protección para entrar en la sala de productos?{
+~Triangular y amarilla.#Es de advertencia.
+=Redonda, azul, con pictograma blanco.#Correcto.
+~Cuadrada y verde.#Es de salvamento.
+~Rectangular y negra.#No existe.
+}
+
+::T21-03 · Marcado::[html]¿Qué marcado deben llevar unos guantes de protección química de categoría III?{
+=Marcado CE seguido del número del organismo notificado.#Correcto.
+~Ningún marcado.#Es obligatorio.
+~Un sello de correos.#No tiene relación.
+~Solo la talla.#Falta el marcado CE.
+}
+
+::T21-04 · Medidas colectivas::[html]El EPI es la primera medida que se aplica frente a un riesgo, antes que las medidas colectivas.{FALSE#Correcto. Es la última barrera, cuando el riesgo no se puede evitar o limitar de otra forma.#Incorrecto\: primero van las medidas colectivas y organizativas.}
+
+::T21-05 · Coste::[html]¿Quién paga los EPI del trabajador?{
+~El trabajador.#Es una obligación de la empresa.
+=La empresa, que los proporciona gratis.#Correcto. RD 773/1997.
+~A medias.#No se puede cobrar al trabajador.
+~La mutua.#No es su obligación.
+}
+
+::T21-06 · Filtro con olor::[html]Con la máscara puesta, notas olor a cloro. ¿Qué haces?{
+~Seguir trabajando y respirar menos.#El filtro está saturado o mal ajustado.
+=Salir de la zona y cambiar el filtro o revisar el ajuste.#Correcto.
+~Apretar más la máscara y continuar.#Si el filtro está saturado, no basta.
+~Quitarte la máscara para oler mejor.#Es peligroso.
+}
