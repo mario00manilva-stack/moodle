@@ -1,0 +1,39 @@
+// MF2518_2 · UF1 · Tema 16 — Autocomprobación. Preguntas 01–03: redacción de Mario.
+// Preguntas 04–06: añadidas a partir del texto del tema.
+
+::T16-01 · Sección 8::[html]¿En qué sección de la ficha de datos de seguridad se indican los EPI necesarios para manipular el producto?{
+~En la sección 1.#Es la identificación del producto.
+=En la sección 8 (controles de exposición y protección individual).#Correcto.
+~En la sección 14.#Es la información sobre el transporte.
+~En la sección 16.#Es otra información.
+}
+
+::T16-02 · Frase H314::[html]¿Qué significa la frase H314 en la etiqueta de un reductor de pH líquido?{
+~Inflamable a alta temperatura.#No es lo que indica.
+=Provoca quemaduras graves en la piel y lesiones oculares graves.#Correcto. Es un producto corrosivo.
+~Gas comprimido inofensivo.#No es lo que indica.
+~Fertilizante para plantas.#No tiene relación.
+}
+
+::T16-03 · Norma de guantes::[html]¿Qué norma deben cumplir los guantes de protección contra productos químicos?{
+~UNE-EN 388#Es la norma de los guantes contra riesgos mecánicos.
+=UNE-EN ISO 374#Correcto.
+~UNE-EN 1234#No es una norma de guantes.
+~UNE-EN 50110#Trata de la explotación de instalaciones eléctricas.
+}
+
+::T16-04 · Palabra de advertencia::[html]En una etiqueta CLP, la palabra «Atención» indica un peligro más grave que «Peligro».{FALSE#Correcto. Es al revés\: «Peligro» es la más grave.#Incorrecto\: «Peligro» es más grave que «Atención».}
+
+::T16-05 · Filtro para cloro::[html]¿Qué tipo de filtro respiratorio (UNE-EN 14387) protege frente al gas cloro?{
+~Tipo A (vapores orgánicos)#No cubre los gases inorgánicos como el cloro.
+=Tipo B (gases inorgánicos), solo o combinado (por ejemplo ABEK)#Correcto.
+~Una mascarilla quirúrgica#No protege frente a gases.
+~Tipo K (amoníaco)#Es específico del amoníaco.
+}
+
+::T16-06 · Gafas::[html]¿Qué protección ocular se usa al trasvasar un producto corrosivo?{
+~Gafas de sol.#No protegen frente a salpicaduras.
+=Gafas de montura integral o pantalla facial (UNE-EN 166).#Correcto.
+~Ninguna si se trabaja despacio.#Las salpicaduras ocurren igual.
+~Gafas graduadas normales.#No cierran los laterales.
+}

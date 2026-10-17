@@ -1,0 +1,39 @@
+// MF2518_2 · UF2 · Tema 18 — Autocomprobación. Preguntas 01–03: redacción de Mario.
+// Preguntas 04–06: añadidas a partir del texto del tema.
+
+::T18-01 · Código de los envases::[html]¿Qué código LER corresponde a los envases vacíos que han contenido biocidas o productos químicos de piscina?{
+~LER 20 01 01#Es papel y cartón.
+=LER 15 01 10* (residuo peligroso)#Correcto. Envases con restos de sustancias peligrosas.
+~LER 01 01 01#Es un residuo de minería.
+~LER 12 03 01#Es un residuo de desengrase.
+}
+
+::T18-02 · Triple lavado::[html]¿En qué consiste el triple lavado de una garrafa de producto?{
+~Lavarla con lejía, salfumán y detergente a la vez.#Mezclar productos es peligroso.
+=Enjuagarla tres veces seguidas con agua limpia y verter el agua del enjuague al depósito de preparación.#Correcto.
+~Tirarla al contenedor tres veces.#No es un tratamiento.
+~Pintarla de tres colores.#No tiene relación.
+}
+
+::T18-03 · Plazo de almacenamiento::[html]¿Cuánto tiempo como máximo se pueden guardar residuos peligrosos en la instalación antes de entregarlos al gestor autorizado?{
+~10 años.#Es demasiado.
+=6 meses.#Correcto. Lo establece la Ley 7/2022.
+~24 horas.#No es el plazo legal.
+~Sin límite.#Hay un límite.
+}
+
+::T18-04 · Reutilizar garrafas::[html]Una garrafa de hipoclorito bien enjuagada se puede reutilizar para llevar agua de beber.{FALSE#Correcto. Nunca se reutilizan envases de productos químicos\: los restos pueden intoxicar.#Incorrecto\: está prohibido reutilizarlos.}
+
+::T18-05 · Absorbente usado::[html]Después de recoger un derrame de ácido con absorbente, ¿qué se hace con el absorbente?{
+~Se tira al contenedor de basura.#Es un residuo peligroso.
+=Se guarda en un recipiente cerrado y etiquetado como residuo peligroso para el gestor autorizado.#Correcto. Código 15 02 02*.
+~Se echa al desagüe con mucha agua.#No se vierte.
+~Se vuelve a usar.#Está contaminado.
+}
+
+::T18-06 · Etiqueta del residuo::[html]¿Qué debe figurar en la etiqueta de un residuo peligroso almacenado?{
+~Solo el nombre del producto original.#Falta información obligatoria.
+=El código LER, la descripción, los pictogramas de peligro, la fecha de inicio del almacenamiento y el productor.#Correcto.
+~El precio del producto.#No es información del residuo.
+~Nada si está en la zona de residuos.#Todo residuo peligroso se etiqueta.
+}

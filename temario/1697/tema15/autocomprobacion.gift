@@ -1,0 +1,39 @@
+// MF2518_2 · UF1 · Tema 15 — Autocomprobación. Preguntas 01–03: redacción de Mario.
+// Preguntas 04–06: añadidas a partir del texto del tema.
+
+::T15-01 · Capacidad del cubeto::[html]Según la ITC MIE APQ-10, ¿qué capacidad mínima de retención debe tener un cubeto con varios recipientes móviles?{
+~El 5 % del recipiente más pequeño.#Es muy inferior al mínimo.
+=La mayor de estas dos cifras: el 100 % del recipiente mayor o el 10 % del volumen total almacenado.#Correcto. APQ-10, art. 10.
+~No hacen falta cubetos.#Los derrames deben quedar retenidos.
+~Siempre 1 000 litros.#Depende de los recipientes.
+}
+
+::T15-02 · Ácido y cloro::[html]¿Qué gas peligroso se forma si entran en contacto un ácido y un producto clorado?{
+~Oxígeno.#No es el gas que se libera.
+=Gas cloro (Cl₂).#Correcto. Es muy tóxico por inhalación.
+~Helio.#No tiene relación.
+~Dióxido de carbono.#No es el gas que se libera.
+}
+
+::T15-03 · Familias incompatibles::[html]¿Cómo se guardan los ácidos y los cloros en el mismo local?{
+~Juntos en la misma estantería.#Una fuga los pondría en contacto.
+=En cubetos de retención independientes y en zonas separadas.#Correcto. La APQ-10 exige al menos cubetos separados.
+~En cajas de cartón cerradas.#El cartón no retiene un derrame.
+~Directamente en el suelo.#Se necesita retención.
+}
+
+::T15-04 · Cálculo del cubeto::[html]Sobre un cubeto hay 6 garrafas de 25 L. ¿Qué capacidad mínima debe tener?{
+~15 L#Es el 10 % del total, pero no es el mayor de los dos valores.
+=25 L#Correcto. El 100 % del recipiente mayor (25 L) es mayor que el 10 % del total (15 L).
+~150 L#No hace falta retener todo.
+~2,5 L#Es demasiado poco.
+}
+
+::T15-05 · Ácidos y bases::[html]Los reductores de pH (ácidos) y los incrementadores de pH (bases) pueden compartir cubeto porque los dos se usan para el pH.{FALSE#Correcto. Al mezclarse reaccionan desprendiendo calor y pueden proyectar líquido\: van en cubetos separados.#Incorrecto\: son incompatibles y van en cubetos separados.}
+
+::T15-06 · Cloro sólido::[html]¿Junto a qué no se debe guardar el cloro sólido (oxidante)?{
+~Junto a otras garrafas de cloro sólido.#Es el mismo producto.
+=Junto a combustibles como aceites, papel o madera.#Correcto. Un oxidante puede avivar o provocar un incendio.
+~Junto al extintor.#El extintor debe estar accesible.
+~Junto al lavaojos.#El lavaojos debe estar cerca.
+}

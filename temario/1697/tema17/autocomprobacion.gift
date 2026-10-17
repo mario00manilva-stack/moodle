@@ -1,0 +1,39 @@
+// MF2518_2 · UF2 · Tema 17 — Autocomprobación. Preguntas 01–03: redacción de Mario.
+// Preguntas 04–06: añadidas a partir del texto del tema.
+
+::T17-01 · Dilución de un ácido::[html]¿Cuál es la regla fundamental al preparar la dilución de un ácido concentrado?{
+~Verter rápido agua caliente sobre el ácido.#Provoca una reacción violenta con proyecciones.
+=Verter el ácido despacio sobre el agua, nunca el agua sobre el ácido.#Correcto.
+~Remover con una barra de hierro.#El hierro reacciona con el ácido.
+~Cerrar el bote y agitar con fuerza.#Puede reventar o salpicar al abrir.
+}
+
+::T17-02 · UN 1791::[html]¿Qué producto identifica el número ONU 1791, muy habitual en piscinas?{
+~Ácido clorhídrico.#Es el UN 1789.
+=Hipoclorito en solución.#Correcto.
+~Gasolina.#Es el UN 1203.
+~Sulfato de cobre.#No es el UN 1791.
+}
+
+::T17-03 · Extintor en la exención::[html]¿Qué extintor es obligatorio como mínimo en un vehículo que transporta productos peligrosos con la exención 1.1.3.6?{
+~Ninguno.#Hace falta al menos uno.
+=Un extintor de polvo de al menos 2 kg.#Correcto.
+~Uno de 50 kg sobre ruedas.#No es el mínimo exigido.
+~Una manguera.#No sirve como medio de extinción a bordo.
+}
+
+::T17-04 · Carta de porte::[html]Con la exención 1.1.3.6 no hace falta llevar ningún documento de la mercancía.{FALSE#Correcto. Hace falta la carta de porte con el número ONU, la designación, la clase, el grupo de embalaje y la cantidad.#Incorrecto\: la carta de porte es obligatoria también con la exención.}
+
+::T17-05 · Puntos 1.1.3.6::[html]Una carga lleva 150 L de un corrosivo de categoría 2 (factor 3) y 200 L de otro de categoría 3 (factor 1). ¿Se puede ir con la exención 1.1.3.6?{
+=Sí: 150 × 3 + 200 × 1 = 650 puntos, menos de 1 000.#Correcto.
+~No: se suman los litros y pasan de 300.#Lo que cuenta son los puntos, no los litros.
+~No: con dos productos nunca hay exención.#Se suman los puntos de todos.
+~Sí, pero solo con paneles naranja.#Con la exención no se llevan paneles.
+}
+
+::T17-06 · Estiba::[html]¿Cómo viajan las garrafas de productos químicos en la furgoneta?{
+~En la cabina, para vigilarlas.#Nunca en la cabina.
+=De pie, cerradas, sobre bandeja, amarradas con cinchas y con los incompatibles separados.#Correcto.
+~Tumbadas para que no vuelquen.#Pueden gotear por el tapón.
+~Sueltas para descargarlas más rápido.#Un frenazo las vuelca.
+}
