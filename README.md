@@ -164,3 +164,15 @@ navegación de Moodle, y los paquetes llevan `<deck-stage no-rail>` (sin columna
 paquetes de la instantánea (1701 T1–T2 y 1697) se parchearon igual (entregas/snapshot-norail).
 
     node tools/aula/diapositivas_pantalla.js [--courseid=N]
+
+## 1697 y 1732 · temas 15–22 por unidades formativas (17/10/2026)
+
+Los temas de Mario sustituyen al contenido anterior, que queda oculto (no borrado) y fuera de la
+finalización. 1697 (MF2518_2): UF1 temas 15–16 y UF2 temas 17–18. 1732 (MF2519_2): UF1 temas 19–20 y
+UF2 temas 21–22. Cada tema es plegable, como en el 1701, y los exámenes finales se rehicieron con los temas
+nuevos (el anterior queda oculto como «… (versión anterior)»).
+
+    node tools/aula/sustituir_temario.js --modulo=1697 [--aplicar]
+    node tools/aula/subsecciones_uf.js --courseid=3 --aplicar
+    node tools/aula/examen_final.js --modulo=1697
+    DESBLOQUEAR_FINALIZACION_CURSO=1 node tools/aula/sustituir_temario.js --modulo=1697 --finalizacion
