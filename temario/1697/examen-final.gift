@@ -1,113 +1,107 @@
-// 1697 · Examen final del módulo (20 preguntas: 14 de opción múltiple y 6 de verdadero/falso).
-// Basado en la unidad «Preparación y traslado de utensilios, equipos y productos biocidas» del aula.
-// Se barajan en cada intento.
+// 1697 · MF2518_2 · Examen final del módulo (20 preguntas: 13 de opción múltiple y 7 de verdadero/falso).
+// Basado en los temas 15–18 (17/10/2026). Se barajan en cada intento.
 
-::EF1697-01 · Precursor::[html]La sal que se añade al agua para la electrólisis es…{
-~Un producto biocida.#El biocida es el cloro que se genera en la célula.
-=Un precursor.#Correcto. Es la sustancia con la que se genera el biocida.
-~Un artículo tratado.#Un artículo tratado es un objeto al que se le ha incorporado un biocida.
-~Un residuo.#No es un residuo.
+::EF1697-01 · APQ-10::[html]¿Qué instrucción técnica regula el almacenamiento de productos químicos en recipientes móviles, como las garrafas de una piscina?{
+=La ITC MIE APQ-10 del RD 656/2017.#Correcto.
+~La ITC-BT-31 del REBT.#Es de instalaciones eléctricas de piscinas.
+~El RD 742/2013.#Regula la calidad del agua de las piscinas.
+~La Ley 7/2022.#Es la ley de residuos.
 }
 
-::EF1697-02 · Reglamento de biocidas::[html]¿Qué norma obliga a usar solo biocidas autorizados y para el uso autorizado?{
-=El Reglamento (UE) 528/2012#Correcto.
-~El Reglamento (CE) 1272/2008 (CLP)#Regula la clasificación y el etiquetado.
-~El RD 656/2017#Regula el almacenamiento de productos químicos.
-~El RD 742/2013#Regula la calidad del agua y del aire de las piscinas.
+::EF1697-02 · Cubeto de retención::[html]¿Qué capacidad mínima debe tener un cubeto de retención según la APQ-10?{
+~El 10 % del envase más pequeño.#Es insuficiente.
+=La mayor entre el 100 % del envase más grande y el 10 % del total almacenado.#Correcto.
+~El 50 % del total, siempre.#No es el criterio.
+~No hace falta cubeto.#Es obligatorio.
 }
 
-::EF1697-03 · Fase de más riesgo::[html]La mayoría de los accidentes con biocidas ocurren en la preparación: al abrir, trasvasar y cargar el producto concentrado.{TRUE#Correcto. Es el único momento en que se maneja producto concentrado con el envase abierto.#Incorrecto\: la fase de más riesgo es la preparación.}
-
-::EF1697-04 · Datos de la etiqueta::[html]¿Qué dos datos de la etiqueta son los que más se olvidan y sin los que no hay trazabilidad?{
-~El nombre comercial y el titular.#Son importantes, pero no son los que más se olvidan.
-=El número de lote y la fecha de caducidad.#Correcto. Sin lote no se puede trazar qué se aplicó\; caducado, la concentración ya no es la de la etiqueta.
-~El color del envase y el tamaño.#No son datos obligatorios de la etiqueta.
-~El precio y el proveedor.#No son datos de seguridad.
+::EF1697-03 · Incompatibles::[html]¿Cómo se almacenan el hipoclorito y los ácidos?{
+~Juntos, en el mismo cubeto, para ahorrar espacio.#Si se mezclan desprenden cloro.
+=Separados, como mínimo en cubetos distintos.#Correcto.
+~El ácido encima del hipoclorito.#Un goteo provocaría una reacción.
+~Da igual cómo se guarden.#Son incompatibles.
 }
 
-::EF1697-05 · Palabra de advertencia::[html]La palabra de advertencia «Peligro» indica un peligro más grave que «Atención».{TRUE#Correcto.#Incorrecto\: «Peligro» es más grave que «Atención».}
-
-::EF1697-06 · Sección 8 de la FDS::[html]¿Qué sección de la ficha de datos de seguridad indica el EPI que debes usar (material del guante, tipo de filtro)?{
-~La sección 2#Indica los peligros.
-~La sección 7#Indica la manipulación y el almacenamiento.
-=La sección 8#Correcto.
-~La sección 10#Indica la estabilidad y las incompatibilidades.
+::EF1697-04 · Mezcla peligrosa::[html]¿Qué gas se desprende si el hipoclorito entra en contacto con un ácido?{
+=Cloro.#Correcto. Es muy tóxico.
+~Oxígeno.#No es el gas que se desprende.
+~Nitrógeno.#No es el gas que se desprende.
+~Vapor de agua solamente.#Se desprende cloro.
 }
 
-::EF1697-07 · Incompatibilidades::[html]¿Qué pareja de productos no puede compartir estante ni cubeto de retención?{
-=Hipoclorito sódico y ácido reductor de pH.#Correcto. Juntos liberan cloro gas en segundos.
-~Floculante y algicida.#Basta con separarlos en envases y estantes distintos.
-~Dos garrafas del mismo hipoclorito.#Son el mismo producto.
-~Guantes y gafas de protección.#No son productos químicos.
+::EF1697-05 · FDS::[html]¿Cuántas secciones tiene una ficha de datos de seguridad (FDS) según el Reglamento REACH?{
+~4.#Son más.
+~10.#Son más.
+=16.#Correcto.
+~25.#Son menos.
 }
 
-::EF1697-08 · Cloro gas::[html]El cloro gas pesa más que el aire y se acumula a ras de suelo, por eso el almacén necesita ventilación con rejilla baja.{TRUE#Correcto. Y en una fuga, agacharse es lo peor que se puede hacer.#Incorrecto\: el cloro gas es más pesado que el aire.}
-
-::EF1697-09 · Recepción del pedido::[html]Al recibir un pedido, ¿qué se comprueba antes de firmar el albarán?{
-~Solo que el número de garrafas coincide.#Hay que comprobar mucho más.
-=Envase íntegro, etiqueta completa, FDS vigente del lote, caducidad útil, y anotar la entrada.#Correcto. Es el único momento de rechazar sin coste.
-~Que el producto sea el más barato.#No es una comprobación de seguridad.
-~Nada: se revisa al usarlo.#Si entra mal, el problema pasa a ser tuyo.
+::EF1697-06 · Sección 8::[html]¿En qué sección de la FDS se indican los EPI necesarios para manipular el producto?{
+~Sección 1.#Es la identificación del producto.
+=Sección 8, controles de exposición y protección individual.#Correcto.
+~Sección 14.#Es el transporte.
+~Sección 16.#Es otra información.
 }
 
-::EF1697-10 · Unidades::[html]¿Cuántos litros tiene un metro cúbico?{
-~100 litros#Es un error frecuente.
-=1 000 litros#Correcto.
-~10 000 litros#Es diez veces más.
-~10 litros#Es un error frecuente.
+::EF1697-07 · Gafas::[html]¿Qué norma deben cumplir las gafas de protección frente a salpicaduras químicas?{
+=EN 166, con marcado de protección frente a gotas y salpicaduras.#Correcto.
+~EN 361.#Es de arneses anticaídas.
+~EN 15154.#Es de duchas y lavaojos.
+~Ninguna.#Son un EPI con norma.
 }
 
-::EF1697-11 · Dosis en intervalo::[html]Si la etiqueta da un intervalo de dosis, ¿cómo se procede?{
-~Se aplica siempre el valor más alto por seguridad.#Más producto no es más seguridad.
-=Se empieza por el valor bajo y se vuelve a medir antes de añadir más.#Correcto.
-~Se aplica el doble del valor bajo.#La dosis la fija la etiqueta.
-~Se aplica «lo de siempre».#La dosis se calcula y se anota.
+::EF1697-08 · Diluir un ácido::[html]¿Cómo se diluye un ácido concentrado?{
+~Echando agua sobre el ácido.#Puede proyectar líquido hirviendo.
+=Vertiendo el ácido despacio sobre el agua.#Correcto.
+~Mezclándolo con hipoclorito.#Desprende cloro.
+~Calentándolo antes.#Aumenta el riesgo.
 }
 
-::EF1697-12 · Orden de llenado::[html]¿En qué orden se llena el equipo de aplicación?{
-~Primero el producto y después el agua.#El chorro de agua salpica producto concentrado.
-=Agua hasta la mitad, después el producto y completar con agua.#Correcto.
-~Producto y agua a la vez.#Aumenta el riesgo de salpicaduras.
-~Da igual el orden.#El orden evita quemaduras.
+::EF1697-09 · UN 1791::[html]¿Qué producto identifica el número ONU 1791?{
+~El ácido clorhídrico.#Es el UN 1789.
+=El hipoclorito en solución.#Correcto.
+~La gasolina.#Es el UN 1203.
+~El agua oxigenada al 3 %.#No es ese número.
 }
 
-::EF1697-13 · Envase de trasvase::[html]Se puede trasvasar producto a una botella de agua vacía si se guarda en la furgoneta.{FALSE#Correcto. Está prohibido usar envases de bebidas, y el envase de trasvase se etiqueta igual que el original.#Incorrecto\: nunca envases de bebidas\; el trasvase va en un recipiente adecuado y etiquetado.}
-
-::EF1697-14 · Carga del vehículo::[html]¿Cómo se cargan los productos en la furgoneta?{
-~Sueltos, para sacarlos más rápido.#Un frenazo los vuelca y los mezcla.
-=En su envase original cerrado y vertical, amarrados, sobre bandeja, separados los incompatibles y lejos de alimentos y ropa.#Correcto.
-~En la cabina, para que no cojan calor.#Nunca junto al conductor.
-~Todos juntos en la misma caja.#Los incompatibles van separados.
+::EF1697-10 · Exención 1.1.3.6::[html]Una carga lleva 150 L de un corrosivo de categoría 2 (factor 3) y 300 L de otro de categoría 3 (factor 1). ¿Puede ir con la exención 1.1.3.6?{
+=Sí: 750 puntos, menos de 1 000.#Correcto.
+~No: se suman 450 litros.#Cuentan los puntos, no los litros.
+~No: con dos productos nunca hay exención.#Se suman los puntos de todos.
+~Sí, pero con paneles naranja.#Con la exención no se llevan paneles.
 }
 
-::EF1697-15 · Derrame::[html]Ante un derrame de producto concentrado, ¿qué se hace primero?{
-=Alejarse y apartar a quien esté cerca, y ventilar desde fuera.#Correcto. Después se consulta la sección 6 de la FDS, se contiene con absorbente y EPI y se registra.
-~Echar agua a chorro.#Nunca se echa agua a chorro sobre producto concentrado.
-~Recogerlo enseguida con la mano protegida.#Recoger sin ventilar ni protegerse convierte el derrame en un accidente.
-~Taparlo y seguir trabajando.#Hay que actuar y registrarlo.
+::EF1697-11 · Extintor::[html]¿Qué extintor es obligatorio como mínimo en un vehículo con la exención 1.1.3.6?{
+~Ninguno.#Hace falta uno.
+=Uno de polvo de al menos 2 kg.#Correcto.
+~Uno de agua de 6 L.#No es el exigido.
+~Uno de 50 kg sobre ruedas.#No es el mínimo.
 }
 
-::EF1697-16 · Agua a chorro::[html]Sobre un derrame de producto concentrado se echa agua a chorro para diluirlo cuanto antes.{FALSE#Correcto. Nunca\: se contiene con absorbente inerte y EPI completo.#Incorrecto\: nunca se echa agua a chorro sobre producto concentrado.}
-
-::EF1697-17 · Contacto con la piel::[html]Si el producto entra en contacto con la piel, ¿cuánto tiempo se lava con agua abundante?{
-~Un minuto.#Es insuficiente.
-=Unos quince minutos, retirando la ropa impregnada.#Correcto. Y consulta médica con la FDS.
-~Hasta que deje de picar.#El picor no indica que el producto se haya eliminado.
-~No se lava.#El lavado es inmediato y abundante.
+::EF1697-12 · Envases vacíos::[html]¿Qué código LER corresponde a los envases vacíos con restos de biocidas o productos de piscina?{
+~20 01 01.#Es papel y cartón.
+=15 01 10*, residuo peligroso.#Correcto.
+~01 01 01.#Es de minería.
+~17 01 01.#Es hormigón.
 }
 
-::EF1697-18 · Registro::[html]Una actuación sin registro es, a efectos legales, una actuación que no se hizo.{TRUE#Correcto. El parte se rellena en el sitio, con la hora y las lecturas reales.#Incorrecto\: sin registro no hay prueba de la actuación.}
-
-::EF1697-19 · pH y cloro::[html]El cloro libre sale en 0,3 mg/L y el pH en 8,4. ¿Qué corriges primero?{
-=El pH, porque con pH alto el cloro que añadas apenas desinfecta.#Correcto. Después se ajusta el cloro y se vuelve a medir.
-~El cloro, subiendo la dosis al doble.#Con pH 8,4 el cloro desinfecta poco.
-~Nada: los dos valores están bien.#Los dos están fuera de rango.
-~La temperatura del agua.#No es el problema.
+::EF1697-13 · Plazo de almacenamiento::[html]¿Cuánto tiempo como máximo pueden guardarse residuos peligrosos en la instalación antes de entregarlos al gestor?{
+~24 horas.#No es el plazo.
+=6 meses.#Correcto. Ley 7/2022.
+~5 años.#Es demasiado.
+~Sin límite.#Hay límite.
 }
 
-::EF1697-20 · Garrafa sin etiqueta::[html]Encuentras en la furgoneta una garrafa sin etiqueta con líquido transparente. ¿Qué haces?{
-~Olerla para saber qué es.#Nunca se huele ni se prueba un producto.
-~Usarla si un compañero dice que es agua destilada.#No se puede fiar de lo que recuerda otra persona.
-=Aislarla, marcarla como pendiente de identificar y, si nadie puede acreditar qué es, gestionarla como residuo peligroso.#Correcto. Un envase sin etiqueta ya es un incumplimiento.
-~Vaciarla en el desagüe.#Podría ser un producto peligroso.
-}
+::EF1697-14 · Pictogramas::[html]Los pictogramas de peligro del Reglamento CLP son rombos con borde rojo y símbolo negro sobre fondo blanco.{TRUE#Correcto.#Incorrecto\: son rombos con borde rojo y símbolo negro sobre fondo blanco.}
+
+::EF1697-15 · Dosis::[html]Las cantidades y diluciones de cada producto se toman de las indicaciones del fabricante.{TRUE#Correcto.#Incorrecto\: siempre según el fabricante.}
+
+::EF1697-16 · Carta de porte::[html]Con la exención 1.1.3.6 no hace falta llevar la carta de porte.{FALSE#Correcto. La carta de porte es obligatoria también con la exención.#Incorrecto\: hay que llevarla.}
+
+::EF1697-17 · Paneles::[html]Con la exención 1.1.3.6 el vehículo debe llevar paneles naranja delante y detrás.{FALSE#Correcto. Con la exención no se llevan paneles naranja.#Incorrecto\: los paneles son del transporte ADR completo.}
+
+::EF1697-18 · Reutilizar envases::[html]Una garrafa de hipoclorito bien enjuagada se puede reutilizar para agua de beber.{FALSE#Correcto. Nunca se reutilizan envases de productos químicos.#Incorrecto\: está prohibido.}
+
+::EF1697-19 · Absorbente::[html]El absorbente usado para recoger un derrame de ácido es un residuo peligroso.{TRUE#Correcto. Se gestiona con el código 15 02 02*.#Incorrecto\: es un residuo peligroso.}
+
+::EF1697-20 · Cabina::[html]Las garrafas de productos químicos pueden viajar en la cabina, junto al conductor, si van bien cerradas.{FALSE#Correcto. Nunca viajan en la cabina.#Incorrecto\: nunca en la cabina.}

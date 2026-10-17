@@ -1,107 +1,107 @@
-// 1732 · Examen final del módulo (20 preguntas: 13 de opción múltiple y 7 de verdadero/falso).
-// Basado en los temas 1–4 tal como están en el aula. Se barajan en cada intento.
+// 1732 · MF2519_2 · Examen final del módulo (20 preguntas: 13 de opción múltiple y 7 de verdadero/falso).
+// Basado en los temas 19–22 (17/10/2026), que sustituyen a los temas 1–4 anteriores. Se barajan en cada intento.
 
 ::EF1732-01 · Ley de PRL::[html]¿Qué norma es la Ley de Prevención de Riesgos Laborales?{
-=La Ley 31/1995#Correcto.
-~El RD 742/2013#Regula las piscinas.
-~El RD 487/2022#Regula la prevención de la legionelosis.
-~La Ley 33/2011#Es la Ley General de Salud Pública.
+=La Ley 31/1995.#Correcto.
+~El RD 742/2013.#Regula la calidad del agua de las piscinas.
+~La Ley 7/2022.#Es la ley de residuos.
+~El RD 485/1997.#Es de señalización.
 }
 
-::EF1732-02 · Riesgo grave e inminente::[html]Ante un riesgo grave e inminente para su salud, el trabajador tiene derecho a interrumpir su actividad y abandonar el lugar de trabajo.{TRUE#Correcto. Lo reconoce la Ley 31/1995 (art. 21).#Incorrecto\: la Ley 31/1995 reconoce ese derecho (art. 21).}
-
-::EF1732-03 · Obligación del trabajador::[html]Usar correctamente los equipos de protección individual que facilita la empresa es una obligación del trabajador.{TRUE#Correcto. Es una de sus obligaciones (Ley 31/1995, art. 29).#Incorrecto\: es una obligación del trabajador (Ley 31/1995, art. 29).}
-
-::EF1732-04 · Delegados de prevención::[html]¿Quiénes representan a los trabajadores en materia de prevención de riesgos?{
-~El servicio de prevención ajeno.#Es una entidad que asesora a la empresa.
-=Los delegados de prevención.#Correcto.
-~La mutua.#Gestiona las contingencias profesionales.
-~La inspección de trabajo.#Vigila el cumplimiento, no representa a los trabajadores.
+::EF1732-02 · Principios preventivos::[html]¿Cuál es uno de los principios de la acción preventiva (art. 15 de la Ley 31/1995)?{
+~Dar EPI antes que cualquier otra medida.#El EPI es la última barrera.
+=Combatir los riesgos en su origen.#Correcto.
+~Evaluar los riesgos solo tras un accidente.#Se evalúan antes.
+~Dejar las medidas a cada trabajador.#Es responsabilidad de la empresa.
 }
 
-::EF1732-05 · Señales de obligación::[html]¿De qué color es una señal de obligación (por ejemplo, «uso obligatorio de guantes»)?{
-~Roja#El rojo indica prohibición o equipos contra incendios.
-~Amarilla#El amarillo indica advertencia.
-=Azul#Correcto.
-~Verde#El verde indica salvamento o socorro.
+::EF1732-03 · Volumen 0::[html]¿Qué tensión se admite en los aparatos instalados dentro del vaso (volumen 0, ITC-BT-31)?{
+~230 V.#Prohibida en el vaso.
+=Muy baja tensión de seguridad: 12 V en alterna.#Correcto.
+~400 V.#Prohibida en el vaso.
+~Cualquiera con diferencial.#En el volumen 0 solo MBTS.
 }
 
-::EF1732-06 · Clases de fuego::[html]Un fuego de gasóleo o de aceite mineral es un fuego de clase…{
-~A (sólidos)#Los sólidos son papel, madera, plásticos.
-=B (líquidos)#Correcto.
-~D (metales)#Los metales son una clase especial.
-~F (aceites de cocina)#La clase F es para aceites y grasas de cocina.
+::EF1732-04 · Diferencial::[html]¿Qué sensibilidad tiene el diferencial que protege a las personas en los circuitos de la sala técnica?{
+=30 mA.#Correcto.
+~300 mA.#No es de alta sensibilidad.
+~3 A.#Es demasiado.
+~No hace falta diferencial.#Es obligatorio.
 }
 
-::EF1732-07 · Trabajos sin tensión::[html]Para trabajar sin tensión basta con apagar el interruptor del equipo.{FALSE#Correcto. Hay que aplicar las cinco reglas de oro\: desconectar, impedir la reconexión, comprobar la ausencia de tensión, poner a tierra y en cortocircuito y señalizar.#Incorrecto\: hay que aplicar las cinco reglas de oro del RD 614/2001.}
-
-::EF1732-08 · Cloro y ácido::[html]¿Qué ocurre si se mezcla hipoclorito con un ácido (reductor de pH)?{
-~Nada, se neutralizan.#La mezcla es muy peligrosa.
-=Se desprende gas cloro de forma inmediata.#Correcto. Nunca se mezclan ni comparten cubeto.
-~Se forma sal y agua sin riesgo.#Se libera un gas tóxico.
-~Aumenta el poder desinfectante.#Solo aumenta el peligro.
+::EF1732-05 · Oxígeno::[html]¿Con qué porcentaje mínimo de oxígeno se autoriza la entrada a un depósito de compensación?{
+~10 %.#Es mortal.
+=19,5 %.#Correcto.
+~15 %.#Es insuficiente.
+~No hace falta medir.#Siempre se mide.
 }
 
-::EF1732-09 · Espacio confinado::[html]Si un compañero se desploma dentro de un depósito, lo correcto es entrar enseguida a sacarlo aunque no tengas protección respiratoria.{FALSE#Correcto. Sin protección respiratoria, el rescatador suele convertirse en otra víctima\: se avisa, se ventila y se rescata con medios adecuados.#Incorrecto\: la mayoría de las víctimas en espacios confinados son los rescatadores sin protección.}
-
-::EF1732-10 · Salpicadura en los ojos::[html]Te salpica un producto corrosivo en los ojos. ¿Qué haces?{
-~Frotarte los ojos con un paño limpio.#Frotar agrava la lesión.
-=Lavarlos con agua abundante o lavaojos al menos 15 minutos y acudir al médico.#Correcto.
-~Aplicar una pomada.#No se aplica nada\: agua abundante.
-~Esperar a ver si se pasa.#El lavado es inmediato.
+::EF1732-06 · Espacios confinados::[html]¿Qué equipo de rescate debe estar montado al entrar en un depósito de compensación?{
+~Una escalera de mano.#No permite sacar a un herido.
+=Un trípode con torno y el trabajador con arnés EN 361.#Correcto.
+~Una cuerda atada a la cintura.#No es un sistema de rescate.
+~Ninguno si hay buena ventilación.#Siempre hace falta.
 }
 
-::EF1732-11 · Información Toxicológica::[html]¿Cuál es el teléfono del Servicio de Información Toxicológica?{
-~112#Es el número de emergencias.
-=91 562 04 20#Correcto. Atiende las 24 horas.
-~061#No es el teléfono de Información Toxicológica.
-~016#No tiene relación.
+::EF1732-07 · VLA-EC del cloro::[html]¿Cuál es el valor límite de exposición de corta duración (VLA-EC) del cloro según el INSST?{
+=0,5 ppm.#Correcto.
+~50 ppm.#Es mucho más alto.
+~5 000 ppm.#Es el VLA-ED del CO₂.
+~No tiene límite.#Sí lo tiene.
 }
 
-::EF1732-12 · Biocidas::[html]¿Qué norma regula la capacitación para realizar tratamientos con biocidas?{
-~El RD 486/1997#Regula los lugares de trabajo.
-=El RD 830/2010#Correcto.
-~El RD 485/1997#Regula la señalización.
-~La Ley 31/1995#Es la ley general de prevención.
+::EF1732-08 · Filtro::[html]¿Qué filtro protege frente a vapores ácidos y cloro en una máscara?{
+~Un filtro de polvo P1.#No retiene gases.
+=Un filtro combinado ABEK.#Correcto.
+~Una mascarilla quirúrgica.#No es un EPI respiratorio para gases.
+~Ninguno.#Hace falta protección.
 }
 
-::EF1732-13 · Conducta PAS::[html]¿Qué significa la conducta PAS ante un accidente?{
-=Proteger, avisar y socorrer.#Correcto. Siempre en ese orden.
-~Parar, analizar y salir.#No es la conducta PAS.
-~Prevenir, actuar y sanar.#No es la conducta PAS.
-~Pedir ayuda, atender y señalizar.#No es la conducta PAS.
+::EF1732-09 · Legionella::[html]¿A qué grupo de riesgo biológico pertenece Legionella pneumophila (RD 664/1997)?{
+~Grupo 1.#Sí causa enfermedad.
+=Grupo 2.#Correcto.
+~Grupo 4.#Es para agentes muy graves sin tratamiento.
+~No es un agente biológico.#Es una bacteria.
 }
 
-::EF1732-14 · RCP::[html]¿A qué ritmo y profundidad se hacen las compresiones torácicas en un adulto?{
-~60 por minuto y 2 cm#Demasiado lento y poco profundo.
-=Entre 100 y 120 por minuto y entre 5 y 6 cm#Correcto (ERC 2021).
-~150 por minuto y 10 cm#Demasiado rápido y profundo.
-~Solo cuando la víctima tose#La RCP se hace cuando no respira.
+::EF1732-10 · Categoría III::[html]¿A qué categoría pertenece una máscara con filtros para gas cloro?{
+~Categoría I.#Es para riesgos mínimos.
+~Categoría II.#Es para riesgos intermedios.
+=Categoría III.#Correcto.
+~No es un EPI.#Sí lo es.
 }
 
-::EF1732-15 · Relación 30:2::[html]En la RCP de un adulto se alternan 30 compresiones y 2 ventilaciones.{TRUE#Correcto. Si no sabes o no puedes ventilar, compresiones continuas.#Incorrecto\: la relación es 30 compresiones y 2 ventilaciones.}
-
-::EF1732-16 · Ahogamiento::[html]En una víctima de ahogamiento que no respira, se empieza con 5 ventilaciones de rescate antes de las compresiones.{TRUE#Correcto. El problema principal es la falta de oxígeno.#Incorrecto\: en el ahogamiento se empieza con 5 ventilaciones de rescate.}
-
-::EF1732-17 · Atragantamiento grave::[html]Una persona se atraganta y no puede toser, hablar ni respirar. ¿Qué haces?{
-~Darle agua.#Puede empeorar la obstrucción.
-=Dar 5 golpes entre los omóplatos y, si no se resuelve, 5 compresiones abdominales, alternando.#Correcto. Si pierde la consciencia\: 112 y RCP.
-~Esperar a que se le pase.#La obstrucción grave es una emergencia.
-~Tumbarla boca arriba y levantarle las piernas.#No resuelve la obstrucción.
+::EF1732-11 · Señal de obligación::[html]¿Cómo es una señal de obligación (RD 485/1997)?{
+~Triangular y amarilla.#Es de advertencia.
+=Redonda y azul, con pictograma blanco.#Correcto.
+~Rectangular y verde.#Es de salvamento.
+~Redonda con borde rojo.#Es de prohibición.
 }
 
-::EF1732-18 · Quemaduras::[html]¿Cómo se reconoce una quemadura de segundo grado?{
-~Piel roja sin ampollas, como una quemadura solar.#Es de primer grado.
-=Ampollas, piel roja y húmeda y mucho dolor.#Correcto. Afecta a la epidermis y la dermis.
-~Piel blanquecina o negruzca que puede no doler.#Es de tercer grado.
-~No deja ninguna marca.#Sí deja marca.
+::EF1732-12 · Ahogamiento::[html]¿Qué se hace primero con una víctima de ahogamiento que no respira?{
+=Dar 5 ventilaciones de rescate y después 30 compresiones y 2 ventilaciones.#Correcto.
+~Esperar a que llegue la ambulancia.#Se pierde un tiempo vital.
+~Darle agua.#Nunca a una persona inconsciente.
+~Ponerla de pie.#No es una maniobra de SVB.
 }
 
-::EF1732-19 · Ampollas::[html]Ante una quemadura con ampollas conviene reventarlas para que la piel se cure antes.{FALSE#Correcto. No se rompen las ampollas\: se enfría con agua y se cubre con gasa estéril o un paño limpio.#Incorrecto\: las ampollas no se rompen.}
-
-::EF1732-20 · Triaje START::[html]En el método de triaje START, ¿qué color se asigna a la víctima que puede caminar?{
-=Verde#Correcto. Puede esperar.
-~Rojo#El rojo es para la atención inmediata.
-~Amarillo#El amarillo es para quien no camina pero respira y obedece.
-~Negro#El negro es para quien no respira tras abrir la vía aérea.
+::EF1732-13 · Fuga de cloro::[html]¿Hacia dónde se evacúa ante una fuga de cloro?{
+~A sótanos y zonas bajas.#El cloro se acumula ahí.
+=A zonas altas y al aire libre, con el viento de cara o en perpendicular a la nube.#Correcto.
+~Al almacén de productos.#Es la zona de peligro.
+~A favor del viento.#La nube iría con las personas.
 }
+
+::EF1732-14 · Trabajo en solitario::[html]Se puede entrar solo en un depósito de compensación si el detector marca un 20,9 % de oxígeno.{FALSE#Correcto. Siempre hace falta un vigilante exterior.#Incorrecto\: nunca se entra solo.}
+
+::EF1732-15 · Formación::[html]La empresa debe dar a cada trabajador formación teórica y práctica en prevención, específica de su puesto (art. 19 de la Ley 31/1995).{TRUE#Correcto.#Incorrecto\: es una obligación de la empresa.}
+
+::EF1732-16 · Lavado de ojos::[html]Tras una salpicadura de ácido en los ojos basta con un lavado de 30 segundos.{FALSE#Correcto. Hay que lavar al menos 15 minutos sin parar.#Incorrecto\: al menos 15 minutos.}
+
+::EF1732-17 · Medidas colectivas::[html]El EPI se usa cuando el riesgo no se puede evitar o limitar con medidas colectivas u organizativas.{TRUE#Correcto. Es la última barrera.#Incorrecto\: primero van las medidas colectivas.}
+
+::EF1732-18 · Coste de los EPI::[html]El trabajador debe pagar sus EPI.{FALSE#Correcto. La empresa los proporciona gratis.#Incorrecto\: los paga la empresa.}
+
+::EF1732-19 · DEA::[html]Cualquier persona puede usar un desfibrilador externo automatizado (DEA) siguiendo sus instrucciones de voz.{TRUE#Correcto. Solo descarga si es necesario.#Incorrecto\: está pensado para que lo use cualquiera.}
+
+::EF1732-20 · Medidas de emergencia::[html]Solo las instalaciones obligadas por el RD 393/2007 tienen que prever medidas de emergencia.{FALSE#Correcto. El art. 20 de la Ley 31/1995 obliga a todas las empresas.#Incorrecto\: todas las empresas deben adoptarlas.}

@@ -21,12 +21,12 @@ const AJUSTES = { popup: 1, width: TAMANO, height: TAMANO, hidetoc: 3, nav: 0, s
 function paquete(courseid, nombre) {
   const n = (nombre.match(/^Tema (\d+)\b/) || [])[1];
   if (courseid === 3 && /Diapositivas del módulo/.test(nombre)) return path.join(E, 'snapshot-norail', 'MF2518_2-UF1-scorm-v3.zip');
-  if (courseid === 2 && n) return path.join(E, `1732-T${n}-scorm.zip`);
-  if (courseid === 4 && n) {
-    if (Number(n) <= 2) return path.join(E, 'snapshot-norail', `MF2522_2-UF1-T${n}-scorm.zip`);
-    return fs.readdirSync(E).filter(f => new RegExp(`^MF2522_2-UF\\d-T${n}-scorm\\.zip$`).test(f)).map(f => path.join(E, f))[0];
-  }
-  return null;
+  if (courseid === 2 && Number(n) <= 4) return path.join(E, `1732-T${n}-scorm.zip`);
+  if (courseid === 4 && Number(n) <= 2) return path.join(E, 'snapshot-norail', `MF2522_2-UF1-T${n}-scorm.zip`);
+  // Temas 3–22: el paquete lleva el código del módulo, la UF y el tema (MF2522_2, MF2518_2 o MF2519_2).
+  const cod = { 4: 'MF2522_2', 3: 'MF2518_2', 2: 'MF2519_2' }[courseid];
+  if (!n || !cod) return null;
+  return fs.readdirSync(E).filter(f => new RegExp(`^${cod}-UF\\d-T${n}-scorm\\.zip$`).test(f)).map(f => path.join(E, f))[0] || null;
 }
 
 (async () => {
